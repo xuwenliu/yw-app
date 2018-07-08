@@ -1,0 +1,382 @@
+{
+    "data": {
+        "totalPrice": 2000,
+        "costs": [
+            {
+                "id": "1",
+                "name": "硬装设计",
+                "cost": 1.01
+            },
+            {
+                "id": "2",
+                "name": "软装设计",
+                "cost": 2.01
+            },
+            {
+                "id": "3",
+                "name": "建筑改造",
+                "cost": 3.01
+            },
+            {
+                "id": "4",
+                "name": "基础装修",
+                "cost": 4.01
+            }
+        ],
+        "costBrands": [
+            {
+                "costInfo": {
+                    "id":"",
+                    "name": "硬装材料",
+                    "cost": 1
+                },
+                "brands": [
+                    {
+                        "id": 0,
+                        "name": "门窗",
+                        "logo": "http://o8nljewkg.bkt.clouddn.com/o_1avg2eoo71tf1i6qjajjb01mjq3g.jpg&imageView2/1/w/200/h/84",
+                        "website": "",
+                        "available": false,
+                        "brandClasses": [
+                            {
+                                "id": 0,
+                                "brandId": 0,
+                                "type": 0,
+                                "subType": 0,
+                                "subTypeName": "",
+                                "typeName": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "costInfo": {
+                    "id":"",
+                    "name": "墙纸布艺",
+                    "cost": 1
+                },
+                "brands": [
+                    {
+                        "id": 0,
+                        "name": "墙纸",
+                        "logo": "http://o8nljewkg.bkt.clouddn.com/o_1avg2eoo71tf1i6qjajjb01mjq3g.jpg&imageView2/1/w/200/h/84",
+                        "website": "",
+                        "available": false,
+                        "brandClasses": [
+                            {
+                                "id": 0,
+                                "brandId": 0,
+                                "type": 0,
+                                "subType": 0,
+                                "subTypeName": "",
+                                "typeName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "name": "墙纸",
+                        "logo": "http://o8nljewkg.bkt.clouddn.com/o_1avg2eoo71tf1i6qjajjb01mjq3g.jpg&imageView2/1/w/200/h/84",
+                        "website": "",
+                        "available": false,
+                        "brandClasses": [
+                            {
+                                "id": 0,
+                                "brandId": 0,
+                                "type": 0,
+                                "subType": 0,
+                                "subTypeName": "",
+                                "typeName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "name": "墙纸",
+                        "logo": "http://o8nljewkg.bkt.clouddn.com/o_1avbh3sqo2fm7mjim41ml98lbbp.jpg&imageView2/1/w/200/h/84",
+                        "website": "",
+                        "available": false,
+                        "brandClasses": [
+                            {
+                                "id": 0,
+                                "brandId": 0,
+                                "type": 0,
+                                "subType": 0,
+                                "subTypeName": "",
+                                "typeName": ""
+                            }
+                        ]
+                    },
+                    {
+                        "id": 0,
+                        "name": "墙纸",
+                        "logo": "http://o8nljewkg.bkt.clouddn.com/o_1avg2eoo71tf1i6qjajjb01mjq3g.jpg&imageView2/1/w/200/h/84",
+                        "website": "",
+                        "available": false,
+                        "brandClasses": [
+                            {
+                                "id": 0,
+                                "brandId": 0,
+                                "type": 0,
+                                "subType": 0,
+                                "subTypeName": "",
+                                "typeName": ""
+                            }
+                        ]
+                    }
+
+                ]
+            },
+            {
+                "costInfo": {
+                    "id":"",
+                    "name": "家具陈列",
+                    "cost": 1
+                },
+                "brands": [
+                    {
+                        "id": 0,
+                        "name": "家具",
+                        "logo": "http://o8nljewkg.bkt.clouddn.com/o_1avg2eoo71tf1i6qjajjb01mjq3g.jpg&imageView2/1/w/200/h/84",
+                        "website": "",
+                        "available": false,
+                        "brandClasses": [
+                            {
+                                "id": 0,
+                                "brandId": 0,
+                                "type": 0,
+                                "subType": 0,
+                                "subTypeName": "",
+                                "typeName": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "hardChecks":[
+                {
+                    "phaseName": "进场视频",
+                    "phaseDescription": "这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述",
+                    "videos": [
+                        
+                    ],
+                    "images": [
+                        {
+                            "titleId": "",
+                            "title": "",
+                            "pics": [
+                                ""
+                            ],
+                            "explain": ""
+                        }
+                    ]
+                },
+                {
+                    "phaseName": "土建改造",
+                    "phaseDescription": "这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述",
+                    "videos": [
+                        {
+                            "duration": 0,
+                            "name": "",
+                            "second": 0,
+                            "url": ""
+                        }
+                    ]
+                },
+                {
+                    "phaseName": "竣工验收",
+                    "phaseDescription": "这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述",
+                    "videos": [
+                        {
+                            "duration": 0,
+                            "name": "",
+                            "second": 0,
+                            "url": ""
+                        }
+                    ],
+                    "images": [
+                        {
+                            "titleId": "",
+                            "title": "",
+                            "pics": [
+                                ""
+                            ],
+                            "explain": ""
+                        }
+                    ]
+                }
+            ],
+        "softChecks":  [
+                {
+                    "phaseName": "进场视频",
+                    "phaseDescription": "这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述",
+                    "videos": [
+                        {
+                            "duration": 0,
+                            "name": "",
+                            "second": 0,
+                            "url": ""
+                        }
+                    ],
+                    "images": [
+                        {
+                            "titleId": "",
+                            "title": "",
+                            "pics": [
+                                ""
+                            ],
+                            "explain": ""
+                        }
+                    ]
+                },
+                {
+                    "phaseName": "土建改造",
+                    "phaseDescription": "这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述",
+                    "images": [
+                        {
+                            "titleId": "1",
+                            "title": "图片1",
+                            "pics": [
+                                "http://o8nljewkg.bkt.clouddn.com/o_1b0n51di05851pm81a1o1hdt12bp10.jpg&imageView2/2/w/375|watermark/1/image/aHR0cDovL284bmxqZXdrZy5ia3QuY2xvdWRkbi5jb20vb18xYjR2Nmluamw4OHMybjY2YmJndHJjc2IyOC5wbmc=/gravity/SouthEast/dx/20/dy/20"
+                            ],
+                            "explain": "图片1的描述图片1的描述图片1的描述图片1的描述图片1的描述"
+                        },
+                        {
+                            "titleId": "2",
+                            "title": "图片2",
+                            "pics": [
+                                "http://o8nljewkg.bkt.clouddn.com/o_1b0n51di05851pm81a1o1hdt12bp10.jpg&imageView2/2/w/375|watermark/1/image/aHR0cDovL284bmxqZXdrZy5ia3QuY2xvdWRkbi5jb20vb18xYjR2Nmluamw4OHMybjY2YmJndHJjc2IyOC5wbmc=/gravity/SouthEast/dx/20/dy/20"
+                            ],
+                            "explain": "图片2的描述图片2的描述图片2的描述图片2的描述图片2的描述"
+                        },
+                        {
+                            "titleId": "3",
+                            "title": "图片3",
+                            "pics": [
+                                "http://o8nljewkg.bkt.clouddn.com/o_1b0n51di05851pm81a1o1hdt12bp10.jpg&imageView2/2/w/375|watermark/1/image/aHR0cDovL284bmxqZXdrZy5ia3QuY2xvdWRkbi5jb20vb18xYjR2Nmluamw4OHMybjY2YmJndHJjc2IyOC5wbmc=/gravity/SouthEast/dx/20/dy/20"
+                            ],
+                            "explain": "图片3的描述图片3的描述图片3的描述图片3的描述图片3的描述"
+                        }
+                    ]
+                },
+                {
+                    "phaseName": "竣工验收",
+                    "phaseDescription": "这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述这是文字描述",
+                    "videos": [
+                        {
+                            "duration": 119,
+                            "name": "宁静致远-设计师贾静讲解视频",
+                            "second": 3,
+                            "url": "http://ob24y7hrk.bkt.clouddn.com/o_1auucn1ou1793ngjvspbas1bcmh.mp4"
+                        },
+                        {
+                            "duration": 119,
+                            "name": "宁静致远-设计师贾静讲解视频",
+                            "second": 3,
+                            "url": "http://ob24y7hrk.bkt.clouddn.com/o_1auucn1ou1793ngjvspbas1bcmh.mp4"
+                        }
+                    ],
+                    "images": [
+                        {
+                            "titleId": "1",
+                            "title": "图片1",
+                            "pics": [
+                                "http://o8nljewkg.bkt.clouddn.com/o_1b0n51di05851pm81a1o1hdt12bp10.jpg&imageView2/2/w/375|watermark/1/image/aHR0cDovL284bmxqZXdrZy5ia3QuY2xvdWRkbi5jb20vb18xYjR2Nmluamw4OHMybjY2YmJndHJjc2IyOC5wbmc=/gravity/SouthEast/dx/20/dy/20"
+                            ],
+                            "explain": "图片1的描述图片1的描述图片1的描述图片1的描述图片1的描述"
+                        },
+                        {
+                            "titleId": "2",
+                            "title": "图片2",
+                            "pics": [
+                                "http://o8nljewkg.bkt.clouddn.com/o_1b0n51di05851pm81a1o1hdt12bp10.jpg&imageView2/2/w/375|watermark/1/image/aHR0cDovL284bmxqZXdrZy5ia3QuY2xvdWRkbi5jb20vb18xYjR2Nmluamw4OHMybjY2YmJndHJjc2IyOC5wbmc=/gravity/SouthEast/dx/20/dy/20"
+                            ],
+                            "explain": "图片2的描述图片2的描述图片2的描述图片2的描述图片2的描述"
+                        },
+                        {
+                            "titleId": "3",
+                            "title": "图片3",
+                            "pics": [
+                                "http://o8nljewkg.bkt.clouddn.com/o_1b0n51di05851pm81a1o1hdt12bp10.jpg&imageView2/2/w/375|watermark/1/image/aHR0cDovL284bmxqZXdrZy5ia3QuY2xvdWRkbi5jb20vb18xYjR2Nmluamw4OHMybjY2YmJndHJjc2IyOC5wbmc=/gravity/SouthEast/dx/20/dy/20"
+                            ],
+                            "explain": "图片3的描述图片3的描述图片3的描述图片3的描述图片3的描述"
+                        }
+                    ]
+                }
+            ],
+        "designMaterials": {
+            "houseImages": [
+                {
+                    "originHouseImage": {
+                        "titleId": "1",
+                        "title": "1F",
+                        "pics": [
+                            "http://o8nljewkg.bkt.clouddn.com/o_1b11fv1os629mih1jkeu23jud10.png&imageView2/2/w/750|watermark/1/image/aHR0cDovL284bmxqZXdrZy5ia3QuY2xvdWRkbi5jb20vb18xYjR2Nmluamw4OHMybjY2YmJndHJjc2IyOC5wbmc=/gravity/SouthEast/dx/20/dy/20"
+                        ],
+                        "explain": "这是一端秒速"
+                    },
+                    "designHouseImage": {
+                        "titleId": "1",
+                        "title": "1F",
+                        "pics": [
+                            "http://o8nljewkg.bkt.clouddn.com/o_1b11fv70kvck15ami4t6t51qf015.png&imageView2/2/w/750|watermark/1/image/aHR0cDovL284bmxqZXdrZy5ia3QuY2xvdWRkbi5jb20vb18xYjR2Nmluamw4OHMybjY2YmJndHJjc2IyOC5wbmc=/gravity/SouthEast/dx/20/dy/20"
+                        ],
+                        "explain": "这是一端秒速"
+                    },
+                    "remakeIllustration": "这是文字描述这是文字描述这是文字描述这是文字描述"
+                },
+                {
+                    "originHouseImage": {
+                        "titleId": "2",
+                        "title": "2F",
+                        "pics": [
+                            "http://o8nljewkg.bkt.clouddn.com/o_1b11fv1os629mih1jkeu23jud10.png&imageView2/2/w/750|watermark/1/image/aHR0cDovL284bmxqZXdrZy5ia3QuY2xvdWRkbi5jb20vb18xYjR2Nmluamw4OHMybjY2YmJndHJjc2IyOC5wbmc=/gravity/SouthEast/dx/20/dy/20"
+                        ],
+                        "explain": "这是一端秒速"
+                    },
+                    "designHouseImage": {
+                        "titleId": "2",
+                        "title": "2F",
+                        "pics": [
+                            "http://o8nljewkg.bkt.clouddn.com/o_1b11fv70kvck15ami4t6t51qf015.png&imageView2/2/w/750|watermark/1/image/aHR0cDovL284bmxqZXdrZy5ia3QuY2xvdWRkbi5jb20vb18xYjR2Nmluamw4OHMybjY2YmJndHJjc2IyOC5wbmc=/gravity/SouthEast/dx/20/dy/20"
+                        ],
+                        "explain": "这是一端秒速"
+                    },
+                    "remakeIllustration": "这是文字描述这是文字描述这是文字描述这是文字描述"
+                }
+            ],
+            "totalRemakeIllustration": "这是设计总的描述这是设计总的描述这是设计总的描述这是设计总的描述这是设计总的描述",
+            "displayImages": [
+                {
+                    "titleId": "1",
+                    "title": "客厅",
+                    "pics": [
+                        "http://o8nljewkg.bkt.clouddn.com/o_1b0n51di05851pm81a1o1hdt12bp10.jpg&imageView2/2/w/375|watermark/1/image/aHR0cDovL284bmxqZXdrZy5ia3QuY2xvdWRkbi5jb20vb18xYjR2Nmluamw4OHMybjY2YmJndHJjc2IyOC5wbmc=/gravity/SouthEast/dx/20/dy/20"
+                    ],
+                    "explain": "简单的线条，朴素的色彩交相融合，温馨的氛围完全凸显"
+                },
+                {
+                    "titleId": "1",
+                    "title": "客厅",
+                    "pics": [
+                        "http://o8nljewkg.bkt.clouddn.com/o_1b0n51di05851pm81a1o1hdt12bp10.jpg&imageView2/2/w/375|watermark/1/image/aHR0cDovL284bmxqZXdrZy5ia3QuY2xvdWRkbi5jb20vb18xYjR2Nmluamw4OHMybjY2YmJndHJjc2IyOC5wbmc=/gravity/SouthEast/dx/20/dy/20"
+                    ],
+                    "explain": "简单的线条，朴素的色彩交相融合，温馨的氛围完全凸显"
+                }
+            ],
+            "displayIllustration": "",
+            "designConcept": "",
+            "designVideo": {
+                "duration": 0,
+                "name": "",
+                "second": 0,
+                "url": ""
+            }
+        }
+    },
+    "message": "",
+    "succ": false,
+    "stateCode": 0
+}

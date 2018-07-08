@@ -1,0 +1,23 @@
+{
+  "data": {
+    "id": 0,
+    "name": "活动名称",
+    "scene": "",
+    "coverImage": "http://o8nljewkg.bkt.clouddn.com/o_1b77iajci4dq15o34o1umr1slg52.png",
+    "beginTime": "",
+    "endTime": "",
+    "subtitle": "活动副标题",
+    "status": "",
+    "available": false,
+    "createTime": "",
+    "updateTime": "",
+    "location": "",
+    "content": "<p><span style='font-size:18px'>这是活动的内容的说法的放大阿凡达放大放大放大&nbsp;</span></p><p><span style='font-size:18px'>打发打发打发打放大放大是啊</span></p><p><span style='font-size:24px'>第二张图内容</span></p><p><img src='http://o8nljewkg.bkt.clouddn.com/o_1bblc4k2lsiv12f31ie1emc1d3tr.jpg&imageView2/2/w/750' style=''/></p><p><img src='http://o8nljewkg.bkt.clouddn.com/o_1bblc51mp1k1m1qu8kav1rjd131u10.jpg&imageView2/2/w/750' style=''/></p><p><img src='http://o8nljewkg.bkt.clouddn.com/o_1bblc5jit11381a94iun7591a1g1n.jpg&imageView2/2/w/750' style=''/></p><p><br/></p>",
+    "justStatus": 0,
+    "justStatusDesc": "",
+    "sceneDesc": ""
+  },
+  "message": "",
+  "stateCode": 0,
+  "succ": true
+}

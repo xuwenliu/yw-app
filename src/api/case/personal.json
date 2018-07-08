@@ -1,0 +1,67 @@
+{
+    "data": {
+        "headImage": "http://o8nljewkg.bkt.clouddn.com/o_1b11r8jiu1n9a3sk166o12evtk531.jpg",
+        "name": "唐翔",
+        "title": "主创设计",
+        "companyId": 12,
+        "companyName": "成都龙徽工程设计顾问有限公司",
+        "resume": "从业年限：16年\n1988-1992 就读于四川美院附中\n1992-1996 毕业于上海大学\n1996-1998 进修于中央工艺美院 [现清华大学环境艺术系]\n1998-2009 合伙组建新加坡唐氏设计事务所，任设计总监，成为龙徽良好的境外设计资源。\n\n2001-至今  成立成都龙徽工程设计顾问有限公司，任总经理兼设计总监。\n业界荣誉：中国建筑学会室内设计分会第四专委会理事、成都装饰协会设计分会理事、成都首届十佳设计师、成都建筑装饰设计师精英联盟成员、别墅家居文化践行家、美国高点家具展设计之旅策划人、成都高等院校特邀讲座教授、2013中国·成都创意设计展暨建筑装饰博览会“唐翔定向交流会” 、金堂奖样板房类设计佳作奖、2013中国最具关注度最具影响力金堂奖、2014中国最具关注度最具影响力金堂奖。\n\n设计理念：设计不仅是风格取向的装修，而是更高层次的去表达一种生活方式，一种不凡品味的映证，一种人本为怀的关注。",
+        "presentPics": [
+            "http://o8nljewkg.bkt.clouddn.com/o_1b0uvmjnnvi31kq2mfmfq4fn31k.jpg",
+            "http://o8nljewkg.bkt.clouddn.com/o_1b0uvmjnnvi31kq2mfmfq4fn31k.jpg"
+        ],
+        "chargeRangeStart": 300,
+        "chargeRangeEnd": 600,
+        "serviceTarget": "中产及以上",
+        "articles": [
+            {
+                "title": "唐翔：高端生活方式引导者，别墅家居文化践行家",
+                "thumb": "http://o8nljewkg.bkt.clouddn.com/o_1aujioq541qquq0f1pb21mh7ahi2d.jpg",
+                "url": "http://cd.house.ifeng.com/detail/2016_09_13/50884118_0.shtml"
+            }
+        ],
+        "otherCasesCount": 6,
+        "isCollected": false,
+        "serviceStandardDto": {
+            "decorateTypes": [
+                ""
+            ],
+            "serviceStandards":[
+                {
+                    "serviceType": "1",
+                    "serviceName": "硬装设计",
+                    "selected": true,
+                    "serviceDesc": "这是一段描述这是一段描述这是一段描述这是一段描述这是一段描述",
+                    "priceStart": 1,
+                    "priceEnd": 1
+                },
+                {
+                    "serviceType": "2",
+                    "serviceName": "软装设计",
+                    "selected": true,
+                    "serviceDesc": "这是一段描述这是一段描述这是一段描述这是一段描述这是一段描述",
+                    "priceStart": 1,
+                    "priceEnd": 1
+                },
+                {
+                    "serviceType": "3",
+                    "serviceName": "硬装施工",
+                    "selected": true,
+                    "serviceDesc": "这是一段描述这是一段描述这是一段描述这是一段描述这是一段描述",
+                    "priceStart": 1,
+                    "priceEnd": 1
+                },
+                {
+                    "serviceType": "4",
+                    "serviceName": "软装施工",
+                    "selected": true,
+                    "serviceDesc": "这是一段描述这是一段描述这是一段描述这是一段描述这是一段描述",
+                    "priceStart": 1,
+                    "priceEnd": 1
+                }
+            ]
+        }
+    },
+    "succ": true,
+    "stateCode": 0
+}

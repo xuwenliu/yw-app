@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalabel=no,maximum-scale=1.0,minimum-scale=1.0" />
+    <!-- 去掉移动web页面自动探测电话号码 -->
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>银行卡详情</title>
+    <script src="../static/js/libs/flexible.js"></script>
+    <link rel="stylesheet" href="../static/css/reset.css" type="text/css ">
+    <link rel="stylesheet" href="../static/css/funds.css" type="text/css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="title"><span></span>银行卡<a class="bankCardsInfo-link" href=""></a></div>
+        <div class="content index-gray">
+            <div class="bankCardsInfo-logo">
+                <div></div>
+            </div>
+            <div class="bankCardsInfo-name"></div>
+            <div class="bankCardsInfo-number"></div>
+            <div class="bankCardsInfo-explain">
+                <ul class="clearfix">
+                    <li>
+                        <span class="fl">单笔限额</span>
+                        <span class="fr js-limitPerOp"></span>
+                    </li>
+                    <li>
+                        <span class="fl">每日限额</span>
+                        <span class="fr js-limitPerDay"></span>
+                    </li>
+                    <li>
+                        <span class="fl">每月限额</span>
+                        <span class="fr js-limitPerMonth"></span>
+                    </li>
+                </ul>
+            </div>
+            <button class="bankCardsInfo-btn">解除绑定</button>
+        </div>
+    </div>
+    <script src="../static/js/libs/zepto.min.js"></script>
+    <script src="../static/js/config.js"></script>
+    <script src="../static/js/common.js"></script>
+    <script src="../static/js/funds-bankCardsInfo.js"></script>
+</body>
+</html>

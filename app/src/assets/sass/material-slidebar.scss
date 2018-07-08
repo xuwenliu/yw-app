@@ -1,0 +1,96 @@
+@import "mixin";
+
+@charset "utf-8";
+
+/**
+ * 通用样式
+ */
+$font-42: 42px;
+$font-F1: 36px;
+$font-F2: 34px;
+$font-F3: 30px;
+$font-F4: 28px;
+$font-F5: 26px;
+$font-F6: 24px;
+$font-F7: 22px;
+$font-F8: 32px;
+$color-C1: #282828;
+$color-C2: #bbbbbb;
+$color-C3: #e6e6e6;
+$color-C4: #737373;
+$color-C5: #a8a8a8;
+$color-C6: #f56d9d;
+$color-C7: #f5f5f5;
+$color-C8: #FFFFFF;
+
+$color-golden: #f9bf8b;
+
+.slideContent {
+  box-sizing: border-box;
+  @include px2rem(margin-left, 68px);
+  color: $color-golden;
+}
+
+.slideBar-textColor {
+  color: $color-golden;
+}
+
+.slideBar-item-slideTitle-layout {
+  @include px2rem(height, 226px);
+  @include px2rem(line-height, 226px);
+  @include px2rem(width, 404px);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.slideBar-item-slideTitle {
+  @include px2rem(font-size, $font-F1);
+  font-weight: bold;
+  @include px2rem(margin-top, 20px);
+  @include px2rem(height, 72px);
+  @include px2rem(line-height, 72px);
+  @include px2rem(width, 192px);
+}
+
+.slideBar-item {
+  @include px2rem(margin-bottom, 78px);
+}
+
+.slideBarItem-item-list-layout {
+  display: flex;
+  flex-direction: row;
+  @include px2rem(width, 404px);
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.slideBarItem-item-subTitle {
+  @include px2rem(font-size, $font-F4);
+  font-weight: bold;
+  @include px2rem(height, 70px);
+  @include px2rem(width, 192px);
+  @include px2rem(border-bottom-width, 2px);
+  border-bottom-color: $color-golden;
+  border-bottom-style: solid;
+}
+
+.slideBarItem-item-item {
+  @include px2rem(height, 72px);
+  @include px2rem(width, 192px);
+  @include px2rem(line-height, 72px);
+  text-align: center;
+  @include px2rem(font-size, $font-F4);
+  border: solid $color-golden;
+  @include px2rem(border-width, 2px);
+  box-sizing: border-box;
+  @include px2rem(margin-top, 20px);
+}
+
+.slideBarItem-item-item-selected {
+  background: $color-golden;
+  color: $color-C1;
+}

@@ -1,0 +1,11 @@
+<!--#include file="inc/header.html"-->
+<div class="wrap">
+    <div class="content noTitle">
+        <div class="download-content" style="margin: 0 auto"></div>
+        <div class="twitter-download-desc"></div>
+        <div class="download-submit">立即下载</div>
+    </div>
+
+</div>
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/twitter/twitter-download.js"></script>

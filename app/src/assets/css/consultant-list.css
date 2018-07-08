@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/**
+ * 通用样式
+ */
+div.contentTopMoreSpace {
+  top: 2.42667rem;
+}
+
+.consultant-list-backguround ul li {
+  background: #fff;
+}
+
+.consult-cell-flex {
+  box-sizing: border-box;
+  display: flex;
+  height: 3.54667rem;
+  margin-top: 0.26667rem;
+  margin-bottom: 0px;
+  border-bottom: solid #e6e6e6 1px;
+  background: white;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.consult-cell-flex .consult-cell-first-part {
+  box-sizing: inherit;
+  display: flex;
+  align-items: center;
+  height: 2.37333rem;
+  margin-left: 0.53333rem;
+  margin-right: 0.53333rem;
+}
+
+.consult-cell-flex .consult-cell-first-part img {
+  width: 1.06667rem;
+  height: 1.06667rem;
+  margin-right: 0.45333rem;
+  border-radius: 50%;
+}
+
+.consult-cell-flex .consult-cell-first-part .consult-cell-first-part-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.consult-cell-flex .consult-cell-first-part .consult-cell-first-part-right .consult-cell-first-part-right-title {
+  margin-bottom: 0.37333rem;
+  color: #282828;
+  font-size: 0.42667rem;
+}
+
+.consult-cell-flex .consult-cell-first-part .consult-cell-first-part-right-subtitle {
+  color: #282828;
+  font-size: 0.32rem;
+  display: flex;
+}
+
+.consult-cell-flex .consult-cell-first-part .consult-cell-first-part-right-subtitle .consult-cell-first-part-right-subtitle-item {
+  display: flex;
+  align-items: center;
+  margin-right: 0.26667rem;
+}
+
+.consult-cell-flex .consult-cell-first-part .consult-cell-first-part-right-subtitle .consult-cell-first-part-right-subtitle-item span {
+  margin-left: 0.06667rem;
+}
+
+.consult-cell-flex .consult-cell-second-part {
+  box-sizing: inherit;
+  height: 1.17333rem;
+  margin-left: 0.53333rem;
+  margin-right: 0.53333rem;
+  border-top: solid #e6e6e6 thin;
+}
+
+.consult-cell-flex .consult-cell-second-part-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.consult-cell-flex .consult-cell-second-part-item img {
+  height: 0.42667rem;
+  width: 0.42667rem;
+  margin-right: 0.24rem;
+}
+
+.consult-cell-flex .consult-cell-second-part-item span {
+  font-size: 0.34667rem;
+  color: #737373;
+}
+
+.consult-cell-flex .consult-cell-second-part-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.consult-cell-flex .consult-cell-second-part-two-item {
+  display: flex;
+  align-items: center;
+}
+
+.customer-dot {
+  height: 0.10667rem;
+  width: 0.10667rem;
+  border-radius: 0.05333rem;
+  margin-bottom: 0.06667rem;
+  background: #a8a8a8;
+}

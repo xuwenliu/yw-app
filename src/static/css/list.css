@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/**
+ * 通用样式
+ */
+#cnzz_stat_icon_1260955674 {
+  display: none;
+}
+
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  background-color: #f5f5f5;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.banner {
+  width: 10rem;
+  height: 4rem;
+  overflow: hidden;
+}
+
+.list-banner {
+  width: 20rem;
+  height: 4rem;
+}
+
+.list-banner li {
+  float: left;
+  width: 10rem;
+  height: 4rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.list-banner li img {
+  width: 100%;
+  height: 100%;
+}
+
+.list-banner li div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.list-title {
+  width: 100%;
+  height: 1.2rem;
+  text-align: center;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.4rem;
+  color: #282828;
+  padding: 0.36rem 0;
+  background-color: #ffffff;
+}
+
+/**
+ * 案例列表
+ */
+.list-case {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.listItem {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #ffffff;
+  margin-bottom: 0.28rem;
+}
+
+.listPic {
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+}
+
+.listPic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.listPic-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.listInfo {
+  width: 100%;
+  height: 1.52rem;
+  overflow: hidden;
+}
+
+.listInfo h3 {
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.4rem;
+  color: #282828;
+  margin: 0.52rem 0 0.52rem 0.52rem;
+  width: 3.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.listInfo p {
+  height: 0.4rem;
+  font-size: 0.29333rem;
+  line-height: 0.4rem;
+  color: #737373;
+  margin: 0.56rem 0.52rem 0.56rem 0;
+  text-align: right;
+  width: 4.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.list-slideDown {
+  display: none;
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  padding: 0.4rem 0;
+  text-align: center;
+  font-size: 0.37333rem;
+  color: #282828;
+  background-color: #ffffff;
+}
+
+/**
+ * 公司列表
+ */
+.company {
+  background-color: #ffffff;
+}
+
+.company .list-title {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.list-company {
+  width: auto;
+  height: auto;
+  margin: 0 0.52rem;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.list-company li {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e6e6e6;
+  overflow: hidden;
+  position: relative;
+  padding: 0.52rem 0;
+}
+
+.list-company li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.list-banner li div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.company-portrait {
+  height: 1.2rem;
+  width: 1.2rem;
+  border: 1px solid #f5f5f5;
+  border-radius: 50%;
+  margin: 0 0.52rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.company-portrait img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.company-info {
+  width: 6rem;
+}
+
+.company-info h4 {
+  font-size: 0.4rem;
+  font-weight: normal;
+  color: #282828;
+  width: auto;
+  height: auto;
+  margin-bottom: 0.12rem;
+}
+
+.company-info p {
+  font-size: 0.32rem;
+  color: #a8a8a8;
+  width: auto;
+  height: auto;
+}
+
+.list-company span {
+  width: 0.2rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 0.96rem;
+  right: 0;
+  background-image: url(../img/work_details_more_ico@3x.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}

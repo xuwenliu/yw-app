@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0" />
+    <!-- 去掉移动web页面自动探测电话号码 -->
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title></title>
+
+    <script>
+        var _czc = _czc || [];
+        _czc.push(["_setAccount", "1260955674"]);
+    </script>
+    <script src="../../static/js/libs/flexible.js"></script>
+    <script src="../../static/js/libs/fastclick.js"></script>
+    <link rel="stylesheet" href="../../static/css/reset.css" type="text/css ">
+    <link rel="stylesheet" href="../../static/css/activity.css" type="text/css">
+    <style type="text/css">
+        /*v1.7.0新加的*/
+        .ios-blank .toast-city{
+            top:1.76rem;
+        }
+        .title-c {
+        	text-align: left;
+        	padding-left: 0.53333rem;
+        	font-size: 0.53333rem;
+        	font-weight: bold;
+        }
+        .title .message {
+			line-height: 0.48rem;
+			position: relative;
+			margin-right: 0.54666rem;
+		}
+		.title .message img{
+			margin-right: 0.41333rem;
+			width: 0.42666rem;
+			height: 0.52rem;
+			vertical-align: middle;
+		}
+		.title .message .red-circle {
+			width: 0.24rem;
+			height: 0.24rem;
+			border-radius: 50%;
+			background-color: #ED316B;
+			display:inline-block;
+			position: absolute;
+			top: -0.1rem;
+			right: 0.25rem;
+		}
+        .title .city{
+            display: inline-block;
+            position: absolute;
+            margin-left: 0.21333rem;
+        }
+        .title .city i{
+            margin-right: 0.08rem;
+        }
+        .title .city .rotate{
+            transform: rotateZ(180deg);
+            transition: all .5s;
+        }
+        .toast-city{
+            position: fixed;
+            /*top: 1.2rem;*/
+           	top:0;
+            left: 0;right: 0;bottom: 0;
+            background-color: rgba(0,0,0,0.6);
+            z-index: 999999999999999;
+            display: none;
+        }
+        .toast-city ul{
+            position: absolute;
+            /*top: 0.5rem;*/
+           	top: 1.7rem;
+            left: 50%;
+            margin-left: -2.41333rem;
+            width: 4.82667rem;
+            background-color: #fff;
+            border-radius: 6px;
+        }
+        .toast-city ul li{
+            height: 1.48rem;
+            line-height: 1.48rem;
+            text-align: center;
+        }
+        .sanjiao{
+            width:0;
+            height:0;
+            overflow:hidden;
+            border-width:10px;
+            border-color:transparent transparent #fff transparent;
+            border-style: dashed dashed solid dashed;
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            margin-left: -10px;
+        }
+        .line{
+            width: 4.29333rem;
+            height: 1px;
+            background-color: #e6e6e6;
+            position: absolute;
+            top: 1.48rem;
+            left: 0.26667rem;
+        }
+        /*v1.8.0 C端加的*/
+        .list li.v180{
+            margin-bottom: 0.26667rem;
+        }
+        .list li.v180 a{
+            display: block;
+        }
+        .material,.groupBooking{
+            display: none;
+            width: 100%;
+            margin-bottom: 0.26667rem;
+        }
+        .material img,.groupBooking img{
+            width: 100%;
+            height: auto;
+            display: block;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260955674'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260955674' type='text/javascript'%3E%3C/script%3E"));</script>
+    <div class="wrap">
+        <div class="title">优惠
+
+            <!--v1.7.0新加的开始 -->
+            <h3 class="city" style="display: none;">
+                <i class="F6 C4">成都</i>
+                <img src="../../static/img/activity/down_arrows.png">
+            </h3>
+            <!--v1.7.0新加的结束 -->
+
+        </div>
+        <div class="content" style="background-color:#f5f5f5;">
+
+        <!--v1.7.0新加的开始 -->
+            <!-- 弹出城市选择列表 -->
+            <div class="toast-city" style="display: none;">
+                <ul>
+                    <i class="sanjiao"></i>
+                    <i class="line"></i>
+                    <!-- 此处城市名称之间的空格不能省略 -->
+                    <li class="F8 C1">成 都</li>
+                    <li class="F8 C1">重 庆</li>
+                </ul>
+            </div>
+        <!--v1.7.0新加的结束 -->
+
+        <!-- v1.8.0 c端才显示 主材补贴 -->
+            <div class="material">
+                <img src="../../static/img/activity/chip_top_banner.png">
+            </div>
+
+            <!--v1.11.0 c端显示 拼团入口-->
+            <div class="groupBooking">
+            	<img src="../../static/img/activity/pt_pic.png" />
+            </div>
+
+        <!-- v1.8.0 c端才显示结束 -->
+            <ul class="list">
+                <!-- <li>
+                    <a href="/template/activity/activity-detail.html">
+                        <img src="../../static/img/659553349452370343.png" alt="">
+                    </a>
+                </li> -->
+            </ul>
+            <div class="activity-noContent">
+                <div class="error-noContent-image"></div>
+                <a href="" class="error-noContent-text"></a>
+            </div>
+        </div>
+    </div>
+    <!--v1.7.0新加的 -->
+    <script src="https://api.map.baidu.com/api?v=2.0&ak=uRbq1N0CONshk5O4g6xTNZ2GoxuXX4uN&s=1"></script>
+    <script src="../../static/js/libs/zepto.min.js"></script>
+    <script src="../../static/js/config.js"></script>
+    <script src="../../static/js/common.js"></script>
+    <script src="../../static/js/hybrid.js"></script>
+    <script src="../../static/js/hybrid-bridge.js"></script>
+    <script src="../../static/js/activity/activityList.js"></script>
+
+</body>
+</html>

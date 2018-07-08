@@ -1,0 +1,3 @@
+$(function() {
+    GC.Hybrid.closePage();
+});

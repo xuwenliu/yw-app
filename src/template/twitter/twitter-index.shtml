@@ -1,0 +1,49 @@
+<!--#include file="inc/header.html"-->
+<div class="wrap">
+    <div class="title qa-info-title">推客信息 <span></span> <a class="qa-info" href="twitter-plan.shtml"></a></div>
+    <div class="content bg-c7">
+        <div class="box-list" style="display: block; margin-top: 0.26666rem">
+            <ul>
+                <!--<li class="fl"><i class="img" style="background-image: url('http://o8nljewkg.bkt.clouddn.com/o_1bdds5o0r1vc41gvf11a2e7hiv6c.jpg&imageView2/1/w/40/h/40')"></i></li>-->
+                <!--<li class="fl" style="width: 64%"><span class="block F4 C1">皮的话</span><em class=" F5 C4 textcut   cut-txt">邀请码：952478454</em></li>-->
+                <!--<li class="fl"><a href="twitter-details-edit.shtml?id=12"><span class="F6 C6 pa span-staus C3">已认证</span><i class="icon-go"></i></a></li>-->
+            </ul>
+        </div>
+
+        <div class="box-list-min" style="display: block; margin-top: 0.26666rem">
+            <ul>
+                <li class="fl" style="width: 50%"><span class="block F4 C1">我的佣金明细</span></li>
+                <li class="fl" style="width: 48%"><a href="twitter-funds-index.shtml" class="inline-block"
+                                                     style="width: 100%; height: 0.3rem;"><i class="icon-go"></i></a>
+                </li>
+            </ul>
+            <!--<ul class="is-c-add">-->
+            <!--<li class="fl " style="width: 50%"><span class="block F4 C1">发起报备</span></li>-->
+            <!--<li class="fl" style="width: 48%"><a href="customer-add.shtml" class="inline-block" style="width: 100%; height: 0.3rem;"><i class="icon-go"></i></a></li>-->
+            <!--</ul>-->
+            <ul>
+                <li class="fl" style="width: 50%"><span class="block F4 C1">我的客户信息</span></li>
+                <li class="fl" style="width: 48%"><a href="customer-list.shtml" class="inline-block"
+                                                     style="width: 100%; height: 0.3rem;"><i class="icon-go"></i></a>
+                </li>
+            </ul>
+            <ul class="is-reward">
+                <li class="fl" style="width: 50%"><span class="block F4 C1">发展下线推客</span></li>
+                <li class="fl" style="width: 48%"><a href="promote.shtml?types=0" class="inline-block"
+                                                     style="width: 100%; height: 0.3rem;"><i class="icon-go"></i></a>
+                </li>
+            </ul>
+            <ul class="is-reward-invite">
+                <li class="fl" style="width: 50%"><span class="block F4 C1">邀请客户注册</span></li>
+                <li class="fl" style="width: 48%"><a href="invite-register.shtml" class="inline-block" style="width: 100%; height: 0.3rem;"><i class="icon-go"></i></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/twitter/twitter-index.js"></script>
+

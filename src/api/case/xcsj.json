@@ -1,0 +1,57 @@
+{
+    "data": {
+        "caseCover": "http://o8nljewkg.bkt.clouddn.com/o_1at3ovs4ib7c8h81lebf7k9tfs.png",
+        "caseName": "阿萨德发",
+        "pathOf720": "http://192.168.28.16:8182/images/fa2b55ca6a1c4857ba4aad2562f4c516/xJBf/index.html?type=720&caseId=46",
+        "cityName": "北京",
+        "decorateStyle": "现代",
+        "decorateType": "硬装",
+        "houseType": "平层",
+        "houseArea": 134,
+        "cost": "0.41",
+        "caseStory":"这是作品的故事这是作品的故事这是作品的故事这是作品的故事这是作品的故事这是作品的故事这是作品的故事这是作",
+        "buildingName": "华润二十四城",
+        "planCount": 1,
+        "planCover": "http://o8nljewkg.bkt.clouddn.com/o_1at8ac9ts1gk5141ghf1frl153c1a.jpg",
+        "scenes": [
+            {
+                "title": "01.客厅",
+                "pics": [
+                    "http://o8nljewkg.bkt.clouddn.com/o_1b0n51di05851pm81a1o1hdt12bp10.jpg"
+                ],
+                "explain": "客厅整体以米黄色为基调，搭配咖色与白色木作，自然休闲、温暖舒适。美式沙发和中式圈椅的组合，经典、和谐，耐人寻味。"
+            },
+            {
+                "title": "02.西式餐厅",
+                "pics": [
+                    "http://o8nljewkg.bkt.clouddn.com/o_1b0n59bp216tqdlr1q3hcvc1hiq11.jpg"
+                ],
+                "explain": "通透明亮的西式餐厅，在清晨洒入的缕缕阳光下，一家人围坐吃着早餐，开启美好的一天。"
+            }
+        ],
+        "relativeCases": [
+            {
+                "caseId": 48,
+                "caseName": "0922测试作品002",
+                "caseCover": "http://o8nljewkg.bkt.clouddn.com/o_1at8ajn7mqmpuslc61723opqc.jpg"
+            },
+            {
+                "caseId": 36,
+                "caseName": "占位001",
+                "caseCover": "http://o8nljewkg.bkt.clouddn.com/o_1at7pnarmoth1dim1oph12er1i157.jpg"
+            }
+        ],
+        "videos": {
+            "phaseName": "设计讲解",
+            "videoInfo": {
+                "duration": 119,
+                "name": "宁静致远-设计师贾静讲解视频",
+                "second": 3,
+                "url": "http://ob24y7hrk.bkt.clouddn.com/o_1auucn1ou1793ngjvspbas1bcmh.mp4"
+            }
+        }
+    
+    },
+    "succ": true,
+    "stateCode": 0
+}

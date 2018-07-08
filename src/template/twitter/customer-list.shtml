@@ -1,0 +1,34 @@
+<!--#include file="inc/header.html"-->
+    <div class="wrap">
+        <div class="title title-tab qa-info-title">我的客户 <span></span> <a class="qa-info" href="javascript:void(0);"></a> </div>
+        <div class="content bg-c7">
+            <div class="twitter-tab">
+                <ul>
+                    <li><em>报备</em></li><li><em>已洽谈</em></li><li><em>已签约</em></li><li><em>已结佣</em></li>
+                </ul>
+            </div>
+            <div class="customer-no-data F4 C5">当前暂无<em></em>客户</div>
+            <div class="tab-count"></div>
+            <div class="box-list"  style="display: block" ></div>
+        </div>
+    </div>
+<!--dialog-base-->
+<div class="dialog-base" style="display: none">
+    <div class="dialog-base-inc">
+        <ul>
+            <!--<li class="dialog-base-header  text-center"><span class="F2 C1">说明提示</span></li>-->
+            <li class="dialog-base-content" style="padding:  0.7rem">
+                <p class="F4 C1 " style="margin-top: 0.4rem"><span style="width:1.54rem;display: inline-block; text-align: right">报备：</span><span class=" ">报备客户总人数</span></p>
+                <p class="F4 C1 " style="margin-top: 0.4rem"><span  style="width:1.6rem;display: inline-block; text-align: right">已洽谈：</span>当前客户和公司处于<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;洽谈中的进展数</p>
+                <p class="F4 C1 " style="margin-top: 0.4rem"><span  style="width:1.6rem;display: inline-block; text-align: right">已签约：</span>当前客户签约订单数</p>
+                <p class="F4 C1 " style="margin-top: 0.4rem"><span style="width:1.6rem;display: inline-block; text-align: right">已结佣：</span>客户完成订单结佣数</p>
+            </li>
+        </ul>
+        <ul>
+            <li class="dialog-base-footer text-center "><span class="F4 C6 cursor dialog-btn-close">我知道了</span></li>
+        </ul>
+    </div>
+</div>
+<!--dialog-base end-->
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/twitter/customer-list.js"></script>

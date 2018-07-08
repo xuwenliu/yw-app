@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/**
+ * 通用样式
+ */
+/**
+ * 通用样式
+ */
+/*临时测试*/
+.supervision-e-root-content {
+  padding-top: 1.2rem;
+}
+
+.supervision-e-title-order {
+  height: 1.2rem;
+  margin-top: 0.26667rem;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 1.2rem;
+  padding-left: 0.533rem;
+  padding-right: 0.533rem;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.supervision-e-item {
+  height: 0.8rem;
+  margin-left: 0.53333rem;
+  margin-right: 0.53333rem;
+  box-sizing: border-box;
+}
+
+.supervision-e-item i {
+  float: left;
+}
+
+.supervision-e-item span {
+  width: 5rem;
+  text-align: right;
+  float: right;
+}
+
+.supervision-e-itemArrow {
+  height: 0.26667rem;
+  width: 0.13333rem;
+  margin-left: 0.21333rem;
+  margin-top: 0.13333rem;
+  float: right;
+  box-sizing: border-box;
+}
+
+.supervision-e-safeguard-layout {
+  height: 1.6rem;
+  margin-left: 0.53333rem;
+  margin-right: 0.53333rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.supervision-e-safeguard-layout ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 5.73333rem;
+  justify-content: flex-end;
+}
+
+.supervision-e-safeguard-item {
+  height: 0.8rem;
+  width: 2.4rem;
+  margin-left: 0.26667rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.supervision-e-safeguard-divider {
+  background: #e6e6e6;
+  height: 0.02667rem;
+  margin-left: 0.53333rem;
+  margin-right: 0.53333rem;
+  margin-top: 0.21333rem;
+  margin-bottom: 0.21333rem;
+}
+
+.supervision-e-safeguard-item img {
+  height: 0.45333rem;
+  width: 0.45333rem;
+  margin-right: 0.18667rem;
+  box-sizing: border-box;
+}
+
+.supervision-e-check-button-layout {
+  margin-top: 0.26667rem;
+}
+
+.supervision-e-check-button-layout li {
+  background: #FFFFFF;
+  display: flex;
+  box-sizing: border-box;
+  border-bottom: solid 1px #e6e6e6;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.2rem;
+  padding-left: 0.53333rem;
+  padding-right: 0.53333rem;
+}
+
+.supervision-e-check-button-layout li img {
+  height: 0.4rem;
+  width: 0.2rem;
+  box-sizing: border-box;
+}
+
+/*账单*/
+.supervision-e-bill-top-layout {
+  margin-top: 0.26667rem;
+  height: 2.13333rem;
+  display: flex;
+  background: #FFFFFF;
+  padding-left: 0.53333rem;
+  padding-right: 0.53333rem;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.supervision-e-bill-top-layout-title {
+  margin-top: 0.42667rem;
+}
+
+.supervision-e-bill-top-layout-price {
+  font-size: 0.69333rem;
+}
+
+.supervision-e-bill-bottom-p {
+  padding-bottom: 1.2rem;
+}
+
+.supervision-e-bill-item {
+  box-sizing: border-box;
+  border-bottom: solid #e6e6e6 1px;
+}
+
+.supervision-e-bill-item ul {
+  background: #FFFFFF;
+  margin-top: 0.26667rem;
+  padding-top: 0.21333rem;
+  padding-bottom: 0.21333rem;
+}
+
+.supervision-e-bill-item ul li {
+  font-size: 0.34667rem;
+  height: 0.8rem;
+  margin-left: 0.53333rem;
+  margin-right: 0.53333rem;
+  box-sizing: border-box;
+  color: #282828;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.supervision-e-bill-item ul li.supervision-e-bill-red {
+  color: #f56d9d;
+}
+
+.supervision-e-bill-item-divider {
+  height: 0.02667rem;
+  background: #e6e6e6;
+  margin-left: 0.53333rem;
+  margin-right: 0.53333rem;
+  box-sizing: border-box;
+}
+
+.supervision-e-bill-item-button {
+  height: 1.2rem;
+  margin-left: 0.53333rem;
+  margin-right: 0.53333rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.37333rem;
+  color: #282828;
+}
+
+.supervision-e-bill-inputBox {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-radius: 0.08rem;
+}
+
+.supervision-e-bill-inputBox-title {
+  margin-top: 0.53333rem;
+  margin-bottom: 0.26666rem;
+}
+
+.supervision-e-bill-inputBox-input {
+  width: 70%;
+  height: 2rem;
+  border: 0.026666rem #a8a8a8 solid;
+  text-align: start;
+  padding: 0.13333rem;
+  box-sizing: border-box;
+  margin-bottom: 0.53333rem;
+}
+
+.supervision-e-bill-inputBox-btn {
+  border-top: 0.026666rem solid #a8a8a8;
+  height: 1.2rem;
+  position: relative;
+}
+
+.supervision-e-bill-inputBox-btn div {
+  float: left;
+  width: 49.5%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.supervision-e-contract-inputBox-input {
+  width: 90%;
+  height: 0.8rem;
+  border: 0.02667rem #282828 solid;
+  text-align: start;
+  padding: 0.13333rem;
+  box-sizing: border-box;
+  margin-bottom: 0.53333rem;
+}
+
+.supervision-e-stop-order-hint {
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  padding-left: 0.53333rem;
+  padding-right: 0.53333rem;
+  box-sizing: border-box;
+  margin-bottom: 0.53333rem;
+}
+
+/*编辑客户基本信息*/
+.supervision-e-edit-layout {
+  background: #FFFFFF;
+}
+
+.supervision-e-edit-layout li {
+  height: 1.33333rem;
+  display: flex;
+  padding-left: 0.53333rem;
+  padding-right: 0.53333rem;
+  justify-content: space-between;
+  border-bottom: solid #e6e6e6 1px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.supervision-e-edit-layout li div {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.supervision-e-edit-layout li div span {
+  margin-right: 0.66667rem;
+  box-sizing: border-box;
+}
+
+.supervision-e-arrow {
+  height: 0.26667rem;
+  width: 0.13333rem;
+  margin-left: 0.21333rem;
+  box-sizing: border-box;
+}

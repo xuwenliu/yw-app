@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/**
+ * 通用样式
+ */
+.slideContent {
+  box-sizing: border-box;
+  margin-left: 0.90667rem;
+  color: #f9bf8b;
+}
+
+.slideBar-textColor {
+  color: #f9bf8b;
+}
+
+.slideBar-item-slideTitle-layout {
+  height: 3.01333rem;
+  line-height: 3.01333rem;
+  width: 5.38667rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.slideBar-item-slideTitle {
+  font-size: 0.48rem;
+  font-weight: bold;
+  margin-top: 0.26667rem;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  width: 2.56rem;
+}
+
+.slideBar-item {
+  margin-bottom: 1.04rem;
+}
+
+.slideBarItem-item-list-layout {
+  display: flex;
+  flex-direction: row;
+  width: 5.38667rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.slideBarItem-item-subTitle {
+  font-size: 0.37333rem;
+  font-weight: bold;
+  height: 0.93333rem;
+  width: 2.56rem;
+  border-bottom-width: 0.02667rem;
+  border-bottom-color: #f9bf8b;
+  border-bottom-style: solid;
+}
+
+.slideBarItem-item-item {
+  height: 0.96rem;
+  width: 2.56rem;
+  line-height: 0.96rem;
+  text-align: center;
+  font-size: 0.37333rem;
+  border: solid #f9bf8b;
+  border-width: 0.02667rem;
+  box-sizing: border-box;
+  margin-top: 0.26667rem;
+}
+
+.slideBarItem-item-item-selected {
+  background: #f9bf8b;
+  color: #282828;
+}

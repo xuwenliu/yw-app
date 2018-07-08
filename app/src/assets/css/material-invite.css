@@ -1,0 +1,248 @@
+@charset "UTF-8";
+/**
+ * 通用样式
+ */
+.material-invite-first-part {
+  width: 100%;
+  background-image: url("http://osz2pnx97.bkt.clouddn.com/zcbt_invite_bg@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.material-invite-first-part img {
+  margin: 0 auto;
+  height: 7.08rem;
+  width: 7.97333rem;
+  margin-top: 1.76rem;
+  margin-bottom: 0.21333rem;
+}
+
+.material-invite-first-part input {
+  width: 7.70667rem;
+  height: 1.06667rem;
+  margin-bottom: 0.32rem;
+  font-size: 0.34667rem;
+  padding-left: 0.26667rem;
+}
+
+.material-invite-first-part button {
+  width: 7.97333rem;
+  height: 1.14667rem;
+  margin-bottom: 1.25333rem;
+  background-color: transparent;
+  color: #fac087;
+  border: thin solid #fac087;
+  font-size: 0.37333rem;
+}
+
+.materialBands {
+  background-color: #f5f5f5;
+}
+
+.materialBandsTitleView {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  height: 1.38667rem;
+  margin-bottom: 0.13333rem;
+}
+
+.materialBandsTitleView .materialBandsTitleBoxView {
+  background-color: white;
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: thin;
+  width: 6.26667rem;
+  height: 0.4rem;
+  margin-top: 0.69333rem;
+  margin-left: 1.86667rem;
+}
+
+.materialBandsTitleView .materialBandsTitleBoxView .materialBandsTitleTextPosition {
+  background-color: white;
+  color: #282828;
+  font-size: 0.37333rem;
+  padding-left: 0.21333rem;
+  padding-right: 0.21333rem;
+  position: relative;
+  left: 1.46667rem;
+  top: -0.6rem;
+}
+
+.materialBandsListView {
+  width: 100%;
+}
+
+.materialBandsListView ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.materialBandsListView ul li {
+  background-color: white;
+  width: 3.2rem;
+  height: 1.4rem;
+  margin-top: 0.13333rem;
+  margin-left: 0.13333rem;
+  margin-right: 0.13333rem;
+  padding-top: 0.29333rem;
+  padding-bottom: 0.29333rem;
+  padding-left: 0.72rem;
+  padding-right: 0.72rem;
+  border: thin solid #e6e6e6;
+}
+
+.materialBandsListView ul li img {
+  height: 100%;
+  width: 100%;
+}
+
+.materialBandsBottom {
+  width: 100%;
+  height: 1.46667rem;
+}
+
+.materialBandsBottom span {
+  position: relative;
+  left: 4.26667rem;
+  top: 0.37333rem;
+  font-size: 0.29333rem;
+  color: #737373;
+}
+
+.material-Invite-Shadow {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.material-invite-regist-box {
+  background-color: white;
+  width: 7.54667rem;
+  margin-top: 3.14667rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.material-invite-regist-box .material-invite-close-parent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.material-invite-regist-box .material-invite-close-parent .material-invite-close {
+  width: 0.74667rem;
+  height: 0.74667rem;
+}
+
+.material-invite-regist-box .material-invite-close-parent .material-invite-close img {
+  width: 0.48rem;
+  height: 0.48rem;
+  padding-left: 0.2rem;
+  padding-top: 0.2rem;
+}
+
+.material-invite-regist-box .material-invite-regist-title {
+  font-weight: bold;
+  font-size: 0.42667rem;
+  padding-bottom: 0.69333rem;
+  text-align: center;
+}
+
+.material-invite-regist-box .material-invite-regist-text-detail {
+  padding-bottom: 0.42667rem;
+  text-align: center;
+}
+
+.material-invite-regist-box .input-Phone-Div {
+  width: 6rem;
+  height: 0.98667rem;
+  margin-bottom: 0.17333rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+.material-invite-regist-box .input-Phone-Div .input-Phone {
+  border: thin solid #bbbbbb;
+  width: 5.81333rem;
+  height: 0.88rem;
+  padding-left: 0.16rem;
+}
+
+.material-invite-regist-box .input-Phone-Code {
+  width: 6rem;
+  height: 0.88rem;
+  margin-bottom: 0.77333rem;
+  padding-top: 0.26667rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.material-invite-regist-box .input-Phone-Code .input-Code {
+  border: thin solid #bbbbbb;
+  height: 0.88rem;
+  width: 3.46667rem;
+  padding-left: 0.16rem;
+}
+
+.material-invite-regist-box .input-Phone-Code .input-code-resend {
+  display: flex;
+  justify-content: space-between;
+  height: 0.88rem;
+  width: 2.10667rem;
+}
+
+.material-invite-regist-box .input-Phone-Code .input-code-resend button {
+  width: 100%;
+  height: 0.88rem;
+  color: white;
+  background-color: black;
+  font-size: 0.32rem;
+}
+
+.material-invite-regist-box .invite-commit-button {
+  width: 6rem;
+  height: 1.14667rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+.material-invite-regist-box .invite-commit-button button {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
+}
+
+.material-invite-regist-box .invite-commit-button-padding34 {
+  padding-bottom: 0.45333rem;
+}
+
+.material-invite-regist-box .invite-commit-button-padding56 {
+  padding-bottom: 0.74667rem;
+}
+
+.material-invite-regist-box .invite-accept-agreement {
+  text-align: center;
+  padding-bottom: 0.74667rem;
+}
+
+.material-invite-regist-box .invite-accept-agreement img {
+  width: 0.37333rem;
+  height: 0.37333rem;
+  vertical-align: middle;
+}

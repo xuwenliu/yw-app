@@ -1,0 +1,20 @@
+{
+    "data": {
+        "activityId": 1,
+        "activityName": "世阆国际软装，签约即送1年物业费",
+        "activityStatus": 1,
+        "description": "签约整体即送500元物业费，最高送1年。",
+        "listImage": "http://o8nljewkg.bkt.clouddn.com/o_1b77i95j615sl1v8511i6ogt10ek4j.jpg",
+        "bannerImage": "http://o8nljewkg.bkt.clouddn.com/o_1b77iajci4dq15o34o1umr1slg52.png",
+        "specification":"这是活动细\n则文本内容",
+        "specificationImage": "http://o8nljewkg.bkt.clouddn.com/o_1b77ia5dut7i174b1b2kbp81a864o.jpg,http://o8nljewkg.bkt.clouddn.com/o_1b77iaa2d12mn1ip0bfi8etjg84t.jpg",
+        "recommend": true,
+        "beginTime": 1484841600000,
+        "endTime": 1487520000000,
+        "activityAreaId": 2294,
+        "activityAreaName": "成都市",
+        "activate": true
+    },
+    "succ": true,
+    "stateCode": 0
+}

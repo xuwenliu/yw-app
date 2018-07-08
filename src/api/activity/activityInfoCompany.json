@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "activityId": 110062,
+            "companyId": 138,
+            "companyName": "120专用测试公司",
+            "description": "这里是公司简介\n\n霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈",
+            "caseCount": 1,
+            "userCount": 0,
+            "logoImage": "http://o8nljewkg.bkt.clouddn.com/o_1at7pji0f141f1f9qls41clukv1h.jpg",
+            "companyDisc": "EREWRE",
+            "companyDiscImage": "http://o8nljewkg.bkt.clouddn.com/o_1b6639tv0237jh4c9pbkb1vea7.png",
+            "middleId": 64,
+            "activityName": "DSADSADAD",
+            "activityStatus": 1,
+            "activate": true,
+            "caseIds": "45",
+            "updateTime": "2017-01-11",
+            "createTime": "2017-01-11"
+        },
+        {
+            "activityId": 110062,
+            "companyId": 138,
+            "companyName": "120专用测试公司",
+            "description": "这里是公司简介\n\n霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈",
+            "caseCount": 1,
+            "userCount": 0,
+            "logoImage": "http://o8nljewkg.bkt.clouddn.com/o_1at7pji0f141f1f9qls41clukv1h.jpg",
+            "companyDisc": "EREWRE",
+            "companyDiscImage": "http://o8nljewkg.bkt.clouddn.com/o_1b6639tv0237jh4c9pbkb1vea7.png",
+            "middleId": 64,
+            "activityName": "DSADSADAD",
+            "activityStatus": 1,
+            "activate": true,
+            "caseIds": "45",
+            "updateTime": "2017-01-11",
+            "createTime": "2017-01-11"
+        }
+    ],
+    "stateCode": 0,
+    "succ": true
+}

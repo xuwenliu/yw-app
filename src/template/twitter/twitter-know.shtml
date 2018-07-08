@@ -1,0 +1,34 @@
+<!--#include file="inc/header.html"-->
+
+<link rel="stylesheet" href="../../static/css/single.css" type="text/css">
+
+<div class="wrap">
+    <div class="title ">推客须知 <span></span></div>
+    <div class="content hasTitle" style="background-color: #FFFFFF">
+        <div class="userAgreement">
+            <h4>推客推荐成单须知</h4>
+
+            <h4>一、本人自愿申请成为鹦鹉美家平台推客，并同意遵守本须知的相关条约。</h4>
+            <h4>二、本人自愿为鹦鹉美家推荐客户成单，并自主安排时间，与鹦鹉美家平台之间不存在劳务关系。</h4>
+            <h4>三、 佣金计算方式：</h4>
+            <p class="ti2">推荐客户成功签定装修合同并付款后，按以下</p>
+            <p class="ti2">100㎡以下―――――1000元</p>
+            <p class="ti2">100~150㎡―――――1500元</p>
+            <p class="ti2">150㎡~200㎡――――2000元</p>
+            <p class="ti2">200㎡~300㎡――――3000元</p>
+            <p class="ti2">300㎡以上―――――4000元</p>
+            <br/>
+            <h4>四、本人已知悉下述推荐成单流程，并遵守操作：</h4>
+            <p class="ti2">1 申请推客认证通过，进入“我的推客”页面；</p>
+            <p class="ti2">2 推客推荐客户，点击“发起报备”按钮，按页面提示，填写客户信息并提交；</p>
+            <p class="ti2">3 为提供更加优质、安全的服务，在本软件安装时鹦鹉美家可能推荐你安装其他软件，你可以选择安装或不安装。</p>
+            <p class="ti2">4 如果你不再需要使用本软件或者需要安装新版软件，可以自行卸载。如果你愿意帮助鹦鹉美家改进产品服务，请告知卸载的原因。</p>
+            <br/>
+            <h4>五、客户与装修公司签订正式装修合同后，2个工作日内结佣，您可在“我的佣金”里查看结佣明细。</h4>
+            <p>本人已阅读并同意上述《推客须知》</p>
+
+        </div>
+    </div>
+</div>
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/twitter/twitter-know.js"></script>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalabel=no,maximum-scale=1.0,minimum-scale=1.0" />
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>视频播放</title>
+    
+    <script src="../static/js/libs/flexible.js"></script>
+    <link rel="stylesheet" href="../static/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/index.css" type="text/css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="content">
+            <div class="video">
+                <div>
+                    <video id="video" src="" controls preload autoplay>
+                        your browser does not support the video tag
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../static/js/libs/zepto.min.js"></script>
+    <script src="../static/js/config.js"></script>
+    <script src="../static/js/video.js"></script>
+    <script src="../static/js/hybrid.js"></script>
+    <script>
+        var data = {
+            "code": 1004,
+            "data": "这是toast提示文本"
+        };
+        invokeNative(data);
+    </script>
+</body>
+</html>

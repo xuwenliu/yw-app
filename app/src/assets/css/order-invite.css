@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/**
+ * 通用样式
+ */
+.btm {
+  bottom: 1.2rem;
+}
+
+.btm .paylist-title {
+  text-align: center;
+  overflow: hidden;
+}
+
+.btm .paylist-title .img-box {
+  margin-top: 0.77333rem;
+}
+
+.btm .paylist-title .img-box img {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 0.8rem;
+}
+
+.btm .paylist-title .img-box h1 {
+  margin: 0.42666rem 0;
+}
+
+.paylist-list {
+  margin-top: 0.26666rem;
+}
+
+.paylist-list li {
+  height: 1.57333rem;
+  line-height: 1.57333rem;
+}
+
+.paylist-list .div-box {
+  margin: 0 0.53333rem;
+  width: 89.3%;
+}
+
+.paylist-list .div-box p:first-child {
+  float: left;
+}
+
+.paylist-list .div-box p:last-child {
+  float: right;
+  width: 4rem;
+  text-align: right;
+}
+
+.paylist-list .div-box p:last-child img {
+  width: 0.2rem;
+  vertical-align: middle;
+  margin-left: 0.16rem;
+}
+
+.mg {
+  margin-top: 0.26666rem;
+  margin-bottom: 0.8rem;
+}

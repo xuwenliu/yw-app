@@ -1,0 +1,75 @@
+<!--#include file="inc/header.html"-->
+<div class="wrap">
+
+
+    <div class="title">推客认证 <span></span></div>
+
+    <div class="content">
+
+        <div class="from-hint" style="display: none"></div>
+
+        <div class="line-bg" style="display: none"></div>
+
+
+        <div class="form-inline">
+            <span>真实姓名 <i>*</i></span>
+            <input class="form-inline-input" type="text" maxlength="10">
+            <span></span>
+        </div>
+        <div class="form-inline">
+            <span>身份证号 <i>*</i></span>
+            <input class="form-inline-input" type="text" maxlength="18">
+            <span></span>
+        </div>
+        <div class="form-inline">
+            <span aria-readonly="true">手机号码 <i>*</i></span>
+            <input class="form-inline-input" type="tel" maxlength="11">
+            <span></span>
+        </div>
+        <div class="form-inline">
+            <span>所在城市 <i>*</i></span>
+            <em style="font-weight: normal"></em>
+            <b class="form-arrow"></b>
+        </div>
+        <div class="form-inline" data-enable="true">
+            <span>类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型 <i>*</i></span>
+            <em style="font-weight: normal"></em>
+            <b class="form-arrow"></b>
+        </div>
+        <div class="form-inline">
+            <span>邀&nbsp;请&nbsp;码 </span>
+            <input class="form-inline-input" type="text" placeholder="非必填" maxlength="6">
+            <span></span>
+        </div>
+
+        <div class="line"></div>
+        <div class="from_box">
+            <div class="twitter-title">请上传您的证件照</div>
+            <div class="form-idCard ">
+                <div class="form-idCard-img">
+                    <div class="from-idCard-icon"></div>
+                </div>
+                <div class="from-idCard-text F3 C1">身份证正面照</div>
+
+            </div>
+            <div class="form-idCard">
+                <div class="form-idCard-imghold">
+                    <div class="from-idCard-icon"></div>
+                </div>
+                <div class="from-idCard-text F3 C1">手持身份证正面照</div>
+            </div>
+        </div>
+
+        <button class="form-submit">
+            提交
+        </button>
+
+
+        <div class="line"></div>
+    </div>
+
+
+</div>
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/libs/base64.js"></script>
+<script src="../../static/js/twitter/twitter-details-edit.js"></script>

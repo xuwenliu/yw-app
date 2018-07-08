@@ -1,0 +1,58 @@
+.paySuccess {
+  text-align: center;
+  padding-bottom: 0.61333rem;
+}
+
+.paySuccess img {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 0.77333rem;
+  margin-bottom: 0.34667rem;
+}
+
+.paySuccess p {
+  margin-top: 0.34667rem;
+}
+
+.box {
+  margin-top: 0.26667rem;
+}
+
+.box ul {
+  margin-left: 0.53333rem;
+}
+
+.box ul li {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  padding-right: 0.53333rem;
+}
+
+.box ul li span {
+  float: right;
+}
+
+.btn {
+  margin-top: 0.50667rem;
+  margin-left: 0.53333rem;
+  margin-right: 0.53333rem;
+  text-align: center;
+}
+
+.btn div {
+  float: left;
+  width: 42%;
+  border: 1px solid #e6e6e6;
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.btn div.success {
+  float: right;
+  background: #282828;
+}
+
+.btn div.onlySuccess {
+  width: 100%;
+  margin-left: 0;
+}

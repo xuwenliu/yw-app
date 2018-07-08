@@ -1,0 +1,30 @@
+<!--#include file="inc/header.html"-->
+
+<link rel="stylesheet" href="../../static/css/single.css" type="text/css">
+
+<div class="wrap">
+    <div class="title ">优惠券使用说明 <span></span></div>
+    <div class="content hasTitle" style="background-color: #FFFFFF">
+        <div class="userAgreement">
+
+            <h4>1.什么是优惠券？</h4>
+            <p>优惠券是鹦鹉美家发行和认可的购物券和活动券可以在鹦鹉美家付款时抵扣相应面值的金额或用于活动签到等。</p>
+            <br/>
+            <h4>2.如何获得优惠券？</h4>
+            <p >鹦鹉美家手机客户端会不定期推出各种活动，手机用户可以经常打开鹦鹉美家手机客户端，关注活动通知，机会不容错过！
+            </p>
+            <br/>
+            <h4>3.如何使用优惠券？</h4>
+            <p>在手机客户端付款或者线下活动时，都可以选择使用相应的优惠券。</p>
+            <br/>
+            <h4>4.抵用券找零兑现吗？</h4>
+            <p>在手机客户端付款或者线下活动时，都可以选择使用相应的优惠券。</p>
+            <br/>
+            <p>鹦鹉美家客服电话： 028-85108092</p>
+
+
+        </div>
+    </div>
+</div>
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/twitter/twitter-know.js"></script>

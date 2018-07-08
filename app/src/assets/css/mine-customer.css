@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/**
+ * 通用样式
+ */
+.mine-customer-topHint {
+  width: 100%;
+  background: #FFFFFF;
+  font-size: 0.29333rem;
+  color: #737373;
+  box-sizing: border-box;
+  text-align: center;
+  padding-left: 0.42667rem;
+  padding-right: 0.42667rem;
+  margin-top: 0.26667rem;
+  padding-top: 0.13333rem;
+  padding-bottom: 0.13333rem;
+  border-top: solid #e6e6e6 1px;
+  border-bottom: solid #e6e6e6 1px;
+}
+
+.mine-customer-item {
+  box-sizing: border-box;
+  height: 3.68rem;
+  margin-top: 0.26667rem;
+  margin-bottom: 0px;
+  border-top: solid #e6e6e6 1px;
+  border-bottom: solid #e6e6e6 1px;
+  background: #FFFFFF;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.mine-customer-item-left {
+  width: 6.54667rem;
+  margin-left: 0.53333rem;
+  box-sizing: border-box;
+  flex-basis: auto;
+}
+
+.mine-customer-item-left-top {
+  border-bottom: solid #e6e6e6 1px;
+  height: 2.05333rem;
+  box-sizing: border-box;
+}
+
+.mine-customer-item-right {
+  width: 2.72rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mine-customer-item-right img {
+  width: 1.89333rem;
+  height: 0.69333rem;
+  margin-top: 0.13333rem;
+}
+
+.mine-customer-portrait {
+  border-radius: 50%;
+  height: 1.06667rem;
+  width: 1.06667rem;
+  margin-top: 0.58667rem;
+  margin-right: 0.21333rem;
+  box-sizing: border-box;
+}
+
+.mine-customer-information {
+  margin-top: 0.53333rem;
+  width: 5.26667rem;
+  color: #282828;
+  font-size: 0.42667rem;
+  font-weight: bold;
+}
+
+.mine-customer-information h2 {
+  color: #282828;
+  font-size: 0.32rem;
+  margin-top: 0.2rem;
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.mine-customer-informationPadding {
+  margin-left: 0.13333rem;
+}
+
+.mine-customer-item-left-bottom {
+  height: 1.57333rem;
+  font-size: 0.32rem;
+  color: #737373;
+  box-sizing: border-box;
+}
+
+.mine-customer-descriptionLayout {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.57333rem;
+}
+
+.mine-customer-description div {
+  box-sizing: border-box;
+  padding-right: 0.42667rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.mine-customer-mine-arrow {
+  width: 0.13333rem;
+  height: 0.25333rem;
+  box-sizing: border-box;
+}
+
+.mine-customer-customer-dot {
+  height: 0.10667rem;
+  width: 0.10667rem;
+  border-radius: 0.05333rem;
+  margin-bottom: 0.06667rem;
+  background: #a8a8a8;
+}

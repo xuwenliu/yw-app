@@ -1,0 +1,20 @@
+<div class="promote-tab">
+    <ul>
+        <li><a href="promote.shtml?types=0"><em class="C1">发展推客</em></a></li>
+        <!--<li><a href="invite-register.shtml?types=1"><em class="C1">邀约客户</em></a></li>-->
+        <li><a href="twitter-reward.shtml?types=1"><em class="C1">我的奖金</em></a></li>
+    </ul>
+</div>
+<script>
+   $(function(){
+       var type=GC.Lib.GetQueryString("types");
+       $(".promote-tab ul li").eq(type).addClass("hover");
+
+       /*后退*/
+       $(".title").find("span").on("click", function() {
+           var closeView=GC.Lib.GetQueryString("close");
+           closeView==1? invokeNative({"code":1003}):window.location.href="twitter-index.shtml";
+       });
+
+   })
+</script>

@@ -1,0 +1,52 @@
+{
+    "data": {
+        "logo": "http://o8nljewkg.bkt.clouddn.com/o_1apsbpu7818ql3m8i3qn46f5r1p.jpg",
+        "name": "成都龙徽工程设计顾问有限公司",
+        "resume": "成都龙徽工程设计顾问有限公司2001年成立，是成都本土第一家整装规划和实施企业，作为一家服务高端市场的专业设计、工程公司，提供房地产会所、售楼部、样板间与别墅大宅的设计、施工，以及设备、主材、家具、配饰的全程系统服务。已形成了集市场营销、客户服务、空间设计、陈设设计、产品直采、工程施工为一体的全程服务模式。拥有最具创新价值的房产顾问，最具整合资源的别墅专家之市场美誉！令龙徽成为本土房产项目及别墅领域的佼佼者。",
+        "cover": "http://o8nljewkg.bkt.clouddn.com/o_1apcmjbb31h6a1dhsivb1dij1akh1a.jpg",
+        "otherCasesCount": 6,
+        "hasPresent": true,
+        "isCollected": false,
+        "serviceStandardDto": {
+            "decorateTypes": [
+                ""
+            ],
+            "serviceStandards":[
+                {
+                    "serviceType": "1",
+                    "serviceName": "硬装设计",
+                    "selected": true,
+                    "serviceDesc": "这是一段描述这是一段描述这是一段描述这是一段描述这是一段描述",
+                    "priceStart": 1,
+                    "priceEnd": 1
+                },
+                {
+                    "serviceType": "2",
+                    "serviceName": "软装设计",
+                    "selected": true,
+                    "serviceDesc": "这是一段描述这是一段描述这是一段描述这是一段描述这是一段描述",
+                    "priceStart": 1,
+                    "priceEnd": 1
+                },
+                {
+                    "serviceType": "3",
+                    "serviceName": "硬装施工",
+                    "selected": true,
+                    "serviceDesc": "这是一段描述这是一段描述这是一段描述这是一段描述这是一段描述",
+                    "priceStart": 1,
+                    "priceEnd": 1
+                },
+                {
+                    "serviceType": "4",
+                    "serviceName": "软装施工",
+                    "selected": true,
+                    "serviceDesc": "这是一段描述这是一段描述这是一段描述这是一段描述这是一段描述",
+                    "priceStart": 1,
+                    "priceEnd": 1
+                }
+            ]
+        }
+    },
+    "succ": true,
+    "stateCode": 0
+}

@@ -1,0 +1,76 @@
+<!--#include file="inc/header.html"-->
+<style>
+   .form-box div.form-inline{
+       position: relative;
+   }
+</style>
+    <div class="wrap">
+        <div class="title">客户报备 <span></span></div>
+        <div class="content bg-c7">
+            <div class="form-box">
+               <!--<form>-->
+                <div class="tempData"></div>
+                   <div class="form-inline">
+                       <span>客户姓名 <i>*</i></span>
+                       <input type="text" maxlength="10" name="customerName"  data-pattern="realname|姓名为2-10个中文字符" pattern="phone"  value=""  placeholder="客户真实姓名" >
+                       <i class="phone-book-icon inline-block"></i>
+                   </div>
+                   <div class="form-inline">
+                       <span>手机号码 <i>*</i></span>
+                       <input type="tel" maxlength="11" value="" name="userPhone" data-pattern="phone|请输入有效的11位手机号" placeholder="11位手机号码" >
+
+                   </div>
+                   <div class="form-inline">
+                       <span>验&nbsp&nbsp证&nbsp&nbsp码 <i>*</i></span>
+                       <input type="tel"  maxlength="6" name="smsCode"  value="" data-pattern="phonecode|验证码为6位数字" >
+                       <bottom class="get-sms-submit cursor" disabled="true">获取验证码</bottom>
+                   </div>
+                   <div class="form-inline">
+                       <span>备&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp注</span>
+                       <input type="text" maxlength="15"  placeholder="限15个字" name="customerDesc" >
+                   </div>
+               <!--</form>-->
+
+            </div>
+            <div class="form-submit cursor"  style="margin-top: 0.6rem; opacity: 0.5; " >马上报备</div>
+            <div class="text-center F6 C5" style="margin-top: 0.426666rem">温馨提示:每个客户只能在系统中被报备一次</div>
+        </div>
+    </div>
+
+<!--dialog-base-->
+<div class="dialog-base add-succ1" style="display: none" >
+    <div class="dialog-base-inc">
+        <ul>
+            <!--<li class="dialog-base-header  text-center"><span class="F2 C1">说明提示</span></li>-->
+            <li class="dialog-base-content" style="padding:  0.7rem">
+                <p class="F4 C1 text-center " style="">报备成功</p>
+                <p class="F4 C1 " style="margin-top: 0.4rem; line-height: 0.6rem">请引导客户下载鹦鹉美家APP，并注册成为平台用户，您才能享受后续签约佣金</p>
+        </ul>
+        <ul>
+            <li class="dialog-base-footer text-center "><span class="F4 C6 cursor dialog-btn-close">我知道了</span></li>
+        </ul>
+    </div>
+</div>
+<!--dialog-base end-->
+
+<!--dialog-base-->
+<div class="dialog-base add-succ2" style="display: none">
+    <div class="dialog-base-inc">
+        <ul>
+            <!--<li class="dialog-base-header  text-center"><span class="F2 C1">说明提示</span></li>-->
+            <li class="dialog-base-content" style="padding:  0.7rem">
+                <p class="F4 C1 text-center " style="margin-top: 0.4rem">报备成功</p>
+        </ul>
+        <ul>
+            <li class="dialog-base-footer text-center "><span class="F4 C6 cursor dialog-btn-close">我知道了</span></li>
+        </ul>
+    </div>
+</div>
+<!--dialog-base end-->
+
+
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/libs/base64.js"></script>
+<script src="../../static/js/twitter/customer-add.js"></script>
+
+

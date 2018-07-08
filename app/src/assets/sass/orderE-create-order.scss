@@ -1,0 +1,56 @@
+@import "mixin";
+
+.create-order .btm{
+	bottom:1.2rem;
+	.paylist-title{
+		height:4.16rem;
+		text-align:center;
+		overflow:hidden;
+		.img-box{
+			margin-top:0.77333rem;
+			img{
+				width:1.6rem;
+				height:1.6rem;
+				border-radius:0.8rem;
+			}
+			h1{
+				margin-top:0.42666rem;
+			}
+		}
+	}
+}
+.paylist-list{
+	margin-top:0.26666rem;
+	li{
+		height:1.57333rem;
+		line-height:1.57333rem;
+	}
+	.div-box{
+		margin:0 0.53333rem;
+		width:89.3%;
+		p:first-child{
+			float:left;
+			@include px2rem(margin-right,50px);
+		}
+		p:last-child{
+			float:right;
+			display:inline-block;
+			margin-left:0.66666rem;
+			img{
+				width: 0.2rem;
+    			vertical-align: middle;
+				margin-left:0.16rem;
+			}
+		}
+		input{
+			width:60%;
+		}
+		
+
+	}
+}
+.mg{
+	margin-top:0.26666rem;
+	margin-bottom:0.8rem;
+
+}

@@ -1,0 +1,11 @@
+.DS_Store
+# PyCharm
+# http://www.jetbrains.com/pycharm/webhelp/project.html
+/.idea/
+web.config
+node_modules/*
+/node_modules/
+node_modules/
+/rev/
+*.md
+

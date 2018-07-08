@@ -1,0 +1,48 @@
+{
+    "data": {
+        "employees": [
+            {
+                "userId": 1100,
+                "name": "贾静",
+                "title": "主创设计",
+                "headImage": "http://o8nljewkg.bkt.clouddn.com/o_1arvl53sacekv7k1rc54vgvdh.jpg",
+                "companyId": 0,
+                "companyName": ""
+            },
+            {
+                "userId": 1101,
+                "name": "方承先",
+                "title": "家居顾问",
+                "headImage": "http://o8nljewkg.bkt.clouddn.com/Fsg9KEa3oy3J1TAElkddcM0gGdIl",
+                "companyId": 0,
+                "companyName": ""
+            }
+        ],
+        "company": {
+            "companyId": 15,
+            "companyName": "四川省美壳装饰工程有限公司",
+            "companyHeadImage": "http://o8nljewkg.bkt.clouddn.com/o_1arvei8mf1a2n1crb52f10gnobs10.jpg",
+            "decorateTypes": [
+                "软装",
+                "硬装",
+                "设计"
+            ]
+        },
+        "surroundingMaterials": {
+            "startCeremony": {
+                "title": "开工典礼",
+                "pics": [
+                    "http://o8nljewkg.bkt.clouddn.com/o_1bcu2rh8r1ju9og81kkigr31g441r.jpg"
+                ]
+            },
+            "endCeremony": {
+                "title": "开工典礼",
+                "pics": [
+                    "http://o8nljewkg.bkt.clouddn.com/o_1bcu2r2k41icepmdqg59vgdd1m.jpg"
+                ]
+            }
+        }
+    },
+    "succ": true,
+    "stateCode": 0
+}

@@ -1,0 +1,664 @@
+@import "mixin";
+
+/**
+ * 通用样式
+ */
+
+$font-42: 42px;
+$font-F1: 36px;
+$font-F2: 34px;
+$font-F3: 30px;
+$font-F4: 28px;
+$font-F5: 26px;
+$font-F6: 24px;
+$font-F7: 22px;
+$color-C1: #282828;
+$color-C2: #bbbbbb;
+$color-C3: #e6e6e6;
+$color-C4: #737373;
+$color-C5: #a8a8a8;
+$color-C6: #f56d9d;
+$color-C7: #f5f5f5;
+
+#cnzz_stat_icon_1260955674 {
+    display: none;
+}
+
+.line-index {
+    width: 100%;
+    @include px2rem(height, 20px);
+    background-color: #f5f5f5;
+    border-top: 1px solid $color-C3;
+}
+.bg-c7 {
+    background-color: $color-C7;
+}
+
+.wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.ios-blank {
+    top: 0.56rem;
+}
+.content {
+    position: absolute;
+    top: 1.2rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    @include css3(overflow-scrolling, touch);
+    @include css3(user-select, none);
+}
+.noTitle {
+    top: 0;
+}
+.hasBottom {
+    bottom: 1.32rem;
+}
+.title {
+    width: 100%;
+    @include px2rem(height,36px);
+    @include px2rem(line-height,36px);
+    @include px2rem(font-size,$font-F1);
+    padding: 0.36rem 0;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid $color-C3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #ffffff;
+    color: $color-C1;
+}
+.title span {
+    @include px2rem(width,42px);
+    @include px2rem(height,36px);
+    background-image:url(../img/nav_back_ico@3x.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    bottom: 0.36rem;
+    left: 0.52rem;
+}
+.title .share {
+    @include px2rem(width,39px);
+    @include px2rem(height,41px);
+    background-image:url(../img/nav_share_ico@3x.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    bottom: 0.36rem;
+    right: 0.52rem;
+}
+.js-myCase {
+    display: none;
+}
+
+/* 活动首页 */
+.list {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.list li {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+}
+.list li img {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+/* 活动详情 */
+.detail-content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.detail-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* 预案列表 */
+.case-filter {
+    width: 100%;
+    @include px2rem(height, 120px);
+    background-color: #ffffff;
+    position: relative;
+}
+.case-fitler-btn {
+    @include px2rem(width, 87px);
+    @include px2rem(height, 42px);
+    @include px2rem(line-height, 42px);
+    padding: 0 0.12rem;
+    @include px2rem(font-size,$font-F4);
+    color: $color-C1;
+    text-align: center;
+    background-image: url(../img/work_sx_more_ico@3x.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    overflow: hidden;
+}
+.case-filter > div:nth-child(1) {
+    position: absolute;
+    @include px2rem(top, 36px);
+    @include px2rem(left, 110px);
+}
+.case-filter > div:nth-child(2) {
+    position: absolute;
+    @include px2rem(top, 36px);
+    @include px2rem(left, 325px);
+}
+.case-filter > div:nth-child(3) {
+    position: absolute;
+    @include px2rem(top, 36px);
+    @include px2rem(right, 110px);
+}
+.filter-mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.filter-frame {
+    width: 7rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    @include css3(transform,translateX(7rem));
+    @include css3(transition,0.5s);
+    z-index: 11;
+    overflow: hidden;
+}
+.filter-title {
+    @include  px2rem(font-size,36px);
+    color: #ffffff;
+    @include  px2rem(margin-left,62px);
+    @include  px2rem(margin-top,54px);
+    @include  px2rem(margin-bottom,52px);
+}
+.filter-list {
+    display: block;
+    @include  px2rem(width, 192px);
+    @include  px2rem(height, 840px);
+    @include  px2rem(margin-left,62px);
+    overflow-y: auto;
+    @include css3(overflow-scrolling, touch);
+    @include css3(user-select, none);
+}
+.filter-list::-webkit-scrollbar {
+    width: 0;
+}
+.filter-list li {
+    width: 100%;
+    @include  px2rem(height, 36px);
+    @include  px2rem(line-height, 36px);
+    padding: 0.56rem 0;
+    color: #ffffff;
+    border-bottom: 1px solid $color-C3;
+    overflow: hidden;
+}
+.filter-list li.active {
+    color: $color-C6;
+}
+.filter-count {
+    margin-left: 0.36rem;
+}
+.filter-totalCount {
+    margin-left: 0.36rem;
+}
+.case-list {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.case-item {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.case-item-cover {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.index-720 {
+    @include px2rem(width, 750px);
+    @include px2rem(height, 750px);
+    overflow:hidden;
+    // background-image: url(../img/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.index-720-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    @include px2rem(height, 225px);
+    background:-webkit-linear-gradient(bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)); 
+}
+.index-720-btn {
+    display: block;
+    @include px2rem(width, 186px);
+    @include px2rem(height, 58px);
+    background-image: url(../img/work_details_720_play_ico@3x.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    bottom: 0.42rem;
+    right: 0.52rem;
+}
+.index-720-btn span {
+    position: absolute;
+    top: 0.16rem;
+    left: 0.35rem;
+    display: block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    @include px2rem(border-width, 15px);
+    cursor: pointer;
+    border-style: dashed dashed dashed solid;
+    border-color: transparent transparent transparent #ffffff;
+    border-right: none;
+}
+.case-item-info {
+    width: 100%;
+    @include px2rem(height, 140px);
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+}
+.case-item-companyLogo {
+    border: 1px solid $color-C1;
+    @include px2rem(width, 86px);
+    @include px2rem(height, 86px);
+    @include px2rem(border-radius, 43px);
+    position: absolute;
+    @include px2rem(top, 27px);
+    @include px2rem(left, 40px);
+    @include bgImage("");
+}
+.case-item-name {
+    width: 100%;
+    @include px2rem(height,42px);
+    @include px2rem(line-height,42px);
+    @include px2rem(text-indent,166px);
+    @include px2rem(margin-top,30px);
+    @include px2rem(font-size,38px);
+    color: $color-C1;
+    @include ell(1);
+}
+.case-item-label {
+    width: 100%;
+    height: auto;
+    @include px2rem(text-indent,166px);
+    @include px2rem(font-size,$font-F5);
+    @include px2rem(margin-top,5px);
+    color: $color-C4;
+    @include ell(1);
+}
+.case-slideDown {
+    display: none;
+    width: 100%;
+    @include px2rem(height, 30px);
+    @include px2rem(line-height, 30px);
+    padding:0.4rem 0;
+    text-align: center;
+    @include px2rem(font-size, $font-F4);
+    color: $color-C1;
+    background-color: #ffffff;
+}
+
+
+/* 我的户型 */
+.layout-list {
+    @include px2rem(width, 730px);
+    height: auto;
+    @include px2rem(margin-left, 20px);
+    @include px2rem(margin-top, 20px);
+    overflow: hidden;
+}
+.layout-item {
+    @include px2rem(width, 344px);
+    @include px2rem(height, 630px);
+    background-color: #ffffff;
+    float: left;
+    @include px2rem(margin-right, 20px);
+    @include px2rem(margin-bottom, 20px);
+}
+.layout-item-image {
+    width: 100%;
+    @include px2rem(height, 486px);
+    overflow: hidden;
+    @include bgImage("");
+}
+.layout-item-info {
+    @include px2rem(font-size,$font-F4);
+    @include px2rem(margin-top,18px);
+    @include px2rem(margin-left,20px);
+    @include px2rem(margin-bottom,18px);
+    color: $color-C1;
+}
+.layout-item-btn {
+    @include px2rem(width, 136px);
+    @include px2rem(height, 42px);
+    @include px2rem(line-height, 30px);
+    text-align: center;
+    padding: 0.08rem 0;
+    border: 1px solid $color-C1;
+    @include px2rem(font-size,$font-F6);
+    color: $color-C1;
+    @include px2rem(margin-left,20px);
+    @include css3(box-sizing, border-box);
+    @include css3(border-radius, 21px);
+}
+
+/* 报名成功 */
+.result-logo {
+    @include px2rem(width, 260px);
+    @include px2rem(height, 260px);
+    @include css3(border-radius, 130px);
+    overflow: hidden;
+    margin: 0.8rem auto 0.6rem auto;
+    @include bgImage("../img/benefit_details_pay_success_ico@2x.png");
+}
+.result-p1 {
+    width: auto;
+    height: auto;
+    text-align: center;
+    @include px2rem(font-size,$font-F6);
+    color: $color-C5;
+}
+.result-p2 {
+    width: auto;
+    height: auto;
+    text-align: center;
+    @include px2rem(font-size, 40px);
+    color: $color-C6;
+    @include px2rem(margin-top,26px);
+    @include px2rem(margin-bottom,62px);
+}
+.result-btn {
+    @include px2rem(width, 670px);
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+    @include px2rem(font-size, $font-F3);
+    padding: 0.4rem 0;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    background-color: $color-C1;
+}
+
+/* 弹出层 */
+.popBox {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+}
+.popBox-frame {
+    @include px2rem(width, 600px);
+    @include px2rem(height, 552px);
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 40%;
+    position: relative;
+    overflow: hidden;
+}
+.popBox-title {
+    width: 100%;
+    height: auto;
+    @include px2rem(font-size,$font-F2);
+    color: $color-C1;
+    margin: 0.64rem 0 0.56rem 0;
+    text-align: center;
+}
+.popBox-inputBox {
+    @include px2rem(width, 474px);
+    @include px2rem(height, 36px);
+    padding: 0.52rem 0 0.36rem 0; 
+    border-bottom: 1px solid $color-C3;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.popBox-inputBox span {
+    @include px2rem(font-size,$font-F3);
+    color: $color-C1;
+    @include px2rem(margin-right, 32px);
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+}
+.popBox-inputBox span i {
+    color: $color-C6;
+}
+.popBox-inputBox input {
+    border: 0;
+    @include px2rem(width, 360px);
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+    @include px2rem(font-size,$font-F3);
+    color: $color-C1;
+}
+.popBox-btn {
+    @include px2rem(width, 474px);
+    @include px2rem(height, 36px);
+    @include px2rem(height, 36px);
+    color: #ffffff;
+    @include px2rem(font-size,$font-F3);
+    text-align: center;
+    background-color: $color-C1;
+    padding: 0.4rem 0;
+    margin: 0 auto;
+    @include px2rem(margin-top, 52px);
+}
+.popTip {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+}
+.popTip-frame {
+    width: 6.6rem;
+    height: 3.4rem;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 60%;
+    position: relative;
+    overflow: hidden;
+}
+.popTip-content {
+    width: 100%;
+    @include px2rem(height,36px);
+    @include px2rem(line-height,36px);
+    @include px2rem(font-size,$font-F3);
+    color: $color-C1;
+    padding: 0.86rem 0;
+    text-align: center;
+}
+.popTip-btn {
+    @include px2rem(height,36px);
+    @include px2rem(line-height,36px);
+    @include px2rem(font-size,$font-F3);
+    color: $color-C6;
+    padding: 0.36rem 0;
+    text-align: center;
+    border-top: 1px solid $color-C3;
+}
+
+/* 底部 */
+.bottom {
+    width: 100%;
+    @include px2rem(height, 99px);
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+}
+.bottom > div {
+    @include px2rem(width, 321px);
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+    // @include css3(box-sizing, border-box);
+    padding: 0.2rem 0;
+    background-color: #ffffff;
+    color: $color-C1;
+    @include px2rem(font-size,$font-F3);
+    text-align: center;
+    border: 1px solid $color-C1;
+}
+.btn-case {
+    position: absolute;
+    @include px2rem(top, 15px);
+    @include px2rem(left, 36px);
+}
+.btn-case-e {
+    @include px2rem(left, 214px);
+}
+.bottom .btn-join {
+    position: absolute;
+    background-color: $color-C1;
+    color: #ffffff;
+    @include px2rem(top, 15px);
+    @include px2rem(right, 36px);
+}
+.bottom .btn-join-active {
+    @include px2rem(right, 214px);
+}
+
+// 无内容或加载出错时
+.error-noContent-image {
+    width: 4rem;
+    height: 4rem;
+    margin: 2.6rem auto 1rem auto;
+    border-radius: 50%;
+    background-image: url(../img/no_collection_ico@3x.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.error-noContent-text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    @include px2rem(font-size, $font-F4);
+    color: $color-C5;
+    display: block;
+}
+
+// 活动列表无结果
+.activity-noContent {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    background-color: $color-C7;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+// 案例无筛选结果
+.case-noContent {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    background-color: $color-C7;
+    top: 1.6rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.case-noContent .error-noContent-image {
+    background-image: url(../img/work_search_no_result_ico@3x.png);
+}
+
+/**
+ * 微信下载提示
+ */
+.wxTips {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10002;
+}
+.wxTips div {
+    @include px2rem(width, 300px);
+    @include px2rem(height, 160px);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-image: url(../img/wxTips.png);
+    position: absolute;
+    top: 0;
+    @include px2rem(right, 40px);
+}
+
+
+/* 仿iOS toast */
+.js-toast {
+    width: 100%;
+    height: 0.88rem;
+    position: absolute;
+    bottom: 30%;
+}
+.js-toast p {
+    display:block; 
+    width: auto;
+    max-width: 60%;
+    margin:0 auto; 
+    text-align: center;
+    padding: 0 0.4rem;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    @include px2rem(height,66px);
+    @include px2rem(line-height,66px);
+    @include px2rem(font-size,$font-F4);
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.8);
+    @include ell(1);
+}

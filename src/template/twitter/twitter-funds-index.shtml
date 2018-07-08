@@ -1,0 +1,45 @@
+<!--#include file="inc/header.html"-->
+<div class="wrap">
+    <div class="title ">我的佣金 <span></span></div>
+    <div class="content bg-c7">
+
+        <div class="funds-data bg0">
+            <ul>
+                <li class="text-center F3 C1 qa-info-title">总佣金（元）<a class="qa-info" href="javascript:void(0);"></a></li>
+                <li class="text-center b C1 f74 funds-data-all">0.00</li>
+            </ul>
+        </div>
+
+        <div class="box-list-min"  style="display: block; margin-top: 0.26666rem"  >
+            <ul>
+                <li class="fl" style="width: 64%"><i class="icon " style="background-image: url('../../static/img/twitter/money_done_ic@2x.png')"></i><span class="inline-block F32 C1  ">已结佣</span></li>
+                <li class="fl "><em class=" F2 C1 b pa funds-data-after" style="right: 1.0rem; margin-top: -0.03rem">0.00</em><a href="twitter-pay-info.shtml?types=2"><i class="icon-go"></i></a></li>
+            </ul>
+
+            <ul>
+                <li class="fl" style="width: 64%"><i class="icon " style="background-image: url('../../static/img/twitter/money_wait_pay_ic@2x.png')"></i><span class="inline-block F32 C1  ">待结佣</span></li>
+                <li class="fl "><em class=" F2 C1 b pa  funds-data-pre " style="right: 1.0rem;">0.00</em><a href="twitter-pay-info.shtml?types=1"><i class="icon-go"></i></a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<!--dialog-base-->
+<div class="dialog-base" style="display: none">
+   <div class="dialog-base-inc">
+       <ul>
+           <!--<li class="dialog-base-header  text-center"><span class="F2 C1">说明提示</span></li>-->
+           <li class="dialog-base-content"><p class="F4 C1 text-center" style="margin-top: 0.5rem">总佣金=已结佣+待结佣</p></li>
+       </ul>
+       <ul>
+           <li class="dialog-base-footer text-center "><span class="F4 C6 cursor dialog-btn-close">我知道了</span></li>
+       </ul>
+   </div>
+</div>
+<!--dialog-base end-->
+<!--#include file="inc/footer.html"-->
+
+<script src="../../static/js/twitter/twitter-funds-index.js"></script>
+
+

@@ -1,0 +1,298 @@
+@import "mixin";
+
+/**
+ * 通用样式
+ */
+$font-42: 42px;
+$font-F1: 36px;
+$font-F2: 34px;
+$font-F3: 30px;
+$font-F4: 28px;
+$font-F5: 26px;
+$font-F6: 24px;
+$font-F7: 22px;
+$font-F8: 32px;
+$color-C1: #282828;
+$color-C2: #bbbbbb;
+$color-C3: #e6e6e6;
+$color-C4: #737373;
+$color-C5: #a8a8a8;
+$color-C6: #f56d9d;
+$color-C7: #f5f5f5;
+$color-C8: #FFFFFF;
+
+/**
+ * 通用样式
+ */
+/*临时测试*/
+.supervision-e-root-content {
+  padding-top: 1.2rem;
+}
+
+.supervision-e-title-order {
+  height: 1.2rem;
+  @include px2rem(margin-top, 20px);
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 1.2rem;
+  padding-left: 0.533rem;
+  padding-right: 0.533rem;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.supervision-e-item {
+  @include px2rem(height, 60px);
+  @include px2rem(margin-left, 40px);
+  @include px2rem(margin-right, 40px);
+  box-sizing: border-box;
+}
+
+.supervision-e-item i {
+  float: left;
+}
+
+.supervision-e-item span {
+  @include px2rem(width, 375px);
+  text-align: right;
+  float: right;
+}
+
+.supervision-e-itemArrow {
+  @include px2rem(height, 20px);
+  @include px2rem(width, 10px);
+  @include px2rem(margin-left, 16px);
+  @include px2rem(margin-top, 10px);
+  float: right;
+  box-sizing: border-box;
+}
+
+.supervision-e-safeguard-layout {
+  @include px2rem(height, 120px);
+  @include px2rem(margin-left, 40px);
+  @include px2rem(margin-right, 40px);
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.supervision-e-safeguard-layout ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  @include px2rem(width, 430px);
+  justify-content: flex-end;
+}
+
+.supervision-e-safeguard-item {
+  @include px2rem(height, 60px);
+  @include px2rem(width, 180px);
+  @include px2rem(margin-left, 20px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.supervision-e-safeguard-divider {
+  background: $color-C3;
+  @include px2rem(height, 2px);
+  @include px2rem(margin-left, 40px);
+  @include px2rem(margin-right, 40px);
+  @include px2rem(margin-top, 16px);
+  @include px2rem(margin-bottom, 16px);
+}
+
+.supervision-e-safeguard-item img {
+  @include px2rem(height, 34px);
+  @include px2rem(width, 34px);
+  @include px2rem(margin-right, 14px);
+  box-sizing: border-box;
+}
+
+.supervision-e-check-button-layout {
+  @include px2rem(margin-top, 20px);
+}
+
+.supervision-e-check-button-layout li {
+  background: $color-C8;
+  display: flex;
+  box-sizing: border-box;
+  border-bottom: solid 1px $color-C3;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  @include px2rem(height, 90px);
+  @include px2rem(padding-left, 40px);
+  @include px2rem(padding-right, 40px);
+}
+
+.supervision-e-check-button-layout li img {
+  @include px2rem(height, 30px);
+  @include px2rem(width, 15px);
+  box-sizing: border-box;
+}
+
+/*账单*/
+
+.supervision-e-bill-top-layout {
+  @include px2rem(margin-top, 20px);
+  @include px2rem(height, 160px);
+  display: flex;
+  background: $color-C8;
+  @include px2rem(padding-left, 40px);
+  @include px2rem(padding-right, 40px);
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.supervision-e-bill-top-layout-title {
+  @include px2rem(margin-top, 32px);
+
+}
+
+.supervision-e-bill-top-layout-price {
+  @include px2rem(font-size, 52px);
+}
+
+.supervision-e-bill-bottom-p {
+  padding-bottom: 1.2rem;
+}
+
+.supervision-e-bill-item {
+  box-sizing: border-box;
+  border-bottom: solid $color-C3 1px;
+}
+
+.supervision-e-bill-item ul {
+  background: $color-C8;
+  @include px2rem(margin-top, 20px);
+  @include px2rem(padding-top, 16px);
+  @include px2rem(padding-bottom, 16px);
+}
+
+.supervision-e-bill-item ul li {
+  @include px2rem(font-size, $font-F5);
+  @include px2rem(height, 60px);
+  @include px2rem(margin-left, 40px);
+  @include px2rem(margin-right, 40px);
+  box-sizing: border-box;
+  color: $color-C1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.supervision-e-bill-item ul li.supervision-e-bill-red {
+  color: $color-C6;
+}
+
+.supervision-e-bill-item-divider {
+  @include px2rem(height, 2px);
+  background: $color-C3;
+  @include px2rem(margin-left, 40px);
+  @include px2rem(margin-right, 40px);
+  box-sizing: border-box;
+}
+
+.supervision-e-bill-item-button {
+  @include px2rem(height, 90px);
+  @include px2rem(margin-left, 40px);
+  @include px2rem(margin-right, 40px);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include px2rem(font-size, $font-F4);
+  color: $color-C1;
+}
+
+.supervision-e-bill-inputBox {
+  background-color: #FFFFFF;
+  text-align: center;
+  @include px2rem(border-radius, 6px)
+}
+
+.supervision-e-bill-inputBox-title {
+  margin-top: 0.53333rem;
+  margin-bottom: 0.26666rem;
+}
+
+.supervision-e-bill-inputBox-input {
+  width: 70%;
+  height: 2rem;
+  border: 0.026666rem #a8a8a8 solid;
+  text-align: start;
+  padding: 0.13333rem;
+  box-sizing: border-box;
+  margin-bottom: 0.53333rem;
+}
+
+.supervision-e-bill-inputBox-btn {
+  border-top: 0.026666rem solid #a8a8a8;
+  height: 1.2rem;
+  position: relative;
+}
+
+.supervision-e-bill-inputBox-btn div {
+  float: left;
+  width: 49.5%;
+  height: 1.2rem;
+  line-height: 1.2rem;;
+}
+
+.supervision-e-contract-inputBox-input {
+  width: 90%;
+  @include px2rem(height, 60px);
+  border: 0.026666rem $color-C1 solid;
+  text-align: start;
+  padding: 0.13333rem;
+  box-sizing: border-box;
+  margin-bottom: 0.53333rem;
+}
+
+.supervision-e-stop-order-hint {
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  @include px2rem(padding-left, 40px);
+  @include px2rem(padding-right, 40px);
+  box-sizing: border-box;
+  margin-bottom: 0.53333rem;
+}
+
+/*编辑客户基本信息*/
+.supervision-e-edit-layout {
+  background: $color-C8;
+}
+
+.supervision-e-edit-layout li {
+  @include px2rem(height, 100px);
+  display: flex;
+  @include px2rem(padding-left, 40px);
+  @include px2rem(padding-right, 40px);
+  justify-content: space-between;
+  border-bottom: solid $color-C3 1px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.supervision-e-edit-layout li div {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.supervision-e-edit-layout li div span {
+  @include px2rem(margin-right, 50px);
+  box-sizing: border-box;
+}
+
+
+.supervision-e-arrow{
+  @include px2rem(height, 20px);
+  @include px2rem(width, 10px);
+  @include px2rem(margin-left, 16px);
+  box-sizing: border-box;
+}

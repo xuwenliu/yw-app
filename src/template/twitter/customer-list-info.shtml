@@ -1,0 +1,23 @@
+<!--#include file="inc/header.html"-->
+    <div class="wrap">
+        <div class="title ">客户详情 <span></span></div>
+        <div class="content bg-c7">
+            <div class="box-list" >
+                <ul>
+                    <li class="fl header-img"><i class="img"></i></li>
+                    <li class="fl call-info" style="padding-top: 0.3rem"></li>
+                    <li class="fl"><i class="icon-call cursor "></i></li>
+                </ul>
+            </div>
+
+            <div class="box-time-line pr" >
+                <ul>
+                    <div class="line pa"></div>
+                    <!-- <li><i class="icon-time-point fl block"></i><span class="F4 C5 cut-txt">邯郸市sa<em class="block time">dsdsa</em></span></li> -->
+                </ul>
+            </div>
+
+        </div>
+    </div>
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/twitter/customer-info.js"></script>

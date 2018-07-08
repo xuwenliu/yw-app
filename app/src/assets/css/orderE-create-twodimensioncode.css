@@ -1,0 +1,44 @@
+.title-box {
+  margin-top: 0.26667rem;
+}
+
+.title-box ul {
+  margin-left: 0.53333rem;
+  margin-right: 0.53333rem;
+}
+
+.title-box ul li {
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.title-box ul li span {
+  float: right;
+}
+
+.twoDimensionCode {
+  height: 7.06667rem;
+  margin-top: 0.26667rem;
+  padding-top: 0.90667rem;
+}
+
+.twoDimensionCode .qrcode {
+  margin: 0 auto;
+  width: 4.58667rem;
+  height: 4.58667rem;
+}
+
+.twoDimensionCode .qrcode canvas {
+  width: 4.58667rem;
+  height: 4.58667rem;
+}
+
+.twoDimensionCode .saoma {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 0.61333rem;
+}
+
+.twoDimensionCode .saoma img {
+  width: 100%;
+}

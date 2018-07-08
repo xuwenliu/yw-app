@@ -1,0 +1,42 @@
+{
+  "data": {
+    "procedureDesc": "这是一段秒速这是一段秒速这是一段秒速这是一段秒速这是一段秒速这是一段秒速这是一段秒速这是一段秒速",
+    "priceRangeStart": 1,
+    "priceRangeEnd": 20,
+    "items": [
+      {
+        "title": "平面设计",
+        "description": "平面设计的描述",
+        "costPercent": "30%",
+        "serviceContents": [
+          {
+            "id": 0,
+            "type": "",
+            "name": "",
+            "description": "拆除改造：线下面谈时间地点下面谈时间地点下面谈时间地点",
+            "createTime": "",
+            "updateTime": ""
+          },
+          {
+            "id": 1,
+            "type": "",
+            "name": "",
+            "description": "水电布局：确定人员",
+            "createTime": "",
+            "updateTime": ""
+          }
+        ],
+        "otherDemands": ""
+      },
+      {
+        "title": "平面设计",
+        "description": "平面设计的描述",
+        "costPercent": "总价 30%",
+        "otherDemands": ""
+      }
+    ]
+  },
+  "message": "",
+  "succ": false,
+  "stateCode": 0
+}

@@ -1,0 +1,13 @@
+<!--#include file="inc/header.html"-->
+<div class="wrap">
+    <div class="title title-tab">邀请客户注册 <span></span></div>
+    <div class="content bg-c7 bg0">
+        <div class="invite-content">
+            <div class="invite-submit">立即邀请</div>
+        </div>
+
+    </div>
+
+</div>
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/twitter/invite-register.js"></script>

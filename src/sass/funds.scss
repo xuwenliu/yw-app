@@ -1,0 +1,782 @@
+@import "mixin";
+
+/**
+ * 通用样式
+ */
+$font-F1: 36px;
+$font-F2: 34px;
+$font-F3: 30px;
+$font-F4: 28px;
+$font-F5: 26px;
+$font-F6: 24px;
+$font-F7: 22px;
+$color-C1: #282828;
+$color-C2: #bbbbbb;
+$color-C3: #e6e6e6;
+$color-C4: #737373;
+$color-C5: #a8a8a8;
+$color-C6: #f56d9d;
+$color-C7: #f5f5f5;
+
+#cnzz_stat_icon_1260955674 {
+    display: none;
+}
+
+.line {
+    width: 100%;
+    @include px2rem(height, 20px);
+    background-color: #f5f5f5;
+}
+
+/**
+ * 主体结构
+ */
+.wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.content {
+    position: absolute;
+    top: 1.2rem;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+    background-color: #ffffff;
+    @include css3(overflow-scrolling, touch);
+    @include css3(user-select, none);
+}
+.title {
+    width: 100%;
+    @include px2rem(height,36px);
+    @include px2rem(line-height,36px);
+    @include px2rem(font-size,$font-F1);
+    padding: 0.36rem 0;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid $color-C3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #ffffff;
+}
+.title span {
+    @include px2rem(width,42px);
+    @include px2rem(height,36px);
+    background-image:url(../img/nav_back_ico@3x.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    bottom: 0.36rem;
+    left: 0.52rem;
+}
+.index-gray {
+    background-color: $color-C7;
+}
+
+/* 资金信息 */
+.funds-link {
+    display: block;
+    width: auto;
+    @include px2rem(height,36px);
+    @include px2rem(font-size,$font-F2);
+    color: $color-C1;
+    position: absolute;
+    bottom: 0.36rem;
+    right: 0.52rem;
+}
+.funds-info {
+    width: 100%;
+    @include px2rem(height,250px);
+    background-color: #696f77;
+    overflow: hidden;
+    color: #ffffff;
+}
+.funds-info-contL {
+    width: 56%;
+    @include px2rem(height,150px);
+    @include px2rem(margin-top,50px);
+    @include css3(box-sizing, border-box);
+    border-right: 1px solid #ffffff;
+}
+.funds-info-contR {
+    width: 44%;
+    @include px2rem(height,150px);
+    @include px2rem(margin-top,50px);
+    @include css3(box-sizing, border-box);
+}
+.funds-info-contL .funds-info-title {
+    width: 100%;
+    @include px2rem(height,36px);
+    @include px2rem(line-height,36px);
+    @include px2rem(text-indent,60px);
+    @include px2rem(font-size,$font-F4);
+}
+.funds-info-contR .funds-info-title {
+    width: 100%;
+    @include px2rem(height,30px);
+    @include px2rem(line-height,30px);
+    @include px2rem(text-indent,60px);
+    @include px2rem(font-size,$font-F6);
+    margin-top: 0.08rem;
+}
+.funds-info-title a {
+    display: inline-block;
+    @include px2rem(width,33px);
+    @include px2rem(height,33px);
+    background-image: url(../img/money_Explain_ico@3x.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    vertical-align:middle;
+    position: relative;
+    top: -1px;
+}
+.funds-info-contL .funds-info-sum {
+    margin-top: 0.3rem;
+    @include px2rem(font-size,72px);
+    @include px2rem(text-indent,60px);
+}
+.funds-info-contR .funds-info-sum {
+    margin-top: 0.3rem;
+    @include px2rem(font-size,48px);
+    @include px2rem(text-indent,60px);
+}
+.funds-select {
+    height: auto;
+    width: 100%;
+    border-top: 1px solid $color-C3;
+    border-bottom: 1px solid $color-C3;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.funds-select li {
+    @include px2rem(margin-left, 50px);
+    @include px2rem(width,700px);
+    @include px2rem(height,120px);
+    border-bottom: 1px solid $color-C3;
+    overflow: hidden;
+    position: relative;
+}
+.funds-select li:last-child {
+    border-bottom: 0;
+}
+.funds-select li span:first-child {
+    display: block;
+    position: absolute;
+    @include px2rem(width,60px);
+    @include px2rem(height,60px);
+    @include px2rem(top,30px);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    left: 0; 
+}
+.funds-recharge span:first-child {
+    background-image: url(../img/money_recharge_ico@3x.png);
+}
+.funds-drawCash span:first-child {
+    background-image: url(../img/money_cash_ico@3x.png);
+}
+.funds-banks span:first-child {
+    background-image: url(../img/money_card_ico@3x.png);
+}
+.funds-select li p {
+    width: auto;
+    @include px2rem(margin-top,42px);
+    @include px2rem(height,36px);
+    @include px2rem(line-height,36px);
+    @include px2rem(text-indent,100px);
+    @include px2rem(font-size,$font-F4);
+    color: $color-C1;
+}
+.funds-select-arrow {
+    display: block;
+    @include px2rem(width, 15px);
+    @include px2rem(height, 30px);
+    position: absolute;
+    @include px2rem(top, 45px);
+    @include px2rem(right, 40px);
+    background-image: url(../img/work_details_more_ico@3x.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.funds-mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;
+}
+.funds-frame {
+    @include px2rem(width, 500px);
+    @include px2rem(height, 248px);
+    border-radius: 3px;
+    background-color: #ffffff; 
+    margin: 0 auto;
+    margin-top: 40%;
+    position: relative;
+    overflow: hidden;
+}
+.funds-frame h4 {
+    width: 100%;
+    text-align: center;
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+    @include px2rem(margin-top, 62px);
+    @include px2rem(font-size,$font-F4);
+    color: $color-C1;
+}
+.funds-btns {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid $color-C3;
+    width: 100%;
+    @include px2rem(height, 88px);
+    overflow: hidden;
+}
+.funds-btns button {
+    display: block;
+    border: 0;
+    background-color: #ffffff;
+    @include css3(box-sizing, border-box);
+    width: 50%;
+    @include px2rem(height, 88px);
+    text-align: center;
+    @include px2rem(font-size, $font-F2);
+    color: $color-C6;
+}
+.funds-btns .funds-btns-cancel {
+    border-right: 1px solid $color-C3;
+}
+
+/* 明细页面 */
+.detail-list {
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.detail-list li {
+    width: 100%;
+    @include px2rem(height, 184px);
+    border-bottom: 1px solid $color-C3;
+    overflow: hidden;
+    position: relative;
+}
+.detail-type {
+    width: 60%;
+    @include px2rem(font-size, $font-F1);
+    color: $color-C1;
+    @include px2rem(margin-top, 48px);
+    @include px2rem(margin-bottom, 26px);
+    @include px2rem(text-indent, 40px);
+    font-weight: bold;
+}
+.detail-num {
+    width: 39%;
+    text-align: right;
+    @include px2rem(font-size, $font-F1);
+    color: $color-C1;
+    font-weight: bold;
+    position: absolute;
+    @include px2rem(top, 74px); 
+    @include px2rem(right, 40px); 
+}
+.detail-date {
+    width: 60%;
+    @include px2rem(font-size, $font-F4);
+    color: $color-C5;
+    @include px2rem(text-indent, 40px);
+}
+.list-slideDown {
+    display: none;
+    width: 100%;
+    @include px2rem(height, 30px);
+    @include px2rem(line-height, 30px);
+    padding:0.4rem 0;
+    text-align: center;
+    @include px2rem(font-size, $font-F4);
+    color: $color-C1;
+    background-color: #ffffff;
+}
+
+/* 充值页面 */
+.recharge-checked {
+    width: 100%;
+    @include px2rem(height, 184px);
+    background-color: #ffffff;
+    border-bottom: 1px solid #d2d2d2;
+    position: relative;
+    overflow: hidden;
+}
+.recharge-checked-newCard {
+    @include px2rem(font-size, $font-F2);
+    color: $color-C6;
+    @include px2rem(height, 40px);
+    @include px2rem(line-height, 40px);
+    @include px2rem(margin-top, 72px);
+    @include px2rem(text-indent, 50px);
+}
+.recharge-checked-icon {
+    @include px2rem(width, 80px);
+    @include px2rem(height, 80px);
+    position: absolute;
+    @include px2rem(top, 52px);
+    @include px2rem(left, 50px);
+    @include bgImage("");
+}
+.recharge-checked-bankName {
+    @include px2rem(font-size, $font-F2);
+    color: $color-C1;
+    width: auto;
+    height: auto;
+    position: absolute;
+    @include px2rem(top, 45px);
+    @include px2rem(left, 174px);
+}
+.recharge-checked-bankCard {
+    @include px2rem(font-size, $font-F6);
+    color: $color-C4;
+    width: auto;
+    height: auto;
+    position: absolute;
+    @include px2rem(top, 98px);
+    @include px2rem(left, 174px);
+}
+.recharge-checked-arrow {
+    @include px2rem(width, 15px);
+    @include px2rem(height, 30px);
+    position: absolute;
+    @include px2rem(top, 77px);
+    @include px2rem(right, 40px);
+    @include bgImage("../img/work_details_more_ico@3x.png");
+}
+.recharge-inputBox {
+    width: 100%;
+    @include px2rem(height, 124px);
+    background-color: #ffffff;
+    border-bottom: 1px solid #d2d2d2;
+    position: relative;
+}
+.recharge-inputBox span {
+    position: absolute;
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+    @include px2rem(top,44px);
+    @include px2rem(padding-left,68px);
+    @include px2rem(font-size, $font-F4);
+    color: $color-C1;
+}
+.recharge-input {
+    border: 0;
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+    @include px2rem(font-size, $font-F4);
+    color: $color-C1;
+    @include px2rem(padding-top,44px);
+    @include px2rem(padding-left,210px);
+}
+.recharge-next {
+    display: block;
+    background-color: #393939;
+    border-radius: 3px;
+    color: #ffffff;
+    border: 0;
+    @include px2rem(width, 582px);
+    @include px2rem(height, 96px);
+    @include px2rem(font-size, $font-F3);
+    margin: 0 auto;
+    @include px2rem(margin-top, 44px);
+}
+.selectBank-mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;
+}
+.selectBank-frame {
+    @include px2rem(width, 562px);
+    @include px2rem(height, 590px);
+    border-radius: 3px;
+    background-color: #ffffff; 
+    margin: 0 auto;
+    margin-top: 35%;
+    position: relative;
+    overflow: hidden;
+}
+.selectBank-title {
+    width: auto;
+    @include px2rem(margin-left, 28px);
+    @include px2rem(margin-right, 28px);
+    @include px2rem(font-size, $font-F2);
+    @include px2rem(height, 40px);
+    @include px2rem(line-height, 40px);
+    padding: 0.4rem 0;
+    text-align: center;
+    color: $color-C1;
+    border-bottom: 1px solid $color-C3;
+}
+.selectBank-list {
+    width: auto;
+    @include px2rem(margin-left, 28px);
+    @include px2rem(margin-right, 28px);
+    @include px2rem(height, 360px);
+    overflow-y: scroll;
+}
+.selectBank-bankCard {
+    width: 100%;
+    @include px2rem(height, 120px);
+    border-bottom: 1px solid $color-C3;
+    position: relative;
+}
+.selectBank-bankCard-icon {
+    @include px2rem(width, 80px);
+    @include px2rem(height, 80px);
+    position: absolute;
+    @include px2rem(top, 22px);
+    @include px2rem(left, 26px);
+    @include bgImage("");
+}
+.selectBank-bankCard-bankName {
+    @include px2rem(font-size, $font-F4);
+    color: $color-C1;
+    width: auto;
+    height: auto;
+    position: absolute;
+    @include px2rem(top, 18px);
+    @include px2rem(left, 150px);
+}
+.selectBank-bankCard-bankNumber {
+    @include px2rem(font-size, $font-F6);
+    color: $color-C4;
+    width: auto;
+    height: auto;
+    position: absolute;
+    @include px2rem(top, 68px);
+    @include px2rem(left, 150px);
+}
+.selectBank-bankCard-checked {
+    display: none;
+    @include px2rem(width, 42px);
+    @include px2rem(height, 29px);
+    position: absolute;
+    @include px2rem(top, 48px);
+    @include px2rem(right, 26px);
+    @include bgImage("../img/right_ic@3x.png");
+}
+.selectBank-newCard {
+    @include px2rem(font-size, $font-F4);
+    color: $color-C1;
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+    @include px2rem(padding-top, 44px);
+    @include px2rem(padding-bottom, 44px);
+    border-bottom: 1px solid $color-C3;
+    text-align: center;
+}
+.selectBank-list li.active .selectBank-bankCard-checked {
+    display: block;
+}
+.selectBank-list li.active .selectBank-newCard-text {
+    color: $color-C6;
+}
+.selectBank-btns {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid $color-C3;
+    width: 100%;
+    @include px2rem(height, 88px);
+    overflow: hidden;
+}
+.selectBank-btns button {
+    display: block;
+    border: 0;
+    background-color: #ffffff;
+    @include css3(box-sizing, border-box);
+    width: 50%;
+    @include px2rem(height, 88px);
+    text-align: center;
+    @include px2rem(font-size, $font-F2);
+    color: $color-C6;
+}
+.selectBank-btns .selectBank-btns-cancel {
+    border-right: 1px solid $color-C3;
+}
+
+/* 提现 */
+.drawCash-inputBox {
+    width: 100%;
+    @include px2rem(height, 124px);
+    background-color: #ffffff;
+    border-bottom: 1px solid #d2d2d2;
+    position: relative;
+}
+.drawCash-inputBox span {
+    position: absolute;
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+    @include px2rem(top,44px);
+    @include px2rem(padding-left,40px);
+    @include px2rem(font-size, $font-F4);
+    color: $color-C1;
+}
+.drawCash-input {
+    border: 0;
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+    @include px2rem(font-size, $font-F4);
+    color: $color-C1;
+    @include px2rem(padding-top,44px);
+    @include px2rem(padding-left,210px);
+}
+.drawCash-next {
+    display: block;
+    background-color: #393939;
+    border-radius: 3px;
+    color: #ffffff;
+    border: 0;
+    @include px2rem(width, 582px);
+    @include px2rem(height, 96px);
+    @include px2rem(font-size, $font-F3);
+    margin: 0 auto;
+    @include px2rem(margin-top, 44px);
+}
+.drawCash-total {
+    width: 100%;
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+    @include px2rem(padding-top,36px);
+    @include px2rem(padding-bottom,36px);
+    @include px2rem(text-indent,40px);
+    @include px2rem(font-size, $font-F4);
+    color: $color-C4;
+    border-bottom: 1px solid $color-C3;
+    background-color: #ffffff;
+    position: relative;
+}
+.drawCash-total a {
+    width: auto;
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+    @include px2rem(font-size, $font-F4);
+    color: $color-C6;
+    position: absolute;
+    @include px2rem(top,36px);
+    @include px2rem(right,40px);
+}
+
+/* 银行卡 */
+.bankCards-add {
+    display: block;
+    @include px2rem(height,40px);
+    @include px2rem(width,40px);
+    position: absolute;
+    @include px2rem(top,25px);
+    right: 0.52rem;
+    @include bgImage("../img/add_card_ic@3x.png");
+}
+.bankCards-list {
+    @include px2rem(width,688px);
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    @include px2rem(margin-bottom,36px);
+}
+.bankCards-list li {
+    @include px2rem(width,688px);
+    @include px2rem(height,234px);
+    border-radius: 16px;
+    overflow: hidden;
+    @include px2rem(margin-top,36px);
+    position: relative;
+}
+.bankCards-list li:nth-child(odd) {
+    background-image: url("../img/red_card_bg@3x.png");
+    background-repeat: repeat-y;
+}
+.bankCards-list li:nth-child(even) {
+    background-image: url("../img/card_bg@3x.png");
+    background-repeat: repeat-y;
+}
+.bankCards-logo {
+    @include px2rem(width, 120px);
+    @include px2rem(height, 120px);
+    @include px2rem(top,34px);
+    @include px2rem(left,34px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+}
+.bankCards-logo div {
+    @include px2rem(width, 80px);
+    @include px2rem(height, 80px);
+    margin: 0 auto;
+    @include px2rem(margin-top,20px);
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bankCards-info {
+    @include px2rem(width, 500px);
+    @include px2rem(margin-left, 186px);
+    overflow: hidden;
+}
+.bankCards-info h4 {
+    width: auto;
+    @include px2rem(font-size, $font-F1);
+    color: #ffffff;
+    font-weight: bold;
+    @include px2rem(margin-top, 34px);
+    @include px2rem(margin-bottom, 20px);
+}
+.bankCards-info p {
+    width: auto;
+    @include px2rem(font-size, $font-F3);
+    color: #ffffff;
+    @include px2rem(margin-bottom, 20px);
+}
+.bankCards-info span {
+    display: block;
+    width: auto;
+    @include px2rem(font-size, $font-F3);
+    color: #ffffff;
+}
+.bankCards-tips {
+    display: none;
+    width: 100%;
+    text-align: center;
+    @include px2rem(font-size, $font-F4);
+    color: $color-C4;
+}
+
+/* 银行卡详情 */
+.bankCardsInfo-logo {
+    @include px2rem(width, 120px);
+    @include px2rem(height, 120px);
+    margin: 0 auto;
+    @include px2rem(margin-top,34px);
+    @include px2rem(margin-top,34px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bankCardsInfo-logo div {
+    @include px2rem(width, 80px);
+    @include px2rem(height, 80px);
+    margin: 0 auto;
+    @include px2rem(margin-top,20px);
+    @include px2rem(margin-bottom,20px);
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bankCardsInfo-name {
+    width: auto;
+    @include px2rem(font-size, $font-F2);
+    color: $color-C1;
+    text-align: center;
+    @include px2rem(margin-top,20px);
+}
+.bankCardsInfo-number {
+    width: auto;
+    @include px2rem(font-size, $font-F2);
+    color: $color-C1;
+    text-align: center;
+    @include px2rem(margin-top,20px); 
+    @include px2rem(margin-bottom,40px); 
+}
+.bankCardsInfo-explain {
+    @include px2rem(width,670px);
+    height: auto;
+    background-color: #ffffff;
+    @include px2rem(padding-left,40px);  
+    @include px2rem(padding-right,40px); 
+}
+.bankCardsInfo-explain ul {
+    width: 100%;
+    overflow: hidden;
+}
+.bankCardsInfo-explain li {
+    width: 100%;
+    @include px2rem(height,124px);
+    border-bottom: 1px solid $color-C3;
+}
+.bankCardsInfo-explain li:last-child {
+    border: 0;
+}
+.bankCardsInfo-explain li span {
+    @include px2rem(height,36px);
+    @include px2rem(line-height,36px);
+    @include px2rem(font-size, $font-F4);
+    color: $color-C1;
+    @include px2rem(padding-top,44px);  
+    @include px2rem(padding-bottom,44px); 
+}
+.bankCardsInfo-btn {
+    @include px2rem(width,582px);
+    @include px2rem(height,96px);
+    display: block;
+    border:0;
+    background-color: #393939;
+    border-radius: 5px;
+    color:#ffffff;
+    margin: 0 auto;
+    @include px2rem(margin-top,44px); 
+    @include px2rem(font-size, $font-F3);
+}
+
+/* 操作结果 */
+/* 支付结果 */
+.payResult-success {
+    width: 100%;
+    height: auto;
+}
+.payResult-icon {
+    @include px2rem(width, 339px);
+    @include px2rem(height, 339px);
+    overflow: hidden;
+    background-image:url(../img/order_details_pay_success_ico@3x.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0.8rem auto 0.36rem auto;
+}
+.payResult-h3 {
+    width: auto;
+    height: auto;
+    margin-bottom: 0.36rem;
+    @include px2rem(font-size,$font-F1);
+    color: $color-C6;
+    text-align: center;
+    font-weight: bold;
+}
+.payResult-p {
+    width: auto;
+    height: auto;
+    margin-bottom: 0.64rem;
+    @include px2rem(font-size,$font-F6);
+    color: $color-C5;
+    text-align: center;
+}
+.payResult-p span {
+    color: $color-C6;
+    font-weight: bold;
+}

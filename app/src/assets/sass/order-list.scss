@@ -1,0 +1,140 @@
+@import "mixin";
+
+@charset "utf-8";
+/**
+ * 通用样式
+ */
+$font-42: 42px;
+$font-F1: 36px;
+$font-F2: 34px;
+$font-F3: 30px;
+$font-F4: 28px;
+$font-F5: 26px;
+$font-F6: 24px;
+$font-F7: 22px;
+$color-C1: #282828;
+$color-C2: #bbbbbb;
+$color-C3: #e6e6e6;
+$color-C4: #737373;
+$color-C5: #a8a8a8;
+$color-C6: #f56d9d;
+$color-C7: #f5f5f5;
+
+div.contentTopMoreSpace {
+  @include px2rem(top, 182px);
+}
+
+.orderList ul li {
+  background: #fff;
+}
+
+.cellTopSection {
+  height: 1.06666rem;
+  border-bottom: 1px solid #e6e6e6;
+  margin-left: 0.64rem;
+  margin-right: 0.64rem;
+  line-height: 1.06666rem;
+}
+
+.cellTopSection img {
+  height: 0.42666rem;
+  width: 0.42666rem;
+  vertical-align: middle;
+  position: relative;
+  top: -0.05rem;
+  left: 0;
+}
+
+.cellTopSectionFront {
+  height: 1.06666rem;
+  float: left;
+}
+
+.cellTopSectionTrailing {
+  height: 1.06666rem;
+  float: right;
+}
+
+.cellOrderDescLeftPading {
+  margin-left: 0.18666rem;
+}
+
+.cellDownSection {
+  height: 2.90666rem;
+  margin-left: 0.64rem;
+  margin-right: 0.64rem;
+}
+
+.cellDownSectionLeft {
+  float: left;
+  height: 2.90666rem;
+}
+
+.cellDownSectionRight {
+  float: right;
+  height: 2.90666rem;
+  line-height: 2.90666rem;
+}
+
+.cellDownSectionRight img {
+
+  @include px2rem(width, 14px);
+  @include px2rem(height, 26px);
+}
+
+.cellDownSectionTitleClass {
+
+  @include px2rem(width, 500px);
+  margin-top: 0.233333rem;
+  margin-bottom: 0.233333rem;
+}
+
+.cellTopMarginBottomLine {
+  margin-top: 0.26666rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.orderList .hideVScrollTop {
+  top: 0;
+}
+
+.cellDownSectionTextRestrit {
+  @include px2rem(width, 500px);
+}
+
+.status {
+  background-color: #fff;
+  height: 1.17333rem;
+  position: relative;
+  width: 100%;
+  z-index: 999;
+
+  ul {
+    margin: 0 0.68rem;
+    display: flex;
+    text-align: center;
+
+    li {
+      flex: 1;
+      line-height: 1.17333rem;
+    }
+
+  }
+  .active {
+    color: #ed316b;
+    border-bottom: 2px solid #ed316b;
+    padding-bottom: 0.18666rem;
+  }
+}
+
+.createOrderDivCss {
+
+  position: absolute;
+  bottom: 0.36rem;
+  right: 0.52rem;
+}
+
+.cellTopSection img.orderListESupervision {
+  @include px2rem(width, 116px);
+  @include px2rem(height, 32px);
+}

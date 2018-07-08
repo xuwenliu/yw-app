@@ -1,0 +1,36 @@
+@import "mixin";
+.title-box{
+	@include px2rem(margin-top,20px);
+	ul{
+		@include px2rem(margin-left,40px);
+		@include px2rem(margin-right,40px);
+		li{
+			@include px2rem(height,90px);
+			@include px2rem(line-height,90px);
+			span{
+				float:right;
+			}
+		}
+	}
+}
+
+.twoDimensionCode{
+	@include px2rem(height,530px);
+	@include px2rem(margin-top,20px);
+	@include px2rem(padding-top,68px);
+	.qrcode{
+		margin:0 auto;
+		@include px2rem(width,344px);
+		@include px2rem(height,344px);
+		canvas{
+			@include px2rem(width,344px);
+			@include px2rem(height,344px);
+		}
+	}
+	.saoma{
+		width:80%;
+		margin:0 auto;
+		@include px2rem(margin-top,46px);
+		img{width:100%}
+	}
+}

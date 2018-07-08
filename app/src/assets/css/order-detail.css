@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/**
+ * 通用样式
+ */
+/*临时测试*/
+.orderList ul li {
+  background: #cccccc;
+  width: 1.6rem;
+}

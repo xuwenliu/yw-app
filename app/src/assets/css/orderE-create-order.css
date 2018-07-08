@@ -1,0 +1,63 @@
+.create-order .btm {
+  bottom: 1.2rem;
+}
+
+.create-order .btm .paylist-title {
+  height: 4.16rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.create-order .btm .paylist-title .img-box {
+  margin-top: 0.77333rem;
+}
+
+.create-order .btm .paylist-title .img-box img {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 0.8rem;
+}
+
+.create-order .btm .paylist-title .img-box h1 {
+  margin-top: 0.42666rem;
+}
+
+.paylist-list {
+  margin-top: 0.26666rem;
+}
+
+.paylist-list li {
+  height: 1.57333rem;
+  line-height: 1.57333rem;
+}
+
+.paylist-list .div-box {
+  margin: 0 0.53333rem;
+  width: 89.3%;
+}
+
+.paylist-list .div-box p:first-child {
+  float: left;
+  margin-right: 0.66667rem;
+}
+
+.paylist-list .div-box p:last-child {
+  float: right;
+  display: inline-block;
+  margin-left: 0.66666rem;
+}
+
+.paylist-list .div-box p:last-child img {
+  width: 0.2rem;
+  vertical-align: middle;
+  margin-left: 0.16rem;
+}
+
+.paylist-list .div-box input {
+  width: 60%;
+}
+
+.mg {
+  margin-top: 0.26666rem;
+  margin-bottom: 0.8rem;
+}

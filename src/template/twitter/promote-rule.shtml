@@ -1,0 +1,27 @@
+<!--#include file="inc/header.html"-->
+
+<style>
+
+
+</style>
+<div class="wrap">
+
+    <div class="title">奖金规则
+        <span></span>
+    </div>
+
+    <div class="content" style="background: #FFFFFF ">
+
+        <div class="promote-rule-content">
+        	<div class="contract-amount">
+				<!--<h1 id="designProportion">设计 <span>签约金额的 <i id="designProportion"></i></span></h1>
+				<h1 id="buildProportion">施工 <span>签约金额的 <i id="buildProportion"></i></span></h1>-->
+				<h1 id="designProportion"></h1>
+				<h1 id="buildProportion"></h1>
+			</div>
+        </div>
+
+    </div>
+</div>
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/twitter/promote-rule.js"></script>

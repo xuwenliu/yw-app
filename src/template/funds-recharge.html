@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalabel=no,maximum-scale=1.0,minimum-scale=1.0" />
+    <!-- 去掉移动web页面自动探测电话号码 -->
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>充值</title>
+    <script src="../static/js/libs/flexible.js"></script>
+    <link rel="stylesheet" href="../static/css/reset.css" type="text/css ">
+    <link rel="stylesheet" href="../static/css/funds.css" type="text/css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="title"><span></span>充值</div>
+        <div class="content index-gray">
+            <div class="line"></div>
+            <div class="recharge-checked">
+                <!-- <div class="recharge-checked-frame">
+                    <div class="recharge-checked-oldCard">
+                        <span class="recharge-checked-icon"></span>
+                        <p class="recharge-checked-bankName">招商银行</p>
+                        <p class="recharge-checked-bankCard">尾号0932 储蓄卡</p>
+                    </div>
+                </div>
+                <div class="recharge-checked-frame">
+                    <span class="recharge-checked-arrow"></span>
+                    <p class="recharge-checked-newCard">使用新卡支付</p>
+                </div> -->
+            </div>
+            <div class="line"></div>
+            <div class="recharge-inputBox">
+                <span>金额 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ¥ &nbsp;</span>
+                <input type="text" placeholder="请输入充值金额（至少1元）" class="recharge-input" onkeyup="value=value.replace(/[^\d]/g,'')">
+            </div>
+            <button class="recharge-next">下一步</button>
+        </div>
+    </div>
+    <div class="selectBank-mask">
+        <div class="selectBank-frame">
+            <div class="selectBank-title">选择付款方式</div>
+            <ul class="selectBank-list">
+                <!-- <li class="selectBank-bankCard">
+                    <span class="selectBank-bankCard-icon"></span>
+                    <p class="selectBank-bankCard-bankName">招商银行</p>
+                    <p class="selectBank-bankCard-bankNumber">尾号0932 储蓄卡</p>
+                    <span class="selectBank-bankCard-checked"></span>
+                </li> -->
+                <!-- <li class="selectBank-newCard" data-bind-id="-1">
+                    <p class="selectBank-newCard-text">使用新卡支付</p>
+                </li> -->
+            </ul>
+            <div class="selectBank-btns clearfix">
+                <button class="selectBank-btns-cancel fl">取消</button>
+                <button class="selectBank-btns-confirm fr">确定</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../static/js/libs/zepto.min.js"></script>
+    <script src="../static/js/config.js"></script>
+    <script src="../static/js/common.js"></script>
+    <script src="../static/js/funds-recharge.js"></script>
+</body>
+</html>

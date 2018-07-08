@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/**
+ * 通用样式
+ */
+div.contentTopMoreSpace {
+  top: 2.42667rem;
+}
+
+.orderList ul li {
+  background: #fff;
+}
+
+.cellTopSection {
+  height: 1.06666rem;
+  border-bottom: 1px solid #e6e6e6;
+  margin-left: 0.64rem;
+  margin-right: 0.64rem;
+  line-height: 1.06666rem;
+}
+
+.cellTopSection img {
+  height: 0.42666rem;
+  width: 0.42666rem;
+  vertical-align: middle;
+  position: relative;
+  top: -0.05rem;
+  left: 0;
+}
+
+.cellTopSectionFront {
+  height: 1.06666rem;
+  float: left;
+}
+
+.cellTopSectionTrailing {
+  height: 1.06666rem;
+  float: right;
+}
+
+.cellOrderDescLeftPading {
+  margin-left: 0.18666rem;
+}
+
+.cellDownSection {
+  height: 2.90666rem;
+  margin-left: 0.64rem;
+  margin-right: 0.64rem;
+}
+
+.cellDownSectionLeft {
+  float: left;
+  height: 2.90666rem;
+}
+
+.cellDownSectionRight {
+  float: right;
+  height: 2.90666rem;
+  line-height: 2.90666rem;
+}
+
+.cellDownSectionRight img {
+  width: 0.18667rem;
+  height: 0.34667rem;
+}
+
+.cellDownSectionTitleClass {
+  width: 6.66667rem;
+  margin-top: 0.233333rem;
+  margin-bottom: 0.233333rem;
+}
+
+.cellTopMarginBottomLine {
+  margin-top: 0.26666rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.orderList .hideVScrollTop {
+  top: 0;
+}
+
+.cellDownSectionTextRestrit {
+  width: 6.66667rem;
+}
+
+.status {
+  background-color: #fff;
+  height: 1.17333rem;
+  position: relative;
+  width: 100%;
+  z-index: 999;
+}
+
+.status ul {
+  margin: 0 0.68rem;
+  display: flex;
+  text-align: center;
+}
+
+.status ul li {
+  flex: 1;
+  line-height: 1.17333rem;
+}
+
+.status .active {
+  color: #ed316b;
+  border-bottom: 2px solid #ed316b;
+  padding-bottom: 0.18666rem;
+}
+
+.createOrderDivCss {
+  position: absolute;
+  bottom: 0.36rem;
+  right: 0.52rem;
+}
+
+.cellTopSection img.orderListESupervision {
+  width: 1.54667rem;
+  height: 0.42667rem;
+}

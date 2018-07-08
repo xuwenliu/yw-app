@@ -1,0 +1,60 @@
+{
+    "data": {
+        "activityId": 110062,
+        "companyId": 138,
+        "companyName": "120专用测试公司",
+        "description": "这里是公司简介\n\n霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈哈哈哈霍霍霍霍哈",
+        "caseCount": 0,
+        "userCount": 0,
+        "logoImage": "http://o8nljewkg.bkt.clouddn.com/o_1at7pji0f141f1f9qls41clukv1h.jpg",
+        "companyDisc": "这里是公司简介\n\n霍霍霍霍哈哈哈哈霍霍霍霍",
+        "companyDiscImage": "http://o8nljewkg.bkt.clouddn.com/o_1b77ia5dut7i174b1b2kbp81a864o.jpg,http://o8nljewkg.bkt.clouddn.com/o_1b77iaa2d12mn1ip0bfi8etjg84t.jpg",
+        "middleId": 64,
+        "customerOwners": [
+            {
+                "userId": 1,
+                "headImage": "http://o8nljewkg.bkt.clouddn.com/o_1at7pji0f141f1f9qls41clukv1h.jpg",
+                "activityId": 1,
+                "nickName": "用户1"
+            },
+            {
+                "userId": 1,
+                "headImage": "http://o8nljewkg.bkt.clouddn.com/o_1at7pji0f141f1f9qls41clukv1h.jpg",
+                "activityId": 1,
+                "nickName": "用户1"
+            },
+            {
+                "userId": 1,
+                "headImage": "http://o8nljewkg.bkt.clouddn.com/o_1at7pji0f141f1f9qls41clukv1h.jpg",
+                "activityId": 1,
+                "nickName": "用户1"
+            },
+            {
+                "userId": 1,
+                "headImage": "http://o8nljewkg.bkt.clouddn.com/o_1at7pji0f141f1f9qls41clukv1h.jpg",
+                "activityId": 1,
+                "nickName": "用户1"
+            },
+            {
+                "userId": 1,
+                "headImage": "http://o8nljewkg.bkt.clouddn.com/o_1at7pji0f141f1f9qls41clukv1h.jpg",
+                "activityId": 1,
+                "nickName": "用户1"
+            },
+            {
+                "userId": 1,
+                "headImage": "http://o8nljewkg.bkt.clouddn.com/o_1at7pji0f141f1f9qls41clukv1h.jpg",
+                "activityId": 1,
+                "nickName": "用户1"
+            },
+            {
+                "userId": 1,
+                "headImage": "http://o8nljewkg.bkt.clouddn.com/o_1at7pji0f141f1f9qls41clukv1h.jpg",
+                "activityId": 1,
+                "nickName": "用户1"
+            }
+        ]
+    },
+    "stateCode": 0,
+    "succ": true
+}

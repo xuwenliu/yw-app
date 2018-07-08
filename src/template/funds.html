@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalabel=no,maximum-scale=1.0,minimum-scale=1.0" />
+    <!-- 去掉移动web页面自动探测电话号码 -->
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>资金信息</title>
+    <script src="../static/js/libs/flexible.js"></script>
+    <link rel="stylesheet" href="../static/css/reset.css" type="text/css ">
+    <link rel="stylesheet" href="../static/css/funds.css" type="text/css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="title"><span></span>资金信息<a class="funds-link" href="javascript:void(0);">明细</a></div>
+        <div class="content index-gray">
+            <div class="funds-info clearfix">
+                <div class="funds-info-contL fl">
+                    <p class="funds-info-title">账户余额（元）<a class="funds-balanceExplain" href="javascript:void(0);"></a></p>
+                    <p class="funds-info-sum js-balance"></p>
+                </div>
+                <div class="funds-info-contR fr">
+                    <p class="funds-info-title">冻结资金（元）<a class="funds-frozenFundsExplain" href="javascript:void(0);"></a></p>
+                    <p class="funds-info-sum js-frozenCapital"></p>
+                </div>
+            </div>
+            <div class="line"></div>
+            <ul class="funds-select">
+                <li class="funds-recharge">
+                    <!-- <a href="/consoleMobile/template/funds-recharge.html"> -->
+                        <span></span>
+                        <p>充值</p>
+                        <span class="funds-select-arrow"></span>
+                    <!-- </a> -->
+                </li>
+                <li class="funds-drawCash">
+                    <!-- <a href="/consoleMobile/template/funds-drawCash.html"> -->
+                        <span></span>
+                        <p>提现</p>
+                        <span class="funds-select-arrow"></span>
+                    <!-- </a> -->
+                </li>
+                <li class="funds-banks">
+                    <!-- <a href="/consoleMobile/template/funds-bankCards.html"> -->
+                        <span></span>
+                        <p>银行卡</p>
+                        <span class="funds-select-arrow"></span>
+                    <!-- </a> -->
+                </li>
+            </ul>
+            <div class="funds-mask">
+                <div class="funds-frame">
+                    <h4>请先进行身份认证！</h4>
+                    <div class="funds-btns clearfix">
+                        <button class="funds-btns-cancel fl">取消</button>
+                        <button class="funds-btns-confirm fr">确定</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../static/js/libs/zepto.min.js"></script>
+    <script src="../static/js/config.js"></script>
+    <script src="../static/js/common.js"></script>
+    <script src="../static/js/funds.js"></script>
+</body>
+</html>

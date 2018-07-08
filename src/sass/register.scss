@@ -1,0 +1,262 @@
+@import "mixin";
+
+/**
+ * 通用样式
+ */
+
+$font-42: 42px;
+$font-F1: 36px;
+$font-F2: 34px;
+$font-F3: 30px;
+$font-F4: 28px;
+$font-F5: 26px;
+$font-F6: 24px;
+$font-F7: 22px;
+$color-C1: #282828;
+$color-C2: #bbbbbb;
+$color-C3: #e6e6e6;
+$color-C4: #737373;
+$color-C5: #a8a8a8;
+$color-C6: #f56d9d;
+
+#cnzz_stat_icon_1260955674 {
+    display: none;
+}
+
+.line-index {
+    width: 100%;
+    @include px2rem(height, 20px);
+    background-color: #f5f5f5;
+    border-top: 1px solid $color-C3;
+}
+
+.wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.content {
+    position: absolute;
+    top: 1.2rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    @include css3(overflow-scrolling, touch);
+    @include css3(user-select, none);
+}
+.title {
+    width: 100%;
+    @include px2rem(height,36px);
+    @include px2rem(line-height,36px);
+    @include px2rem(font-size,$font-F1);
+    padding: 0.36rem 0;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid $color-C3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #ffffff;
+}
+.title span {
+    @include px2rem(width,42px);
+    @include px2rem(height,36px);
+    background-image:url(../img/nav_back_ico@3x.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    bottom: 0.36rem;
+    left: 0.52rem;
+}
+
+.blankH200 {
+    @include px2rem(height,180px);
+    font-size:0px;
+    overflow:hidden;
+}
+
+.blankH200 {
+    @include px2rem(height,180px);
+    font-size:0px;
+    overflow:hidden;
+}
+
+.inputBox {
+    @include px2rem(width,540px);
+    // @include px2rem(height,90px);
+    height: auto;
+    border-bottom: 1px solid $color-C3;
+    margin: 0 auto 0.16rem auto;
+    padding: 0 0.16rem;
+    position: relative;
+}
+.inputBox > input {
+     width: 100%;
+    @include px2rem(height,36px);
+    @include px2rem(line-height,36px);
+    @include px2rem(font-size,$font-F4);
+    color: $color-C1;
+    padding: 0.48rem 0;
+    border: 0;
+}
+.sendCode {
+    display: block;
+    @include px2rem(width,160px);
+    @include px2rem(height,72px);
+    position: absolute;
+    @include px2rem(font-size,$font-F4);
+    color: $color-C5;
+    top: 0.2rem;
+    right: 0;
+    border: 1px solid $color-C1;
+    border-radius: 3px;
+    background-color: $color-C1;
+    color: #ffffff;
+}
+.sendCode-invalid {
+    background-color: #c3c3c3;
+    color: #ffffff;
+    border-color: #c3c3c3;
+}
+.phoneNumber {
+    width: 100%;
+    @include px2rem(height,36px);
+    @include px2rem(line-height,36px);
+    @include px2rem(font-size,$font-F4);
+    color: $color-C1;
+    padding: 0.48rem 0;
+    border: 0;
+}
+.checkBox {
+    @include px2rem(width,540px);
+    // @include px2rem(height,90px);
+    @include px2rem(height,45px);
+    margin: 0.8rem auto;
+    position: relative;
+}
+.checkBox-icon {
+    @include px2rem(width,30px);
+    @include px2rem(height,30px);
+    border-radius: 50%;
+    border: 1px solid #c3c3c3;
+    position: absolute;
+    top: -1px;
+    left: 1.8rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.checkBox-icon-active {
+    background-image:url(../img/agree_light_ico@3x.png);
+}
+.checkBox-text {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-indent: 1rem;
+    @include px2rem(height,30px);
+    @include px2rem(line-height,30px);
+    @include px2rem(font-size,$font-F6);
+    color: $color-C4;
+}
+.checkBox-text a {
+    color: $color-C4;
+}
+.submit {
+    border-radius: 3px;
+    display: block;
+    @include px2rem(width,582px);
+    @include px2rem(height,96px);
+    border: 1px solid $color-C1;
+    background-color: $color-C1;
+    margin: 1rem auto 0 auto;
+    @include px2rem(font-size,$font-F3);
+    color: #ffffff;
+}
+.succTip {
+    display: none;
+    width: auto;
+    text-align: center;   
+    @include px2rem(height,36px);
+    @include px2rem(line-height,36px);
+    @include px2rem(font-size,$font-F4);
+    color: $color-C6;
+    margin-top: 1rem;
+}
+
+/* 仿iOS toast */
+.js-toast {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 30%;
+}
+.js-toast p {
+    display:table; 
+    margin:0 auto; 
+    text-align: center;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+    @include px2rem(height,36px);
+    @include px2rem(line-height,36px);
+    @include px2rem(font-size,$font-F4);
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.8);
+}
+.funds-mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;
+}
+.funds-frame {
+    @include px2rem(width, 500px);
+    @include px2rem(height, 248px);
+    border-radius: 3px;
+    background-color: #ffffff; 
+    margin: 0 auto;
+    margin-top: 40%;
+    position: relative;
+    overflow: hidden;
+}
+.funds-frame h4 {
+    width: 100%;
+    text-align: center;
+    @include px2rem(height, 36px);
+    @include px2rem(line-height, 36px);
+    @include px2rem(margin-top, 62px);
+    @include px2rem(font-size,$font-F4);
+    color: $color-C1;
+}
+.funds-btns {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid $color-C3;
+    width: 100%;
+    @include px2rem(height, 88px);
+    overflow: hidden;
+}
+.funds-btns button {
+    display: block;
+    border: 0;
+    background-color: #ffffff;
+    @include css3(box-sizing, border-box);
+    width: 50%;
+    @include px2rem(height, 88px);
+    text-align: center;
+    @include px2rem(font-size, $font-F2);
+    color: $color-C6;
+}
+.funds-btns .funds-btns-cancel {
+    border-right: 1px solid $color-C3;
+}

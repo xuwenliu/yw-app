@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalabel=no,maximum-scale=1.0,minimum-scale=1.0" />
+    <!-- 去掉移动web页面自动探测电话号码 -->
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>在线支付</title>
+    <script src="../static/js/libs/flexible.js"></script>
+    <link rel="stylesheet" href="../static/css/reset.css" type="text/css ">
+    <link rel="stylesheet" href="../static/css/pay.css" type="text/css">
+</head>
+<body>
+    <div class="wrap">
+        <!-- <div class="title">在线支付<span></span></div> -->
+        <div class="content">
+            <div class="pay-tips">为了保证工期的进行，请尽快支付</div>
+            <div class="line-index"></div>
+            <div class="pay-box">
+                <div class="border-bottom pay-row clearfix">
+                    <div class="pay-box-left fl">支付阶段</div>
+                    <div class="pay-box-right fr js-phase"></div>
+                </div>
+                <div class="pay-total pay-row clearfix">
+                    <div class="pay-box-left fl">费用合计</div>
+                    <div class="pay-box-right fr js-total"></div>
+                </div>
+            </div>
+            <div class="line-index"></div>
+            <div class="pay-box">
+                <div class="border-bottom pay-row clearfix">
+                    <div class="pay-box-left fl">你还需支付</div>
+                    <div class="pay-box-right fr js-overplus"></div>
+                </div>
+                <ul class="pay-list">
+                    <li class="pay-balance" data-pay-tool-type="1">
+                        <span class="pay-balance-logo fl"></span>
+                        <span class="pay-item-text fl">余额支付 （¥ <span class="pay-balance-value"></span> 元）</span>
+                        <span class="pay-item-radio fr"></span>
+                    </li>
+                    <li class="pay-newCard" data-pay-tool-type="3">
+                        <span class="pay-newCard-logo fl"></span>
+                        <span class="pay-item-text fl">使用新卡支付</span>
+                        <span class="pay-item-radio fr"></span>
+                    </li>
+                    <li class="pay-bankCard" data-pay-tool-type="5">
+                        <span class="pay-bankCard-logo fl"></span>
+                        <span class="pay-item-text fl">快捷支付（单笔最高限额2万）</span>
+                        <span class="pay-item-radio fr"></span>
+                    </li>
+                    <li class="pay-alipay pay-item-wait" data-pay-tool-type="6">
+                        <span class="pay-alipay-logo fl"></span>
+                        <span class="pay-item-text fl">支付宝支付即将上线</span>
+                        <span class="pay-item-radio fr"></span>
+                    </li>
+                    <li class="pay-wx pay-item-wait" data-pay-tool-type="4">
+                        <span class="pay-wx-logo fl"></span>
+                        <span class="pay-item-text fl">微信支付即将上线</span>
+                        <span class="pay-item-radio fr"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="line-index"></div>
+            <div class="pay-box">
+                <div class="border-bottom pay-row clearfix">
+                    <div class="pay-box-left fl">分批支付</div>
+                </div>
+                <div class="pay-row">
+                    如果本次支付超过渠道最高限额，你还可以分批支付
+                </div>
+                <a href="javascript:void(0);" class="pay-batch">分批支付</a>
+            </div>
+            <div class="line-index"></div>
+        </div>
+        <div class="bottom">
+            <a href="javascript:void(0);" class="pay-btn">去支付</a>
+        </div>
+    </div>
+    <script src="../static/js/libs/zepto.min.js"></script>
+    <script src="../static/js/config.js"></script>
+    <script src="../static/js/pay.js"></script>
+</body>
+</html>

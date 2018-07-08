@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>鹦鹉美家</title>
+		<meta charset="utf-8">
+		<script src="../../static/js/libs/flexible.js"></script>
+		<link rel="stylesheet" href="../../static/css/reset.css" type="text/css ">
+		<style>
+			.advertisement-images img {
+				width: 100%;
+				display: block;
+			}
+			
+			.botton-view {
+				width: 100%;
+				height: 3.06667rem;
+				background-color: #93d6cf;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+			}
+			
+			.botton-view a {
+				border: none;
+				width: 90%;
+				height: 1.28rem;
+				background-color: black;
+				color: #fff;
+				font-size: 0.53333rem;
+				text-align: center;
+				line-height: 1.28rem;
+				margin-bottom: 0.26667rem;
+			}
+		</style>
+	</head>
+
+	<body>
+		<script src="https://s22.cnzz.com/z_stat.php?id=1264532748&web_id=1264532748" language="JavaScript"></script>
+		<div>
+			<div class="advertisement-images">
+				<img src="../../static/img/advertisement/pa.png" />
+			</div>
+			<div class="advertisement-images">
+				<img src="../../static/img/advertisement/pb.png" />
+			</div>
+
+			<div class="advertisement-images">
+				<img src="../../static/img/advertisement/tuut.png" />
+			</div>
+
+			<div class="botton-view">
+				<a id="download">有货！点下看看</a>
+				<div class="commpanyName">上海沉美信息科技有限公司</div>
+			</div>
+		</div>
+		<script src="../../static/js/libs/zepto.min.js"></script>
+		<script>
+			$(function() {
+				if($("body").find("a").eq(0).text() == "站长统计") {
+					$("body").find("a").eq(0).hide();
+				}
+				
+				var GetQueryString = function(name) {
+					var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+					var r = window.location.search.substr(1).match(reg);
+					if(r != null) return unescape(r[2]);
+					return null;
+				};
+				//showCommpanyName==1显示公司名称
+				//template/a-dvertisement/a-ds.html?showCommpanyName=1
+				if(GetQueryString("showCommpanyName") == 1) {
+					$(".commpanyName").css({
+						display: "block"
+					})
+				} else {
+					$(".commpanyName").css({
+						display: "none"
+					})
+				}
+				_czc.push(﻿["_trackEvent", "浏览广告页", "Android/ios设备", "浏览", 0]);
+				$("#download").click(function() {
+					_czc.push(﻿["_trackEvent", "有货点击次数", "Android/ios设备", "点击", 0, "download"]);
+					location.href = "http://a.app.qq.com/o/simple.jsp?pkgname=com.yingwumeijia.android.ywmj.client";
+				})
+
+			})
+		</script>
+	</body>
+
+</html>

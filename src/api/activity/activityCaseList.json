@@ -1,0 +1,27 @@
+{
+    "data": {
+        "totalCount": 0,
+        "currentPageNum": 0,
+        "totalPageNum": 0,
+        "previousUri": "",
+        "currentUri": "",
+        "nextUri": "",
+        "result": [
+            {
+                "caseId": 12,
+                "caseName": "小森林",
+                "caseCover": "http://o8nljewkg.bkt.clouddn.com/o_1b4r5j1dkbjmoii1ejl17314vi4r.jpg",
+                "caseStyle": 1,
+                "houseArea": 68,
+                "bedroom": 2,
+                "livingRoom": 1,
+                "toilet": 1,
+                "companyLogo": "http://o8nljewkg.bkt.clouddn.com/o_1b5m9v38ie4e1tflojj1ng9r7lh.jpg",
+                "caseStyleDesc": "美式"
+            }
+        ]
+    },
+    "message": "",
+    "stateCode": 0,
+    "succ": true
+}

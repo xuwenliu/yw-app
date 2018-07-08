@@ -1,0 +1,49 @@
+{
+    "data": {
+        "video": {
+            "duration": 119,
+            "name": "龙徽装饰",
+            "second": 3,
+            "url": "http://ob24y7hrk.bkt.clouddn.com/o_1auucn1ou1793ngjvspbas1bcmh.mp4"
+        },
+        "pics": [
+            {
+                "title": "电梯厅",
+                "pics": [
+                    "http://o8nljewkg.bkt.clouddn.com/o_1apcmjbb31h6a1dhsivb1dij1akh1a.jpg"
+                ],
+                "explain": "龙徽设计位于成都市人民南路四段48号首座C座6楼，出电梯即可看到醒目的龙徽标志，左边是空间组和软装组办公区域，右边是家装组办公区域。"
+            },
+            {
+                "title": "形象墙",
+                "pics": [
+                    "http://o8nljewkg.bkt.clouddn.com/o_1apcmjieu1tupgf4t7lro6rcj1f.jpg"
+                ],
+                "explain": "办公室1"
+            },
+            {
+                "title": "会议室2",
+                "pics": [
+                    "http://o8nljewkg.bkt.clouddn.com/o_1apcmjv0vhttbm31siop8r1h5a1k.jpg"
+                ],
+                "explain": "家装组会议室"
+            },
+            {
+                "title": "家装组办公区",
+                "pics": [
+                    "http://o8nljewkg.bkt.clouddn.com/o_1apcmk6h718sf1u695b2fam150h1p.jpg"
+                ],
+                "explain": "家装组办公区"
+            },
+            {
+                "title": "团队照",
+                "pics": [
+                    "http://o8nljewkg.bkt.clouddn.com/o_1b1m024q2ka61tbtj721jab19na10.jpg"
+                ],
+                "explain": "团队照"
+            }
+        ]
+    },
+    "succ": true,
+    "stateCode": 0
+}

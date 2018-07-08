@@ -1,0 +1,32 @@
+<!--#include file="inc/header.html"-->
+
+<link rel="stylesheet" href="../../static/css/single.css" type="text/css">
+
+<div class="wrap">
+    <div class="title ">说明 <span></span></div>
+    <div class="content hasTitle" style="background-color: #FFFFFF">
+        <div class="userAgreement">
+            <h4>平台将于每周二（节假日除外）集中发放佣金及奖金，会有专门客服提前与您联系，客服电话：028-85108092</h4>
+
+            <h4>一、佣金计算公式：</h4>
+            <p class="ti2">推荐客户成功签定装修合同并付款后，佣金按下列规则发放：</p>
+            <h4 class="ti2">100㎡以下  －－－  1000元</h4>
+            <h4 class="ti2">100~150㎡ －－－  1500元</h4>
+            <h4 class="ti2">150~200㎡ －－－  2000元</h4>
+            <h4 class="ti2">200~300㎡ －－－  3000元</h4>
+            <h4 class="ti2">300㎡以上  －－－  4000元</h4>
+
+            <br/>
+            <h4>二、推荐成单流程</h4>
+            <p class="ti2">1、进入“我的推客”页面。</p>
+            <p class="ti2">2、进入“邀请客户注册”，点击”立即邀请”，分享给微信好友，或拷贝链接用短信发送给客户。</p>
+            <p class="ti2">3、客户通过您的分享页面填写信息并下载APP使用。</p>
+            <p class="ti2">4、推客应积极了解客户的需求，并告知客户平台上的优惠政策与保障方式。</p>
+            <p class="ti2">5、客户和平台上的公司签约成功后，系统会自动推送系统消息和手机短信至推客，推客可以“我的客户信息中”查看客户的当前进度状态。</p>
+            <p class="ti2">6、客户与装修公司签定正式装修施工合同后，平台于每周二（节假日除外）集中发放佣金及奖金，推客可以在“我的佣金明细”里查看佣金明细。</p>
+
+        </div>
+    </div>
+</div>
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/twitter/twitter-plan.js"></script>

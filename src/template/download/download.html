@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>鹦鹉美家</title>
+	<meta charset="utf-8">
+    <script src="../../static/js/libs/flexible.js"></script>
+    <link rel="stylesheet" href="../../static/css/reset.css" type="text/css ">
+    <style>
+    	.download{
+    		position: relative;
+    		margin: 0 auto;
+    		width: 10rem;
+    	}
+        .download .bj{
+            width: 10rem;
+            height: auto;
+            display: block;
+        }
+        .download #download-btn{
+        	position: absolute;
+        	top: 6.21333rem;
+        	left: 50%;
+    		margin-left: -3.46666rem;
+        	width: 6.93333rem;
+        	height: 1.17333rem;
+        	border: 2px solid #fff;
+    		text-align: center;
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		border-radius: 0.13333rem;
+    		color: #FFF;
+    		font-size: 0.53333rem;
+        }
+        .mc-bj{
+        	position: fixed;
+        	top: 0;
+        	left: 0;
+        	right: 0;
+        	bottom: 0;
+        	width: 100%;
+        	background: rgba(0,0,0,0.8);
+        }
+        .mc-bj .hand{
+        	width: 1.62666rem;
+        	height: 2.42666rem;
+        	position: absolute;
+        	top: 0.26666rem;
+        	right: 0.53333rem;
+        }
+        .mc-bj .des{
+        	width: 5.78666rem;
+        	height: 1.81333rem;
+        	position: absolute;
+        	top: 3.78666rem;
+        	left: 2.10666rem;
+        }
+    </style>
+</head>
+	<body>
+		<script src="https://s19.cnzz.com/z_stat.php?id=1264477477&web_id=1264477477" language="JavaScript"></script>
+		<div class="download">
+      		<img class="bj" src="../../static/img/download/bj.png"/>
+      		<a id="download-btn">下载&nbsp;APP</a>
+  		</div>
+  		<div class="mc-bj" style="display: none;">
+  			<img class="hand" src="../../static/img/download/yd_1.png" alt="" />
+  			<img class="des" src="../../static/img/download/yd_2.png" alt="" />
+  		</div>
+  		<script src="../../static/js/libs/zepto.min.js"></script>
+  		<script>
+   			$(function(){
+   				if ($("body").find("a").eq(0).text() == "站长统计") {
+			        $("body").find("a").eq(0).hide();
+			    }
+   				var u = navigator.userAgent;
+			    var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+			    var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+   				// 判断是否为微信
+			    var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
+			    var isWeixin = false;
+			    if (ua.match(/MicroMessenger/i) == "micromessenger") {
+			        //在微信浏览器打开
+			        isWeixin = true;
+			    }
+			    $(".mc-bj").click(function(){
+			    	$(this).hide();
+			    })
+			    
+			    if(isAndroid){
+		    		if(isWeixin){
+		    			//统计微信里 打开次数
+		    			_czc.push(﻿["_trackEvent","浏览下载页","Android微信","浏览",0]);
+		    		}else {
+		    			//统计非微信 打开次数
+		    			_czc.push(﻿["_trackEvent","浏览下载页","Android非微信","浏览",0]);
+		    			
+		    		}
+		    	}
+			    	
+		    	if(isiOS){
+		    		if(isWeixin){
+		    			//统计微信里 打开次数
+		    			_czc.push(﻿["_trackEvent","浏览下载页","IOS微信","浏览",0]);
+		    		}else {
+		    			//统计非微信 打开次数
+		    			_czc.push(﻿["_trackEvent","浏览下载页","IOS非微信","浏览",0]);
+		    		}
+		    		
+		    	}
+			    var downLoadBtn = $("#download-btn");
+			    downLoadBtn.click(function(){
+			    	if(isAndroid){
+			    		if(isWeixin){
+			    			$(".mc-bj").show();
+			    		}else {
+			    			//统计非微信app下载次数
+			    			_czc.push(﻿["_trackEvent","点击下载APP","Android非微信","下载",0,"download-btn"]);
+			    			window.location.href = "http://o7zlnyltf.bkt.clouddn.com/app-ywmj-release.apk";
+			    		}
+			    	}
+			    	
+			    	if(isiOS){
+			    		if(isWeixin){
+			    			//统计微信里 app下载次数
+			    			_czc.push(﻿["_trackEvent","点击下载APP","IOS微信","下载",0,"download-btn"]);
+			    		}else {
+			    			//统计非微信 app下载次数
+			    			_czc.push(﻿["_trackEvent","点击下载APP","IOS非微信","下载",0,"download-btn"]);
+			    		}
+			    		window.location.href = "http://itunes.apple.com/us/app/id1133878484";
+			    	}
+			    })
+			    
+   			})
+  		</script>
+	</body>
+</html>

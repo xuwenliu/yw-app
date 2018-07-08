@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/**
+ * 通用样式
+ */
+/*下载*/
+.download-background {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url("../img/share/tk_download_bg.png");
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.invite-download-desc {
+  margin-top: 1.72rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  width: 4.72rem;
+  height: 1.24rem;
+}
+
+.invite-download-desc img {
+  width: 4.72rem;
+  height: 1.24rem;
+}
+
+.download-submit {
+  margin-top: 6.12rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  width: 8.93333rem;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  text-align: center;
+  color: white;
+  font-size: 0.4rem;
+  background-color: black;
+}
+
+.logo-image {
+  width: 2.94667rem;
+  height: 2.94667rem;
+  margin-top: 1.72rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+
+.logo-image img {
+  margin-right: auto;
+  margin-left: auto;
+  width: 2.94667rem;
+  height: 2.94667rem;
+}

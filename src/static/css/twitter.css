@@ -1,0 +1,1124 @@
+@charset "UTF-8";
+/* 推客公共 */
+.form-box {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.form-inline {
+  width: 8.96rem;
+  height: 0.48rem;
+  background-color: #FFFFFF;
+  line-height: 0.48rem;
+  font-size: 0.37333rem;
+  color: #282828;
+  position: relative;
+  padding: 0.48rem 0.52rem;
+  border: 0;
+  border-bottom: 1px solid #e6e6e6;
+  margin: 0 auto;
+}
+
+.line-bg {
+  width: 100%;
+  height: 0.26667rem;
+  background-color: #f5f5f5;
+}
+
+.form-inline input {
+  border: 0;
+  padding: 0 0.4rem;
+  width: 70%;
+  box-sizing: border-box;
+  font-size: 0.37333rem;
+  color: #282828;
+}
+
+.form-inline span:nth-child(1) {
+  width: 1.81333rem;
+  display: inline-block;
+}
+
+.form-inline span i {
+  color: #f56d9d;
+  display: inline-block;
+  padding-top: 0.05rem;
+  vertical-align: top;
+}
+
+.form-arrow {
+  width: 0.28rem;
+  height: 0.52rem;
+  display: block;
+  position: absolute;
+  right: 0.53rem;
+  top: 0.46667rem;
+  background-image: url("../img/work_details_more_ico@3x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.form-submit {
+  width: 8.93333rem;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.4rem;
+  padding: 0.4rem 0;
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #ffffff;
+  background-color: #282828;
+  margin: 0.4rem auto 0.6rem;
+}
+
+/* 首次申请 */
+.apply-bg {
+  width: 100%;
+  background-color: #000;
+  height: 17rem;
+  background-image: url("../img/twitter/apply_page@2x.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  padding-top: 13.06667rem;
+}
+
+.apply-checkbox {
+  width: 4rem;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.37333rem;
+  color: #ffffff;
+  box-sizing: border-box;
+  margin-left: 3rem;
+  text-align: center;
+}
+
+.apply-checkbox span {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  background-image: url("../img/twitter/apply_tk_agree_box@2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 0.2rem;
+  box-sizing: border-box;
+  position: relative;
+  top: 0.05333rem;
+}
+
+.apply-checkbox .active {
+  background-image: url("../img/twitter/apply_tk_agree_right_box@2x.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.apply-btn {
+  width: 7.38667rem;
+  height: 1.33333rem;
+  line-height: 1.33333rem;
+  margin-top: 0.53rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 0.4rem;
+  box-sizing: border-box;
+  background-image: url("../img/twitter/apply_tk_bt@2x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* 推客信息 */
+.form-box {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.form-inline {
+  width: 8.93333rem;
+  height: 0.37333rem;
+  line-height: 0.37333rem;
+  font-size: 0.37333rem;
+  color: #282828;
+  padding-top: 0.48rem;
+  padding-bottom: 0.48rem;
+  padding-left: 0.53333rem;
+  padding-right: 0.53333rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.form-inline-input {
+  text-indent: 0.4rem;
+  width: 7rem;
+}
+
+.from-hint {
+  width: 8.93333rem;
+  height: 0.37333rem;
+  line-height: 0.37333rem;
+  font-size: 0.37333rem;
+  color: #282828;
+  padding-top: 0.48rem;
+  padding-bottom: 0.48rem;
+  padding-left: 0.53333rem;
+  padding-right: 0.53333rem;
+  border-bottom: 1px solid #e6e6e6;
+  color: #f56d9d;
+}
+
+.form-inline span i {
+  color: #f56d9d;
+}
+
+.form-inline em {
+  text-indent: 0.4rem;
+  height: 0.53333rem;
+  line-height: 0.53333rem;
+  width: 6.06667rem;
+  padding: 0 0.4rem;
+  font-size: 0.37333rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.form-hint {
+  width: 8.93333rem;
+  height: 0.37333rem;
+  padding-top: 0.53333rem;
+  padding-bottom: 0.53333rem;
+  padding-left: 0.53333rem;
+  padding-right: 0.53333rem;
+  color: #282828;
+}
+
+.twitter-title {
+  font-size: 0.42667rem;
+  color: #282828;
+  height: 0.53333rem;
+  line-height: 0.53333rem;
+  width: auto;
+  text-align: center;
+  padding: 0.4rem 0;
+  margin: 0 0.5333rem;
+}
+
+.form-idCard {
+  width: 8rem;
+  height: 4.48rem;
+  margin: 0 auto;
+  border: 4px solid #f56d9d;
+  box-sizing: border-box;
+  padding-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.from-idCard-text {
+  padding-top: 0.4rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-idCard-img {
+  box-sizing: border-box;
+  width: 4.24rem;
+  height: 2.72rem;
+  margin: auto;
+  padding-top: 0.44rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-image: url("../img/twitter/id_positive_pic@2x.png");
+}
+
+.form-idCard-imghold {
+  box-sizing: border-box;
+  width: 4.24rem;
+  height: 2.72rem;
+  margin: auto;
+  padding-top: 0.44rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-image: url("../img/twitter/id_handle_positive_pic@2x.png");
+}
+
+.from-idCard-icon {
+  width: 1.84rem;
+  height: 1.84rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/twitter/upload_id_ic@2x.png");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: contain;
+  border: 0;
+  background-position: center center;
+}
+
+.form-submit {
+  width: 8.93333rem;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.32rem;
+  display: block;
+  border: 0;
+  padding: 0.4rem 0;
+  text-align: center;
+  color: #ffffff;
+  background-color: #282828;
+  box-sizing: content-box;
+}
+
+/*申请推客成功*/
+.twitter-success-icon {
+  width: 3.46667rem;
+  height: 3.46667rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.61333rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/twitter/tk_info_success_ico@2x.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  box-sizing: border-box;
+}
+
+.twitter-success-text {
+  text-align: center;
+}
+
+.twitter-success-submit {
+  width: 8.93333rem;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  margin: 0.53rem auto;
+  text-align: center;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  background-color: #282828;
+}
+
+/*推广*/
+.promote-tab {
+  box-sizing: border-box;
+  background: #FFFFFF;
+  height: 1.17333rem;
+  line-height: 1.17333rem;
+  font-size: 0.37333rem;
+  padding-left: 1.33333rem;
+  padding-right: 1.33333rem;
+  border-bottom: 0.03rem solid #e6e6e6;
+  text-align: center;
+}
+
+.promote-tab li {
+  display: inline-block;
+  width: 1.61333rem;
+  text-align: center;
+  margin-left: 0.29333rem;
+  margin-right: 0.29333rem;
+  box-sizing: border-box;
+}
+
+.promote-tab li.hover em {
+  color: #f56d9d;
+  border-bottom: 2px solid #f56d9d;
+  padding-bottom: 0.13333rem;
+  border-bottom-width: 0.02667rem;
+}
+
+/*邀请注册*/
+.invite-content {
+  background-image: url("../img/twitter/yy_pic.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  height: 22.65333rem;
+  background-position: top center;
+}
+
+.invite-rule {
+  box-sizing: border-box;
+  width: 8.58667rem;
+  height: 2.4rem;
+  position: absolute;
+  top: 5.09333rem;
+  left: 0.70667rem;
+  background-image: url("../img/twitter/invite_rules@2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.invite-submit {
+  width: 100%;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  position: fixed;
+  text-align: center;
+  bottom: 0rem;
+  color: #FFFFFF;
+  font-size: 0.4rem;
+  box-sizing: border-box;
+  background-color: #282828;
+}
+
+/*推广有礼*/
+.promote-gift-content {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  width: 100%;
+  background-position: top center;
+  position: relative;
+  height: 16.86667rem;
+  background-image: url("../img/twitter/tk_info_page@2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.promote-gift-submit {
+  width: 100%;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  position: fixed;
+  bottom: 0rem;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 0.4rem;
+  box-sizing: border-box;
+  background-color: #282828;
+}
+
+.promote-gift-rule {
+  box-sizing: border-box;
+  width: 8.58667rem;
+  height: 2.4rem;
+  position: absolute;
+  top: 5.09333rem;
+  left: 0.70667rem;
+  background-image: url("../img/twitter/money_rules@2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*推广有礼-奖励规则*/
+.promote-rule-content {
+  height: 26.50667rem;
+  width: 100%;
+  background-image: url("../img/twitter/reward_info_page.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/*动态设计合同、施工合同样式*/
+.promote-rule-content .contract-amount{
+	position: absolute;
+	top: 16%;
+	left: 50%;
+	margin-left: -35%;
+	width: 70%;
+	border: 2px dotted #ffaa07;
+	border-radius: 0.08rem;
+	text-align: center;
+	padding: 0.17333rem 0;
+}
+.promote-rule-content .contract-amount h1{
+	font-size: 0.32rem;
+	color: #1f1f1f;
+}
+.promote-rule-content .contract-amount h1 span{
+	font-size: 0.4rem;
+	font-weight: bold;
+}
+.promote-rule-content .contract-amount h1 i{
+	font-size: 0.4rem;
+	color: #FFAA07;
+	font-weight: bold;
+}
+
+/*分享*/
+.share-bg {
+  width: 10rem;
+  height: 16.06667rem;
+  background-image: url("../img/twitter/share_page.png");
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.share-bg-register {
+  width: 10rem;
+  height: 16.06667rem;
+  background-image: url("../img/twitter/log_in_pic_register.png");
+  background-size: contain;
+  background-position: center;
+  position: elative;
+  background-repeat: no-repeat;
+}
+
+.share-money {
+  box-sizing: border-box;
+  width: 2.22667rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 0.8rem;
+  left: 3.88rem;
+  background-image: url("../img/twitter/earn_money_bt@2x.png");
+  background-size: contain;
+  background-position: center;
+}
+
+.share-desc {
+  padding-top: 2rem;
+  width: 5.81333rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFFFFF;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.share-desc-top {
+  padding-bottom: 0.32rem;
+  font-size: 0.26667rem;
+}
+
+.share-desc-top span {
+  color: #f00;
+}
+
+.share-desc-money {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 0.45333rem;
+}
+
+.share-desc-money span {
+  display: inline-block;
+  width: 5.33333rem;
+  height: 1.14667rem;
+  box-sizing: border-box;
+  padding-top: 0.34667rem;
+  border: 0.05rem solid #FFFFFF;
+  font-weight: bold;
+}
+
+.share-desc-money span li {
+  display: inline-block;
+  width: 0.80rem;
+  height: 0.45333rem;
+  border-bottom-width: 34px;
+  border-right: 0.05rem solid #FFFFFF;
+}
+
+.share-desc-money span li:nth-last-child(1) {
+  border-right: 0.05rem solid transparent;
+}
+
+.share-center {
+  position: absolute;
+  width: 7.97333rem;
+  margin-right: auto;
+  margin-left: auto;
+  top: 5.01333rem;
+  left: 1.01333rem;
+}
+
+.share-center-register {
+  top: 5.86667rem;
+}
+
+.share-center input {
+  width: 7.97333rem;
+  height: 1.14667rem;
+  text-align: center;
+  border: 0.03rem solid #bbbbbb;
+  font-size: 0.34667rem;
+  color: #a8a8a8;
+}
+
+.share-center button {
+  width: 7.97333rem;
+  height: 1.14667rem;
+  line-height: 1.28rem;
+  margin-top: 0.21333rem;
+  text-align: center;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 0.37333rem;
+  box-sizing: border-box;
+  background-color: #282828;
+}
+
+.share-twitter-name {
+  width: 7.97333rem;
+  height: 1.14667rem;
+  line-height: 1.14667rem;
+  text-align: center;
+  font-size: 0.32rem;
+  box-sizing: border-box;
+  color: #737373;
+}
+
+.share-register {
+  width: 7.54667rem;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 1.22667rem;
+  top: 2.26667rem;
+  box-sizing: border-box;
+  right: 1.22667rem;
+  padding: 0.74667rem;
+}
+
+.share-dialog-title {
+  font-weight: bold;
+  color: #282828;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.42667rem;
+}
+
+.share-dialog-hint {
+  font-size: 0.32rem;
+  color: #282828;
+  margin-top: 0.69333rem;
+  margin-bottom: 0.48rem;
+}
+
+.share-dialog-hint span {
+  font-weight: bold;
+}
+
+.share-dialog-old {
+  text-align: center;
+  font-size: 0.37333rem;
+}
+
+.share-dialog-content {
+  width: 6rem;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  box-sizing: border-box;
+  margin-bottom: 0.34667rem;
+  text-align: left;
+}
+
+.share-dialog-content input {
+  width: 6rem;
+  height: 0.88rem;
+  padding-left: 0.32rem;
+  padding-right: 0.32rem;
+  font-size: 0.34667rem;
+  color: #282828;
+  box-sizing: border-box;
+  border: 0.03rem solid #bbbbbb;
+}
+
+.share-dialog-input-code input {
+  width: 3.62667rem;
+  height: 0.88rem;
+}
+
+.share-dialog-content span {
+  display: inline-block;
+  width: 2rem;
+  height: 0.88rem;
+  box-sizing: border-box;
+  line-height: 0.88rem;
+  margin-left: 0.26667rem;
+  background-color: #282828;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.dialog-input-error {
+  height: 0.42667rem;
+  margin-bottom: 0.13333rem;
+  font-size: 0.32rem;
+  color: #f56d9d;
+}
+
+.dialog-submit {
+  width: 6rem;
+  height: 1.14667rem;
+  background-color: #282828;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 1.14667rem;
+  font-size: 0.37333rem;
+  color: #FFFFFF;
+}
+
+.dialog-checkbox {
+  width: 4rem;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.37333rem;
+  color: #282828;
+  margin: 0 auto;
+  padding-top: 0.21333rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.dialog-checkbox span {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  background-image: url("../img/twitter/share_agree_box@2x.png");
+  background-position: center center;
+  background-size: contain;
+  margin-top: 0.05rem;
+  box-sizing: border-box;
+  position: relative;
+  top: 0.02667rem;
+}
+
+.dialog-checkbox .active {
+  background-image: url("../img/twitter/share_agree_right_box@2x.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.dialog-close {
+  width: 0.33333rem;
+  height: 0.33333rem;
+  margin: 0.2rem;
+  padding: 0.1rem;
+  background-image: url("../img/twitter/share_close_ic@2x.png");
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.share-dialog-useragreement {
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  background: #FFFFFF;
+  bottom: 0;
+}
+
+/*下载*/
+.download-content {
+  width: 10rem;
+  height: 16.04rem;
+  position: relative;
+  background-image: url("../img/twitter/tk_download_bg.png");
+  background-size: contain;
+}
+
+.twitter-download-desc {
+  width: 4.72rem;
+  height: 1.24rem;
+  position: absolute;
+  left: 2.64rem;
+  top: 6.4rem;
+  background-image: url("../img/twitter/tk_download_txt.png");
+  background-size: contain;
+}
+
+.invite-download-desc {
+  width: 4.72rem;
+  height: 1.24rem;
+  position: absolute;
+  left: 2.64rem;
+  top: 6.4rem;
+  background-image: url("../img/twitter/zc_download_txt.png");
+  background-size: contain;
+}
+
+.download-content-old {
+  width: 10rem;
+  height: 16.04rem;
+  background-image: url("../img/twitter/new_user_download_page.png");
+  background-size: contain;
+}
+
+.download-submit {
+  width: 8.93333rem;
+  height: 1.28rem;
+  top: 12.8rem;
+  line-height: 1.28rem;
+  left: 0.53rem;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  font-size: 0.4rem;
+  box-sizing: border-box;
+  background-color: #282828;
+}
+
+/*申请报备*/
+.phone-book-icon {
+  width: 0.53333rem;
+  height: 0.56rem;
+  background: url("../img/twitter/customer_mark_address_ic@2x.png") center no-repeat;
+  background-size: contain;
+  position: absolute;
+  margin-top: -0.04rem;
+  margin-left: 0.2rem;
+}
+
+.get-sms-submit {
+  width: 2.13333rem;
+  height: 0.93333rem;
+  line-height: 0.93333rem;
+  border-radius: 0.04rem;
+  display: inline-block;
+  color: #fff;
+  background: #393939;
+  text-align: center;
+  position: absolute;
+  margin-left: -1.4rem;
+  margin-top: -0.25rem;
+  opacity: 0.5;
+}
+
+/*客户列表*/
+.title-tab {
+  border-bottom: none;
+}
+
+.qa-info-title a {
+  display: inline-block;
+  width: 0.50667rem;
+  height: 0.50667rem;
+  background-image: url(../img/money_Explain_ico@3x.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  vertical-align: middle;
+  position: absolute;
+  top: 0.3rem;
+  right: 0.53rem;
+}
+
+.twitter-tab {
+  padding: 0 0.68rem;
+  box-sizing: border-box;
+  background: #ffffff;
+  height: 1.17333rem;
+  line-height: 0.98667rem;
+  font-size: 0.37333rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.twitter-tab li {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.twitter-tab li.hover em {
+  color: #f56d9d;
+  border-bottom: 4px solid #f56d9d;
+  padding-bottom: 0.13333rem;
+  border-bottom-width: 0.02667rem;
+}
+
+.tab-count {
+  height: 0.90667rem;
+  line-height: 0.90667rem;
+  font-size: 0.32rem;
+  color: #a8a8a8;
+  padding: 0 0.585rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.box-list ul {
+  position: relative;
+  height: 1.89333rem;
+  padding: 0.53333rem;
+  padding-top: 0.4rem;
+  background: #fff;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.box-list ul li i.img {
+  height: 1.06667rem;
+  width: 1.06667rem;
+  border-radius: 100%;
+  margin-right: 0.53rem;
+  display: block;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.box-list ul li em.textcut {
+  height: 0.53rem;
+  line-height: 0.53rem;
+  margin-top: 0.1rem;
+}
+
+.box-list ul li:nth-child(2) {
+  width: 74%;
+}
+
+.box-list i.icon-go {
+  width: 0.2rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 0.96rem;
+  right: 0.53rem;
+  top: 0.7rem;
+  display: block;
+  background-image: url(../img/work_details_more_ico@3x.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/*客户详情*/
+.box-time-line {
+  padding: 0.4rem 0.53rem 0.4rem 0.58rem;
+  background: #fff;
+  margin-top: 0.2rem;
+}
+
+.box-time-line li {
+  border-bottom: 1px solid #e6e6e6;
+  margin: 0.4rem 0 0 0.7rem;
+  padding-bottom: 0.4rem;
+  line-height: 0.53333rem;
+  height: 2.50667rem;
+  box-sizing: border-box;
+}
+
+.box-time-line li:nth-child(2) span {
+  color: #282828 !important;
+}
+
+.box-time-line li:nth-child(2) .icon-time-point {
+  background: #999;
+  border-color: #eee;
+}
+
+.box-time-line li span em.time {
+  line-height: 0.8rem;
+}
+
+.icon-time-point {
+  height: 0.29333rem;
+  width: 0.29333rem;
+  background: #ddd;
+  border-radius: 100%;
+  border: 0.1rem solid #fff;
+  margin-left: -0.75rem;
+  position: relative;
+}
+
+.box-time-line div.line {
+  width: 2px;
+  top: 0.9rem;
+  bottom: 2.5rem;
+  border-left: 1px solid #e6e6e6;
+  left: 0.76rem;
+}
+
+.box-list i.icon-call {
+  width: 0.46667rem;
+  height: 0.48rem;
+  position: absolute;
+  right: 0.53rem;
+  top: 0.7rem;
+  display: block;
+  background-image: url(../img/twitter/call_ico@2x.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.customer-no-data {
+  margin: 2.2666rem auto;
+  width: 3.46667rem;
+  height: 3.46667rem;
+  background-image: url(../img/twitter/tk_no_customer_ic@2x.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  text-align: center;
+  padding-top: 4.21333rem;
+  box-sizing: border-box;
+}
+
+/*推客信息*/
+.span-staus {
+  top: 0.73333rem;
+  right: 1.06667rem;
+}
+
+.box-list-min {
+  padding-left: 0.61333rem;
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.box-list-min ul {
+  position: relative;
+  padding-top: 0.61333rem;
+  padding-bottom: 0.61333rem;
+  padding-right: 0.61333rem;
+  height: 1.65333rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.box-list-min ul:last-child {
+  border-bottom: none;
+}
+
+.box-list-min i.icon-go {
+  width: 0.2rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 0.61333rem;
+  right: 0.53rem;
+  display: block;
+  background-image: url(../img/work_details_more_ico@3x.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/*结佣明细*/
+.box-list-info dl {
+  padding: 0.53333rem;
+  margin-bottom: 0.26667rem;
+  background: #fff;
+  padding-bottom: 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.box-list-info dt {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 0.48rem;
+}
+
+.box-list-info dd {
+  height: 1.06667rem;
+  line-height: 1.06667rem;
+}
+
+.base-no-data {
+  margin: 2.2666rem auto;
+  width: 3.46667rem;
+  height: 3.46667rem;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  text-align: center;
+  padding-top: 4.21333rem;
+  box-sizing: border-box;
+}
+
+/*我的奖励*/
+.reward-data ul:nth-child(1) {
+  height: 2.85333rem;
+  padding-top: 0.61333rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.reward-data ul:nth-child(2) {
+  height: 1.94667rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.reward-data ul:nth-child(2) li {
+  width: 4.96rem;
+  margin-top: 0.4rem;
+  line-height: 0.53333rem;
+}
+
+.reward-data ul:nth-child(2) li:nth-child(1) {
+  width: 4.96rem;
+  border-right: 1px solid #e6e6e6;
+}
+
+.reward-data .f74 {
+  font-size: 0.98667rem;
+  margin-top: 0.16rem;
+}
+
+.push-list {
+  padding: 0 0.53rem 0.3rem 0.53rem;
+}
+
+.push-list p {
+  height: 1.33333rem;
+  line-height: 1.33333rem;
+}
+
+.push-list ul {
+  padding: 0.4rem 0;
+}
+
+.level-tags1, .level-tags2 {
+  display: inline-block;
+  text-align: center;
+  width: 0.72rem;
+  height: 0.37333rem;
+}
+
+.level-tags1 {
+  background: #feb7ce;
+}
+
+.level-tags2 {
+  background: #ecceed;
+}
+
+/*我的佣金*/
+.funds-data ul {
+  height: 3.28rem;
+  padding-top: 0.66667rem;
+  box-sizing: border-box;
+}
+
+.funds-data ul li.qa-info-title a {
+  right: auto;
+  top: auto;
+}
+
+.funds-data .f74 {
+  font-size: 0.98667rem;
+  margin-top: 0.16rem;
+}
+
+.box-list-min ul li:nth-child(1) i {
+  width: 0.52rem;
+  height: 0.58667rem;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  margin-right: 0.53rem;
+}
+
+.box-list-min ul li:nth-child(1) span {
+  vertical-align: super;
+}

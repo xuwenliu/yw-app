@@ -1,0 +1,46 @@
+<!--#include file="inc/header.html"-->
+<style>
+    .box-list ul li:nth-child(2){
+        width: auto;
+    }
+</style>
+
+<div class="wrap">
+    <div class="title  title-tab">发展下线推客 <span></span></div>
+    <div class="content bg-c7">
+        <!--#include file="inc/tab-inc.html"-->
+        <div class="reward-data bg0">
+            <ul>
+                <li class="text-center F3 C1">累计获得奖励</li>
+                <li class="text-center b C1 f74 reward-data-all">0</li>
+            </ul>
+            <ul>
+                <li class="text-center fl">
+                    <span class="F1 C1 b reward-data-push">0人 </span><em class="block F5 C5">累计推广</em>
+                </li>
+                <li class="text-center fr">
+                    <span class="F1 C1 b reward-data-case">0单 </span><em class="block F5 C5">累计签约</em>
+                </li>
+            </ul>
+        </div>
+
+        <div class="box-list bg0 push-list"  style="display: block; margin-top: 0.26666rem"  >
+            <p class="text-center b F3 C1 border-line0">我的推广列表</p>
+            <!--<ul>-->
+                <!--<li class="fl"><i class="img" style="background-image: url('http://o8nljewkg.bkt.clouddn.com/o_1bdds5o0r1vc41gvf11a2e7hiv6c.jpg&imageView2/1/w/40/h/40')"></i></li>-->
+                <!--<li class="fl" ><span class="block F4 C1 no-cut-txt"><em class="textcut" style="width: 2.6rem; vertical-align: middle">皮的话的话的话的话的话</em> <i class="level-tags1 F7 C0">1级</i></span>  <em class=" F6 C4 textcut   cut-txt">2017.10.26</em></li>-->
+                <!--<li class="fr text-right"><span class="F4 C1">我的奖金：<b class="F4 C6 no-b">999999.00</b> <em class="block F6 C4" style="margin-top: 0.15rem">已签约：12</em></span></li>-->
+            <!--</ul>-->
+
+            <!--<ul>-->
+                <!--<li class="fl"><i class="img" style="background-image: url('http://o8nljewkg.bkt.clouddn.com/o_1bdds5o0r1vc41gvf11a2e7hiv6c.jpg&imageView2/1/w/40/h/40')"></i></li>-->
+                <!--<li class="fl" style="width: 45%"><span class="block F4 C1">皮的话 <i class="level-tags2 F7 C0">2级</i></span>  <em class=" F6 C4 textcut   cut-txt">2017.10.26</em></li>-->
+                <!--<li class="fr text-right"><span class="F4 C1">我的奖金：<b class="F4 C6 no-b">200.00</b> <em class="block F6 C4" style="margin-top: 0.15rem">已签约：12</em></span></li>-->
+            <!--</ul>-->
+
+        </div>
+
+    </div>
+</div>
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/twitter/twitter-reward.js"></script>

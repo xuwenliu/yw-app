@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "一室",
+      "bedroom": 2,
+      "livingRoom": 1,
+      "toilet": 1,
+      "houseArea": 60,
+      "layoutImage": "http://o8nljewkg.bkt.clouddn.com/o_1b6bd077a1f6u6op157019r71f2ph.png"
+    },
+    {
+      "id": 1,
+      "name": "一室",
+      "bedroom": 2,
+      "livingRoom": 1,
+      "toilet": 1,
+      "houseArea": 60,
+      "layoutImage": "http://o8nljewkg.bkt.clouddn.com/o_1b6bd077a1f6u6op157019r71f2ph.png"
+    },
+    {
+      "id": 1,
+      "name": "一室",
+      "bedroom": 2,
+      "livingRoom": 1,
+      "toilet": 1,
+      "houseArea": 60,
+      "layoutImage": "http://o8nljewkg.bkt.clouddn.com/o_1b6bd077a1f6u6op157019r71f2ph.png"
+    }
+  ],
+  "message": "",
+  "stateCode": 0,
+  "succ": true
+}

@@ -1,0 +1,30 @@
+@import "mixin";
+
+/**
+ * 通用样式
+ */
+$font-42: 42px;
+$font-F1: 36px;
+$font-F2: 34px;
+$font-F3: 30px;
+$font-F4: 28px;
+$font-F5: 26px;
+$font-F6: 24px;
+$font-F7: 22px;
+$font-F8: 32px;
+$color-C1: #282828;
+$color-C2: #bbbbbb;
+$color-C3: #e6e6e6;
+$color-C4: #737373;
+$color-C5: #a8a8a8;
+$color-C6: #f56d9d;
+$color-C7: #f5f5f5;
+$color-C8: #FFFFFF;
+
+/*临时测试*/
+.orderList ul li {
+  background: #cccccc;
+  @include px2rem(width, 120px)
+
+}
+

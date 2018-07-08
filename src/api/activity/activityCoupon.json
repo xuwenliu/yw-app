@@ -1,0 +1,24 @@
+{   
+    "data": [
+        {
+          "id": 1,
+          "userId": 1,
+          "couponId": 1,
+          "couponEmployCode": "1234567890123",
+          "couponName": "优惠券名字",
+          "getTime": "",
+          "useTime": "",
+          "activityId": 0,
+          "activityName": "活动名称",
+          "beginTime": "2017.02.20",
+          "endTime": "2017.02.20",
+          "activityStatus": "1",
+          "status": "0",
+          "rules": "这是优惠券的详情情况",
+          "details": "这是优惠券的内容",
+          "creatTime": ""
+        }
+    ],
+    "stateCode": 0,
+    "succ": true
+}

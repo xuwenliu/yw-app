@@ -1,0 +1,333 @@
+@charset "UTF-8";
+/**
+ * 通用样式
+ */
+/****************客户******************/
+.details-customer-item {
+  box-sizing: border-box;
+  height: 4.16rem;
+  margin-top: 0.26667rem;
+  margin-bottom: 0px;
+  border-top: solid #e6e6e6 1px;
+  border-bottom: solid #e6e6e6 1px;
+  background: #FFFFFF;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.details-customer-item-left {
+  width: 6.74667rem;
+  margin-left: 0.53333rem;
+  box-sizing: border-box;
+  flex-basis: auto;
+}
+
+.details-customer-item-left-top {
+  border-bottom: solid #e6e6e6 1px;
+  height: 2.66667rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.details-customer-item-left-top-status {
+  border-color: #f75184;
+  border-width: 1px;
+  border-style: solid;
+  color: #f75184;
+  border-radius: 0.08rem;
+  margin-left: 0.32rem;
+  height: 0.45333rem;
+  width: 1.22667rem;
+  display: flex;
+  justify-content: center;
+}
+
+.details-customer-item-right {
+  width: 2.72rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-customer-item-right img {
+  width: 1.89333rem;
+  height: 0.69333rem;
+  margin-top: 0.13333rem;
+}
+
+.details-customer-tab1 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.37333rem;
+}
+
+.details-customer-portrait {
+  border-radius: 50%;
+  height: 0.8rem;
+  width: 0.8rem;
+  margin-right: 0.21333rem;
+  box-sizing: border-box;
+}
+
+.details-customer-tab2 {
+  margin-top: 0.21333rem;
+  width: 5.46667rem;
+  color: #282828;
+  font-size: 0.42667rem;
+  font-weight: bold;
+}
+
+.details-customer-tab2 h2 {
+  color: #282828;
+  font-size: 0.32rem;
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.details-customer-informationPadding {
+  margin-left: 0.13333rem;
+}
+
+.details-customer-item-left-bottom {
+  height: 1.57333rem;
+  font-size: 0.32rem;
+  color: #737373;
+  box-sizing: border-box;
+}
+
+.details-customer-descriptionLayout {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.57333rem;
+}
+
+.details-customer-description div {
+  box-sizing: border-box;
+  padding-right: 0.42667rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.details-customer-mine-arrow {
+  width: 0.13333rem;
+  height: 0.25333rem;
+  box-sizing: border-box;
+}
+
+.details-customer-customer-dot {
+  height: 0.10667rem;
+  width: 0.10667rem;
+  border-radius: 0.05333rem;
+  margin-bottom: 0.06667rem;
+  background: #a8a8a8;
+}
+
+.details-customer-button {
+  width: 1.89333rem;
+  height: 0.69333rem;
+}
+
+/****************订单******************/
+.details-order-item {
+  height: 4.24rem;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border-top: solid #e6e6e6 1px;
+  border-bottom: solid #e6e6e6 1px;
+  margin-top: 0.26667rem;
+  padding-left: 0.26667rem;
+  padding-right: 0.26667rem;
+}
+
+.details-order-item > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details-order-tab1 {
+  height: 1.04rem;
+  border-bottom: solid #e6e6e6 1px;
+}
+
+.details-order-tab2 {
+  height: 2.13333rem;
+  border-bottom: solid #e6e6e6 1px;
+}
+
+.details-order-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details-order-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.details-order-company {
+  width: 6.66667rem;
+}
+
+.details-order-button {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-order-button img {
+  width: 1.89333rem;
+  height: 0.69333rem;
+  margin-top: 0.13333rem;
+}
+
+.details-order-tab3 {
+  height: 1.04rem;
+}
+
+.details-order-portrait {
+  height: 0.8rem;
+  width: 0.8rem;
+  margin-bottom: 0.24rem;
+  margin-right: 0.24rem;
+  border-radius: 50%;
+}
+
+/*overview*/
+.overview-root-content {
+  padding-top: 1.2rem;
+}
+
+.overview-li {
+  background-color: white;
+  margin-top: 0.26667rem;
+  border-bottom: solid #e6e6e6 1px;
+}
+
+.overview-li-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 0.8rem;
+  margin-left: 0.53333rem;
+  margin-right: 0.53333rem;
+}
+
+.overview-li-item span {
+  font-size: 0.34667rem;
+  color: #282828;
+}
+
+/*tk customer*/
+.consult-customer-shadow {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.consult-customer-pop {
+  background-color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.08rem;
+  width: 8.29333rem;
+  height: 11.85333rem;
+  margin-top: 1.44rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.consult-customer-pop .consult-customer-pop-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.74667rem;
+  margin-right: 0.74667rem;
+  height: 2.08rem;
+  border-bottom: solid #e6e6e6 1px;
+}
+
+.consult-customer-pop .consult-customer-pop-list {
+  margin-left: 0.74667rem;
+  margin-right: 0.74667rem;
+  height: 8.57333rem;
+}
+
+.consult-customer-pop .consult-customer-pop-list ul {
+  width: 100%;
+  height: 8.57333rem;
+  overflow: auto;
+}
+
+.consult-customer-pop .consult-customer-pop-list ul li {
+  display: flex;
+  align-items: center;
+  border-bottom: solid #e6e6e6 1px;
+  height: 1.89333rem;
+}
+
+.consult-customer-pop .consult-customer-pop-list ul li .consult-customer-pop-img-header {
+  width: 1.06667rem;
+  height: 1.06667rem;
+  margin-right: 0.34667rem;
+  border-radius: 50%;
+}
+
+.consult-customer-pop .consult-customer-pop-list ul li .consult-customer-pop-img-choose {
+  width: 0.45333rem;
+  height: 0.45333rem;
+  margin-right: 0.42667rem;
+}
+
+.consult-customer-pop .consult-customer-pop-list div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.consult-customer-pop .consult-customer-pop-bottom {
+  border-top: solid #e6e6e6 1px;
+  display: flex;
+  height: 1.2rem;
+}
+
+.consult-customer-pop .consult-customer-pop-bottom button {
+  width: 50%;
+  height: 100%;
+  color: #f56d9d;
+  background-color: transparent;
+}
+
+.consult-customer-pop .consult-customer-pop-bottom .consult-customer-pop-button-cancel {
+  border-right: solid #e6e6e6 1px;
+}

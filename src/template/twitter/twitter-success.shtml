@@ -1,0 +1,19 @@
+<!--#include file="inc/header.html"-->
+
+<style>
+
+
+</style>
+<div class="wrap">
+    <div class="title ">推客认证</div>
+    <div class="content bg-c7">
+
+        <div class="twitter-success-icon"></div>
+        <div class="twitter-success-text F5 C5" style="margin-bottom: 0.34rem">恭喜你</div>
+        <div class="twitter-success-text C6 " style="margin-bottom: 0.53rem; font-size: 0.53rem">完成申请</div>
+        <div class="twitter-success-text F4" style="color: #282828">平台将在24小时内完成审核，请留意消息通知</div>
+        <div class="twitter-success-submit F3"> 完成</div>
+    </div>
+</div>
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/twitter/twitter-success.js"></script>

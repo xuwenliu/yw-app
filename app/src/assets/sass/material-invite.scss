@@ -1,0 +1,252 @@
+@import "mixin";
+@charset "utf-8";
+/**
+ * 通用样式
+ */
+$font-42: 42px;
+$font-F1: 36px;
+$font-F2: 34px;
+$font-F3: 30px;
+$font-F4: 28px;
+$font-F5: 26px;
+$font-F6: 24px;
+$font-F7: 22px;
+$color-C1: #282828;
+$color-C2: #bbbbbb;
+$color-C3: #e6e6e6;
+$color-C4: #737373;
+$color-C5: #a8a8a8;
+$color-C6: #f56d9d;
+$color-C7: #f5f5f5;
+
+.material-invite-first-part {
+  width: 100%;
+  background-image: url("http://osz2pnx97.bkt.clouddn.com/zcbt_invite_bg@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    margin: 0 auto;
+    @include px2rem(height, 531px);
+    @include px2rem(width, 598px);
+    @include px2rem(margin-top, 132px);
+    @include px2rem(margin-bottom, 16px);
+  }
+  input {
+    @include px2rem(width, 578px);
+    @include px2rem(height, 80px);
+    @include px2rem(margin-bottom, 24px);
+    @include px2rem(font-size, $font-F5);
+    @include px2rem(padding-left,20px);
+  }
+  button {
+    @include px2rem(width, 598px);
+    @include px2rem(height, 86px);
+    @include px2rem(margin-bottom, 94px);
+    background-color: transparent;
+    color: #fac087;
+    border:thin solid #fac087;
+    @include px2rem(font-size, $font-F4);
+  }
+}
+
+.materialBands {
+  background-color: $color-C7;
+}
+
+.materialBandsTitleView {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  @include px2rem(height, 104px);
+  @include px2rem(margin-bottom, 10px);
+
+  .materialBandsTitleBoxView {
+    background-color: white;
+
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: thin;
+
+    @include px2rem(width, 470px);
+    @include px2rem(height, 30px);
+    @include px2rem(margin-top, 52px);
+    @include px2rem(margin-left, 140px);
+
+    .materialBandsTitleTextPosition {
+      background-color: white;
+      color: $color-C1;
+      @include px2rem(font-size, $font-F4);
+      @include px2rem(padding-left, 16px);
+      @include px2rem(padding-right, 16px);
+      position: relative;
+      @include px2rem(left, 110px);
+      @include px2rem(top, -45px);
+    }
+  }
+}
+
+.materialBandsListView {
+  width: 100%;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+      background-color: white;
+      @include px2rem(width, 240px);
+      @include px2rem(height, 105px);
+
+      @include px2rem(margin-top, 10px);
+      @include px2rem(margin-left, 10px);
+      @include px2rem(margin-right, 10px);
+
+      @include px2rem(padding-top, 22px);
+      @include px2rem(padding-bottom, 22px);
+      @include px2rem(padding-left, 54px);
+      @include px2rem(padding-right, 54px);
+
+      border:thin solid $color-C3;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.materialBandsBottom {
+  width: 100%;
+  @include px2rem(height, 110px);
+  span {
+    position: relative;
+    @include px2rem(left, 320px);
+    @include px2rem(top, 28px);
+    @include px2rem(font-size,$font-F7);
+    color: $color-C4;
+  }
+}
+
+.material-Invite-Shadow{
+  position: fixed;
+  z-index: 9999;
+  top: 0;left: 0;right: 0;bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.material-invite-regist-box {
+
+  background-color: white;
+  @include px2rem(width, 566px);
+  @include px2rem(margin-top, 236px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+
+  .material-invite-close-parent {
+    display: flex;
+    justify-content: flex-end;
+    .material-invite-close {
+      @include px2rem(width, 56px);
+      @include px2rem(height, 56px);
+      img {
+        @include px2rem(width, 36px);
+        @include px2rem(height, 36px);
+        @include px2rem(padding-left, 15px);
+        @include px2rem(padding-top, 15px);
+      }
+    }
+  }
+
+  .material-invite-regist-title {
+    font-weight: bold;
+    @include px2rem(font-size, 32px);
+    @include px2rem(padding-bottom, 52px);
+    text-align: center;
+  }
+  .material-invite-regist-text-detail {
+    @include px2rem(padding-bottom, 32px);
+    text-align: center;
+  }
+  .input-Phone-Div {
+    @include px2rem(width, 450px);
+    @include px2rem(height, 74px);
+    @include px2rem(margin-bottom, 13px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+
+    .input-Phone {
+      border:thin solid $color-C2;
+      @include px2rem(width, 436px);
+      @include px2rem(height, 66px);
+      @include px2rem(padding-left, 12px);
+    }
+  }
+
+  .input-Phone-Code {
+
+    @include px2rem(width, 450px);
+    @include px2rem(height, 66px);
+    @include px2rem(margin-bottom, 58px);
+    @include px2rem(padding-top, 20px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .input-Code {
+      border:thin solid $color-C2;
+      @include px2rem(height, 66px);
+      @include px2rem(width, 260px);
+      @include px2rem(padding-left, 12px);
+    }
+    .input-code-resend {
+      display: flex;
+      justify-content: space-between;
+
+      @include px2rem(height, 66px);
+      @include px2rem(width, 158px);
+      button {
+        width: 100%;
+        @include px2rem(height, 66px);
+        color: white;
+        background-color: black;
+        font-size: 0.32rem;
+      }
+    }
+  }
+
+  .invite-commit-button {
+    @include px2rem(width, 450px);
+    @include px2rem(height, 86px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    button {
+      width: 100%;
+      height: 100%;
+      color: white;
+      background-color: black;
+    }
+  }
+  .invite-commit-button-padding34 {
+    @include px2rem(padding-bottom, 34px);
+  }
+  .invite-commit-button-padding56 {
+    @include px2rem(padding-bottom, 56px);
+  }
+
+  .invite-accept-agreement {
+    text-align: center;
+    @include px2rem(padding-bottom, 56px);
+    img {
+      @include px2rem(width, 28px);
+      @include px2rem(height, 28px);
+      vertical-align: middle;
+    }
+  }
+}

@@ -1,0 +1,872 @@
+@charset "UTF-8";
+/**
+ * 通用样式
+ */
+#cnzz_stat_icon_1260955674 {
+  display: none;
+}
+
+.line {
+  width: 100%;
+  height: 0.26667rem;
+  background-color: #f5f5f5;
+}
+
+/**
+ * 主体结构
+ */
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.content {
+  position: absolute;
+  top: 1.2rem;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+  background-color: #ffffff;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.title {
+  width: 100%;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.48rem;
+  padding: 0.36rem 0;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid #e6e6e6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #ffffff;
+}
+
+.title span {
+  width: 0.56rem;
+  height: 0.48rem;
+  background-image: url(../img/nav_back_ico@3x.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+  bottom: 0.36rem;
+  left: 0.52rem;
+}
+
+.index-gray {
+  background-color: #f5f5f5;
+}
+
+/* 资金信息 */
+.funds-link {
+  display: block;
+  width: auto;
+  height: 0.48rem;
+  font-size: 0.45333rem;
+  color: #282828;
+  position: absolute;
+  bottom: 0.36rem;
+  right: 0.52rem;
+}
+
+.funds-info {
+  width: 100%;
+  height: 3.33333rem;
+  background-color: #696f77;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.funds-info-contL {
+  width: 56%;
+  height: 2rem;
+  margin-top: 0.66667rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-right: 1px solid #ffffff;
+}
+
+.funds-info-contR {
+  width: 44%;
+  height: 2rem;
+  margin-top: 0.66667rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.funds-info-contL .funds-info-title {
+  width: 100%;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  text-indent: 0.8rem;
+  font-size: 0.37333rem;
+}
+
+.funds-info-contR .funds-info-title {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-indent: 0.8rem;
+  font-size: 0.32rem;
+  margin-top: 0.08rem;
+}
+
+.funds-info-title a {
+  display: inline-block;
+  width: 0.44rem;
+  height: 0.44rem;
+  background-image: url(../img/money_Explain_ico@3x.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+.funds-info-contL .funds-info-sum {
+  margin-top: 0.3rem;
+  font-size: 0.96rem;
+  text-indent: 0.8rem;
+}
+
+.funds-info-contR .funds-info-sum {
+  margin-top: 0.3rem;
+  font-size: 0.64rem;
+  text-indent: 0.8rem;
+}
+
+.funds-select {
+  height: auto;
+  width: 100%;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.funds-select li {
+  margin-left: 0.66667rem;
+  width: 9.33333rem;
+  height: 1.6rem;
+  border-bottom: 1px solid #e6e6e6;
+  overflow: hidden;
+  position: relative;
+}
+
+.funds-select li:last-child {
+  border-bottom: 0;
+}
+
+.funds-select li span:first-child {
+  display: block;
+  position: absolute;
+  width: 0.8rem;
+  height: 0.8rem;
+  top: 0.4rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  left: 0;
+}
+
+.funds-recharge span:first-child {
+  background-image: url(../img/money_recharge_ico@3x.png);
+}
+
+.funds-drawCash span:first-child {
+  background-image: url(../img/money_cash_ico@3x.png);
+}
+
+.funds-banks span:first-child {
+  background-image: url(../img/money_card_ico@3x.png);
+}
+
+.funds-select li p {
+  width: auto;
+  margin-top: 0.56rem;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  text-indent: 1.33333rem;
+  font-size: 0.37333rem;
+  color: #282828;
+}
+
+.funds-select-arrow {
+  display: block;
+  width: 0.2rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 0.6rem;
+  right: 0.53333rem;
+  background-image: url(../img/work_details_more_ico@3x.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.funds-mask {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+
+.funds-frame {
+  width: 6.66667rem;
+  height: 3.30667rem;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 40%;
+  position: relative;
+  overflow: hidden;
+}
+
+.funds-frame h4 {
+  width: 100%;
+  text-align: center;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  margin-top: 0.82667rem;
+  font-size: 0.37333rem;
+  color: #282828;
+}
+
+.funds-btns {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #e6e6e6;
+  width: 100%;
+  height: 1.17333rem;
+  overflow: hidden;
+}
+
+.funds-btns button {
+  display: block;
+  border: 0;
+  background-color: #ffffff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  height: 1.17333rem;
+  text-align: center;
+  font-size: 0.45333rem;
+  color: #f56d9d;
+}
+
+.funds-btns .funds-btns-cancel {
+  border-right: 1px solid #e6e6e6;
+}
+
+/* 明细页面 */
+.detail-list {
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.detail-list li {
+  width: 100%;
+  height: 2.45333rem;
+  border-bottom: 1px solid #e6e6e6;
+  overflow: hidden;
+  position: relative;
+}
+
+.detail-type {
+  width: 60%;
+  font-size: 0.48rem;
+  color: #282828;
+  margin-top: 0.64rem;
+  margin-bottom: 0.34667rem;
+  text-indent: 0.53333rem;
+  font-weight: bold;
+}
+
+.detail-num {
+  width: 39%;
+  text-align: right;
+  font-size: 0.48rem;
+  color: #282828;
+  font-weight: bold;
+  position: absolute;
+  top: 0.98667rem;
+  right: 0.53333rem;
+}
+
+.detail-date {
+  width: 60%;
+  font-size: 0.37333rem;
+  color: #a8a8a8;
+  text-indent: 0.53333rem;
+}
+
+.list-slideDown {
+  display: none;
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  padding: 0.4rem 0;
+  text-align: center;
+  font-size: 0.37333rem;
+  color: #282828;
+  background-color: #ffffff;
+}
+
+/* 充值页面 */
+.recharge-checked {
+  width: 100%;
+  height: 2.45333rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d2d2d2;
+  position: relative;
+  overflow: hidden;
+}
+
+.recharge-checked-newCard {
+  font-size: 0.45333rem;
+  color: #f56d9d;
+  height: 0.53333rem;
+  line-height: 0.53333rem;
+  margin-top: 0.96rem;
+  text-indent: 0.66667rem;
+}
+
+.recharge-checked-icon {
+  width: 1.06667rem;
+  height: 1.06667rem;
+  position: absolute;
+  top: 0.69333rem;
+  left: 0.66667rem;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.recharge-checked-bankName {
+  font-size: 0.45333rem;
+  color: #282828;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0.6rem;
+  left: 2.32rem;
+}
+
+.recharge-checked-bankCard {
+  font-size: 0.32rem;
+  color: #737373;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 1.30667rem;
+  left: 2.32rem;
+}
+
+.recharge-checked-arrow {
+  width: 0.2rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 1.02667rem;
+  right: 0.53333rem;
+  background-image: url("../img/work_details_more_ico@3x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.recharge-inputBox {
+  width: 100%;
+  height: 1.65333rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d2d2d2;
+  position: relative;
+}
+
+.recharge-inputBox span {
+  position: absolute;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  top: 0.58667rem;
+  padding-left: 0.90667rem;
+  font-size: 0.37333rem;
+  color: #282828;
+}
+
+.recharge-input {
+  border: 0;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.37333rem;
+  color: #282828;
+  padding-top: 0.58667rem;
+  padding-left: 2.8rem;
+}
+
+.recharge-next {
+  display: block;
+  background-color: #393939;
+  border-radius: 3px;
+  color: #ffffff;
+  border: 0;
+  width: 7.76rem;
+  height: 1.28rem;
+  font-size: 0.4rem;
+  margin: 0 auto;
+  margin-top: 0.58667rem;
+}
+
+.selectBank-mask {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+
+.selectBank-frame {
+  width: 7.49333rem;
+  height: 7.86667rem;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 35%;
+  position: relative;
+  overflow: hidden;
+}
+
+.selectBank-title {
+  width: auto;
+  margin-left: 0.37333rem;
+  margin-right: 0.37333rem;
+  font-size: 0.45333rem;
+  height: 0.53333rem;
+  line-height: 0.53333rem;
+  padding: 0.4rem 0;
+  text-align: center;
+  color: #282828;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.selectBank-list {
+  width: auto;
+  margin-left: 0.37333rem;
+  margin-right: 0.37333rem;
+  height: 4.8rem;
+  overflow-y: scroll;
+}
+
+.selectBank-bankCard {
+  width: 100%;
+  height: 1.6rem;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+}
+
+.selectBank-bankCard-icon {
+  width: 1.06667rem;
+  height: 1.06667rem;
+  position: absolute;
+  top: 0.29333rem;
+  left: 0.34667rem;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.selectBank-bankCard-bankName {
+  font-size: 0.37333rem;
+  color: #282828;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0.24rem;
+  left: 2rem;
+}
+
+.selectBank-bankCard-bankNumber {
+  font-size: 0.32rem;
+  color: #737373;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0.90667rem;
+  left: 2rem;
+}
+
+.selectBank-bankCard-checked {
+  display: none;
+  width: 0.56rem;
+  height: 0.38667rem;
+  position: absolute;
+  top: 0.64rem;
+  right: 0.34667rem;
+  background-image: url("../img/right_ic@3x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.selectBank-newCard {
+  font-size: 0.37333rem;
+  color: #282828;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  padding-top: 0.58667rem;
+  padding-bottom: 0.58667rem;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+.selectBank-list li.active .selectBank-bankCard-checked {
+  display: block;
+}
+
+.selectBank-list li.active .selectBank-newCard-text {
+  color: #f56d9d;
+}
+
+.selectBank-btns {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #e6e6e6;
+  width: 100%;
+  height: 1.17333rem;
+  overflow: hidden;
+}
+
+.selectBank-btns button {
+  display: block;
+  border: 0;
+  background-color: #ffffff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  height: 1.17333rem;
+  text-align: center;
+  font-size: 0.45333rem;
+  color: #f56d9d;
+}
+
+.selectBank-btns .selectBank-btns-cancel {
+  border-right: 1px solid #e6e6e6;
+}
+
+/* 提现 */
+.drawCash-inputBox {
+  width: 100%;
+  height: 1.65333rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d2d2d2;
+  position: relative;
+}
+
+.drawCash-inputBox span {
+  position: absolute;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  top: 0.58667rem;
+  padding-left: 0.53333rem;
+  font-size: 0.37333rem;
+  color: #282828;
+}
+
+.drawCash-input {
+  border: 0;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.37333rem;
+  color: #282828;
+  padding-top: 0.58667rem;
+  padding-left: 2.8rem;
+}
+
+.drawCash-next {
+  display: block;
+  background-color: #393939;
+  border-radius: 3px;
+  color: #ffffff;
+  border: 0;
+  width: 7.76rem;
+  height: 1.28rem;
+  font-size: 0.4rem;
+  margin: 0 auto;
+  margin-top: 0.58667rem;
+}
+
+.drawCash-total {
+  width: 100%;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  padding-top: 0.48rem;
+  padding-bottom: 0.48rem;
+  text-indent: 0.53333rem;
+  font-size: 0.37333rem;
+  color: #737373;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.drawCash-total a {
+  width: auto;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.37333rem;
+  color: #f56d9d;
+  position: absolute;
+  top: 0.48rem;
+  right: 0.53333rem;
+}
+
+/* 银行卡 */
+.bankCards-add {
+  display: block;
+  height: 0.53333rem;
+  width: 0.53333rem;
+  position: absolute;
+  top: 0.33333rem;
+  right: 0.52rem;
+  background-image: url("../img/add_card_ic@3x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bankCards-list {
+  width: 9.17333rem;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 0.48rem;
+}
+
+.bankCards-list li {
+  width: 9.17333rem;
+  height: 3.12rem;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 0.48rem;
+  position: relative;
+}
+
+.bankCards-list li:nth-child(odd) {
+  background-image: url("../img/red_card_bg@3x.png");
+  background-repeat: repeat-y;
+}
+
+.bankCards-list li:nth-child(even) {
+  background-image: url("../img/card_bg@3x.png");
+  background-repeat: repeat-y;
+}
+
+.bankCards-logo {
+  width: 1.6rem;
+  height: 1.6rem;
+  top: 0.45333rem;
+  left: 0.45333rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.bankCards-logo div {
+  width: 1.06667rem;
+  height: 1.06667rem;
+  margin: 0 auto;
+  margin-top: 0.26667rem;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bankCards-info {
+  width: 6.66667rem;
+  margin-left: 2.48rem;
+  overflow: hidden;
+}
+
+.bankCards-info h4 {
+  width: auto;
+  font-size: 0.48rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0.45333rem;
+  margin-bottom: 0.26667rem;
+}
+
+.bankCards-info p {
+  width: auto;
+  font-size: 0.4rem;
+  color: #ffffff;
+  margin-bottom: 0.26667rem;
+}
+
+.bankCards-info span {
+  display: block;
+  width: auto;
+  font-size: 0.4rem;
+  color: #ffffff;
+}
+
+.bankCards-tips {
+  display: none;
+  width: 100%;
+  text-align: center;
+  font-size: 0.37333rem;
+  color: #737373;
+}
+
+/* 银行卡详情 */
+.bankCardsInfo-logo {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0 auto;
+  margin-top: 0.45333rem;
+  margin-top: 0.45333rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.bankCardsInfo-logo div {
+  width: 1.06667rem;
+  height: 1.06667rem;
+  margin: 0 auto;
+  margin-top: 0.26667rem;
+  margin-bottom: 0.26667rem;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bankCardsInfo-name {
+  width: auto;
+  font-size: 0.45333rem;
+  color: #282828;
+  text-align: center;
+  margin-top: 0.26667rem;
+}
+
+.bankCardsInfo-number {
+  width: auto;
+  font-size: 0.45333rem;
+  color: #282828;
+  text-align: center;
+  margin-top: 0.26667rem;
+  margin-bottom: 0.53333rem;
+}
+
+.bankCardsInfo-explain {
+  width: 8.93333rem;
+  height: auto;
+  background-color: #ffffff;
+  padding-left: 0.53333rem;
+  padding-right: 0.53333rem;
+}
+
+.bankCardsInfo-explain ul {
+  width: 100%;
+  overflow: hidden;
+}
+
+.bankCardsInfo-explain li {
+  width: 100%;
+  height: 1.65333rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.bankCardsInfo-explain li:last-child {
+  border: 0;
+}
+
+.bankCardsInfo-explain li span {
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.37333rem;
+  color: #282828;
+  padding-top: 0.58667rem;
+  padding-bottom: 0.58667rem;
+}
+
+.bankCardsInfo-btn {
+  width: 7.76rem;
+  height: 1.28rem;
+  display: block;
+  border: 0;
+  background-color: #393939;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 0.58667rem;
+  font-size: 0.4rem;
+}
+
+/* 操作结果 */
+/* 支付结果 */
+.payResult-success {
+  width: 100%;
+  height: auto;
+}
+
+.payResult-icon {
+  width: 4.52rem;
+  height: 4.52rem;
+  overflow: hidden;
+  background-image: url(../img/order_details_pay_success_ico@3x.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0.8rem auto 0.36rem auto;
+}
+
+.payResult-h3 {
+  width: auto;
+  height: auto;
+  margin-bottom: 0.36rem;
+  font-size: 0.48rem;
+  color: #f56d9d;
+  text-align: center;
+  font-weight: bold;
+}
+
+.payResult-p {
+  width: auto;
+  height: auto;
+  margin-bottom: 0.64rem;
+  font-size: 0.32rem;
+  color: #a8a8a8;
+  text-align: center;
+}
+
+.payResult-p span {
+  color: #f56d9d;
+  font-weight: bold;
+}

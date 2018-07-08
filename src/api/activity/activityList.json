@@ -1,0 +1,24 @@
+{
+    "data": {
+        "totalCount": 0,
+        "currentPageNum": 0,
+        "totalPageNum": 0,
+        "previousUri": "",
+        "currentUri": "",
+        "nextUri": "",
+        "result": [
+            {
+                "id": 1,
+                "name": "",
+                "scene": "",
+                "coverImage": "http://o8nljewkg.bkt.clouddn.com/o_1b13ffnkhmkdegh1ab81fmk1ugls.jpg&imageView2/1/w/750/h/750",
+                "beginTime": "",
+                "endTime": "",
+                "sceneDesc": ""
+            }
+        ]
+    },
+    "message": "",
+    "stateCode": 0,
+    "succ": true
+}

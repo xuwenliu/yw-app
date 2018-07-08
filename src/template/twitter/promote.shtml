@@ -1,0 +1,16 @@
+<!--#include file="inc/header.html"-->
+<div class="wrap">
+    <div class="title title-tab">发展下线推客 <span></span></div>
+    <div class="content bg-c7 bg0">
+        <!--#include file="inc/tab-inc.html"-->
+        <div class="promote-gift-content">
+
+            <div class="promote-gift-submit">立即分享</div>
+            <div class="promote-gift-rule"></div>
+        </div>
+
+    </div>
+
+</div>
+<!--#include file="inc/footer.html"-->
+<script src="../../static/js/twitter/promote.js"></script>

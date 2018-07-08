@@ -1,0 +1,29 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "webapp",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0"
+  },
+  "devDependencies": {
+    "deprecated": "^0.0.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "gaochen",
+  "license": "MIT"
+}
